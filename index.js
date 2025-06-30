@@ -222,9 +222,9 @@
                         subtitle: 'Xianxia, Comedy', description: 'The hilarious story of a young man who values longevity above all else, leading to comical adventures in a world of cultivation.', maxEpisodes: 52, latestEpisode: 23, releaseTime: '11:00 AM',
                         img: 'images/Shrouding to the heaven.jpg.jpg', 
                         episodeLinks: [
-                            `${dailymotionBaseUrl}x9m3q06`, // Episode 1
-                            `${dailymotionBaseUrl}x1abc002`, // Episode 2
-                            `${dailymotionBaseUrl}x1abc003`, // Episode 3
+                            `${dailymotionBaseUrl}x9m2fr6`, // Episode 1
+                            `${dailymotionBaseUrl}x9m2fr6`, // Episode 2
+                            `${dailymotionBaseUrl}x9m2fr6`, // Episode 3
                             `${dailymotionBaseUrl}x1abc004`, // Episode 4
                             `${dailymotionBaseUrl}x1abc005`, // Episode 5
                             `${dailymotionBaseUrl}x1abc006`, // Episode 6
