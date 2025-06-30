@@ -40,7 +40,7 @@
 
             function createYourDramaData() {
                 // The base URL for embedding Dailymotion videos
-                const dailymotionBaseUrl = "https://www.dailymotion.com/embed/video/"; 
+                const dailymotionBaseUrl = "https://www.dailymotion.com/vnheksony"; 
                 
                 const dramaData = [
                     {
