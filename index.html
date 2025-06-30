@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DonghuaOnly</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="header-nav">
+                <a href="#" class="logo">DonghuaOnly<span></span></a>
+                <div class="nav-links"> <a href="#" class="active">Home</a> <a href="#">Series</a> <a href="#">Movies</a> <a href="#">Popular</a> </div>
+                <div class="header-actions">
+                    <form class="search-form" id="search-form" onsubmit="return false;">
+                        <input type="text" class="search-input" id="search-input" placeholder="Search by name or ID...">
+                    </form>
+                    <button id="search-btn" class="search-btn" aria-label="Toggle Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Theme">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="community-cta">
+        <div class="container">
+            <a href="https://t.me/FLIXXKH" target="_blank" class="cta-btn telegram-btn">
+                <i class="fa-brands fa-telegram"></i> Join Our Telegram
+            </a>
+            <a href="https://wa.me/your_number" target="_blank" class="cta-btn whatsapp-btn">
+                <i class="fa-brands fa-whatsapp"></i> Join WhatsApp
+            </a>
+        </div>
+    </section>
+    
+    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
+    <nav class="mobile-nav" id="mobile-nav"> <a href="#" class="active">Home</a> <a href="#">Series</a> <a href="#">Movies</a> <a href="#">Popular</a> </nav>
+
+    <div id="loading-spinner" class="loading-spinner"><i class="fa-solid fa-spinner"></i></div>
+
+    <main id="main-content">
+        
+        <div id="library-view" class="main-layout container">
+             <div class="main-column">
+                <section class="hero-section">
+                    <h1 class="hero-title">DonghuaOnly</h1>
+                    <p class="hero-description">Watch and download Donghua (Chinese anime) with subtitles available in English, Indonesian, Myanmar (Burmese), Arabic, French, German, Italian, ...</p>
+                </section>
+                <section id="hot-series-section" class="donghua-section">
+                    <div class="section-header"> <h2 class="section-title">Hot Series Update</h2> </div>
+                    <div class="content-grid" id="hot-series-grid"></div>
+                </section>
+                <section id="latest-release-section" class="donghua-section">
+                    <div class="section-header"> 
+                        <h2 class="section-title">Latest Release</h2> 
+                        <a href="#" class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                    <div class="content-grid" id="latest-release-grid"></div>
+                </section>
+                <section id="new-episodes-today-section" class="donghua-section">
+                    <div class="section-header"> 
+                        <h2 class="section-title">New Episode Release Today</h2> 
+                        <a href="#" class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                    <ul class="new-item-list" id="new-episodes-today-list"></ul>
+                </section>
+            </div>
+            <aside class="right-sidebar">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">New Series</h3>
+                    <ul class="new-item-list" id="new-series-list"></ul>
+                </div>
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Favorite</h3>
+                    <ul class="new-item-list" id="favorite-list"></ul>
+                </div>
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">Completed Series</h3>
+                    <ul class="new-item-list" id="completed-series-list"></ul>
+                </div>
+            </aside>
+        </div>
+        
+        <div id="search-view" style="display: none;" class="container">
+            <section class="donghua-section">
+                <div class="container">
+                    <div class="section-header"> <h2 id="search-results-title" class="section-title">Search Results</h2> </div>
+                    <div class="content-grid" id="search-results-grid"></div>
+                </div>
+            </section>
+        </div>
+
+
+        <div id="watch-view" style="display: none;">
+             <section id="watch-page">
+                 <div class="container main-layout">
+                     <div class="main-column">
+                        <div class="watch-page-header">
+                            <h1 id="watch-title-header" class="watch-title"></h1>
+                            <div id="watch-metadata" class="watch-metadata"></div>
+                        </div>
+                        <div class="notice-box">
+                            <p>1) If the Dailymotion player is showing you ads, please note that those ads are not from my side, and I'm not able to remove them.</p>
+                            <p>2) If you're irritated by the ads, I understand — ads can be annoying. However, I'm placing ads on the website because it cannot be maintained without generating some profit.</p>
+                        </div>
+                        <div class="video-player-wrapper">
+                             <!-- Dailymotion player will be embedded here -->
+                             <iframe id="dailymotion-player" 
+                                 frameborder="0" 
+                                 allowfullscreen 
+                                 allow="autoplay; encrypted-media; picture-in-picture" 
+                                 src=""
+                                 style="display: none;">
+                             </iframe>
+                             <p id="video-placeholder-message"></p>
+                        </div>
+                        <div class="episode-actions">
+                             <button class="episode-nav-btn" id="prev-episode-btn"><i class="fa-solid fa-backward-step"></i> Previous</button>
+                             <button class="episode-nav-btn" id="show-all-episodes-btn"><i class="fa-solid fa-list-ol"></i> All Episodes</button>
+                             <button class="episode-nav-btn" id="next-episode-btn">Next <i class="fa-solid fa-forward-step"></i></button>
+                        </div>
+                         <div class="video-description">
+                             <p id="video-desc-text"></p>
+                         </div>
+                        <div id="recommended-container" class="donghua-section" style="margin-top: 2rem;">
+                            <div class="section-header">
+                               <h2 class="section-title">Recommendation</h2>
+                            </div>
+                            <div class="content-grid" id="recommended-grid"></div>
+                        </div>
+                     </div>
+                     <aside class="right-sidebar">
+                           <div class="sidebar-section" id="watch-page-ongoing">
+                                  <h3 class="sidebar-title">Ongoing Series</h3>
+                                  <ul class="new-item-list" id="watch-page-ongoing-list"></ul>
+                           </div>
+                           <div class="sidebar-section" id="watch-page-popular">
+                                  <h3 class="sidebar-title">Popular Series</h3>
+                                  <ul class="new-item-list" id="watch-page-popular-list"></ul>
+                           </div>
+                     </aside>
+                 </div>
+             </section>
+        </div>
+    </main>
+    
+    <div id="episode-modal">
+        <div class="episode-list-container">
+            <button id="modal-close-btn" class="modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <h3 id="episode-list-title">Episodes</h3>
+            <div class="episode-grid-wrapper">
+                <div class="episode-grid" id="episode-grid"></div>
+                <div id="show-more-episodes-container" style="text-align: center;"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column"> 
+                    <h4>About Us</h4> 
+                    <p>DonghuaOnly is a fan-run community for Chinese animation, also known as Donghua. We are not affiliated with any of the production companies mentioned on this site.</p> 
+                </div>
+                <div class="footer-column"> 
+                    <h4>Navigation</h4> 
+                    <ul> 
+                        <li><a href="#">Home</a></li> 
+                        <li><a href="#">Series</a></li> 
+                        <li><a href="#">Schedule</a></li> 
+                        <li><a href="#">Contact Us</a></li> 
+                    </ul> 
+                </div>
+                <div class="footer-column"> 
+                    <h4>Community</h4> 
+                    <ul>
+                        <li class="telegram-join-btn">
+                           <a href="https://t.me/FLIXXKH" target="_blank" rel="noopener noreferrer">
+                               <i class="fa-brands fa-telegram"></i> Join our Telegram
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column"> 
+                    <h4>Legal</h4> 
+                    <ul> 
+                        <li><a href="#">Terms of Service</a></li> 
+                        <li><a href="#">Privacy Policy</a></li> 
+                        <li><a href="#">DMCA</a></li> 
+                    </ul> 
+                </div>
+            </div>
+            <div class="footer-bottom"> <p>&copy; 2025 DonghuaOnly. All Rights Reserved.</p> </div>
+        </div>
+    </footer>
+
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>
