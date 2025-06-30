@@ -339,8 +339,7 @@
                             `${dailymotionBaseUrl}x1abc115`, // Episode 115
                         ],
                         
-                        // You would replace the placeholder for this series similarly
-                        episodeLinks: Array.from({length: 52}, (_, j) => `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_STTH_EP_${j + 1}`),
+                        // You would replace the placeholder for this series similarl
                         rating: 9.0, status: 'Ongoing', studio: 'B.CMAY PICTURES', duration: '22 min per ep', country: 'China',
                         network: 'Bilibili', released: 'Nov 18, 2023', season: '1', type: 'ONA',
                         fansub: 'Anime Official', tags: ['Xianxia', 'Comedy', 'Adventure']
