@@ -40,7 +40,7 @@
 
             function createYourDramaData() {
                 // The base URL for embedding Dailymotion videos
-                const dailymotionBaseUrl = "https://www.dailymotion.com/vnheksony"; 
+                const dailymotionBaseUrl = "https://www.dailymotion.com/embed/video/"; 
                 
                 const dramaData = [
                     {
@@ -57,7 +57,7 @@
                             // *** IMPORTANT: You MUST replace these with your actual Dailymotion Video IDs ***
                             // These are hypothetical IDs for demonstration purposes only.
                             // To find actual IDs, go to the video on Dailymotion.com, and the ID is in the URL after /video/
-                            `${dailymotionBaseUrl}https://dai.ly/k4NNqEvgZuFbcRDl7RA`, // Episode 1
+                            `${dailymotionBaseUrl}x9m3jdq`, // Episode 1
                             `${dailymotionBaseUrl}x1abc002`, // Episode 2
                             `${dailymotionBaseUrl}x1abc003`, // Episode 3
                             `${dailymotionBaseUrl}x1abc004`, // Episode 4
