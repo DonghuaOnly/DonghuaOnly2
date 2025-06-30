@@ -57,7 +57,7 @@
                             // *** IMPORTANT: You MUST replace these with your actual Dailymotion Video IDs ***
                             // These are hypothetical IDs for demonstration purposes only.
                             // To find actual IDs, go to the video on Dailymotion.com, and the ID is in the URL after /video/
-                            `${dailymotionBaseUrl}x9csl0m`, // Episode 1
+                            `${dailymotionBaseUrl}x9hscmc`, // Episode 1
                             `${dailymotionBaseUrl}x1abc002`, // Episode 2
                             `${dailymotionBaseUrl}x1abc003`, // Episode 3
                             `${dailymotionBaseUrl}x1abc004`, // Episode 4
@@ -153,6 +153,7 @@
                             `${dailymotionBaseUrl}x1abc094`, // Episode 94
                             `${dailymotionBaseUrl}x1abc095`, // Episode 95
                             `${dailymotionBaseUrl}x1abc096`  // Episode 96
+                         
                         ],
                         rating: 9.2, status: 'Ongoing', studio: 'Shanghai Motion Magic', duration: '20 min per ep', country: 'China',
                         network: 'Tencent Penguin Pictures', released: 'Jul 31, 2022', season: '5', type: 'ONA',
