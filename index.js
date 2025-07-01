@@ -858,7 +858,7 @@ window.onload = () => {
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_92`, // Episode 92
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_93`, // Episode 93
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_94`, // Episode 94
-                    `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_95`, // Episode 95
+                    `${dailymotionBaseUrl}x9m2cqy`, // Episode 95
                 ],
                 rating: 9.4, status: 'Ongoing', studio: 'Studio DRE', duration: '20 min per ep', country: 'China',
                 network: 'Tencent Video', released: 'Nov 25, 2023', season: '1', type: 'ONA',
