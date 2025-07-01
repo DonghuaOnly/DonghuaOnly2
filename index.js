@@ -764,7 +764,7 @@ window.onload = () => {
                 img: 'images/Renegadeimmortal.jpg.jpg',
                 episodeLinks: [
                     // IMPORTANT: Replace these with actual Dailymotion Video IDs for 'Renegade Immortal' episodes
-                    `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_1`, // Episode 1
+                    `${dailymotionBaseUrl}x8oaqdu`, // Episode 1
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_2`, // Episode 2
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_3`, // Episode 3
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_4`, // Episode 4
