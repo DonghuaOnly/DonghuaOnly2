@@ -765,13 +765,13 @@ window.onload = () => {
                 episodeLinks: [
                     // IMPORTANT: Replace these with actual Dailymotion Video IDs for 'Renegade Immortal' episodes
                     `${dailymotionBaseUrl}x8oaqdu`, // Episode 1
-                    `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_2`, // Episode 2
+                    `${dailymotionBaseUrl}x8oaqdt`, // Episode 2
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_3`, // Episode 3
-                    `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_4`, // Episode 4
-                    `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_5`, // Episode 5
-                    `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_6`, // Episode 6
-                    `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_7`, // Episode 7
-                    `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_8`, // Episode 8
+                    `${dailymotionBaseUrl}x8ogqkk`, // Episode 4
+                    `${dailymotionBaseUrl}x8oohhj`, // Episode 5
+                    `${dailymotionBaseUrl}x8ousku`, // Episode 6
+                    `${dailymotionBaseUrl}x8p141t`, // Episode 7
+                    `${dailymotionBaseUrl}x8p77qb`, // Episode 8
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_9`, // Episode 9
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_10`, // Episode 10
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_RI_EP_11`, // Episode 11
