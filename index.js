@@ -764,16 +764,97 @@ window.onload = () => {
                 img: 'images/Renegadeimmortal.jpg.jpg',
                 episodeLinks: [
                     // IMPORTANT: Replace these with actual Dailymotion Video IDs for 'Renegade Immortal' episodes
-                 `${dailymotionBaseUrl}x9jvj7o`, // Episode 1–5
-                 `${dailymotionBaseUrl}x8s55oo`, // Episode 22
-                 `${dailymotionBaseUrl}x9bvd9y`, // Episode 35
-                 `${dailymotionBaseUrl}x9003eo`, // Episode 40
-                 `${dailymotionBaseUrl}x9bk7p0`, // Episode 68
-                 `${dailymotionBaseUrl}x9f013w`, // Episode 77
-                 `${dailymotionBaseUrl}x9jbgjg`, // Episode 88
-                 `${dailymotionBaseUrl}x9klflu`, // Episode 91
-                 `${dailymotionBaseUrl}x9lpxsg`, // Episode 94
-
+                        `${dailymotionBaseUrl}x9jvj7o`, // Episode 1–5
+                        `${dailymotionBaseUrl}`,        // Episode 6
+                        `${dailymotionBaseUrl}`,        // Episode 7
+                        `${dailymotionBaseUrl}`,        // Episode 8
+                        `${dailymotionBaseUrl}`,        // Episode 9
+                        `${dailymotionBaseUrl}`,        // Episode 10
+                        `${dailymotionBaseUrl}`,        // Episode 11
+                        `${dailymotionBaseUrl}`,        // Episode 12
+                        `${dailymotionBaseUrl}`,        // Episode 13
+                        `${dailymotionBaseUrl}`,        // Episode 14
+                        `${dailymotionBaseUrl}`,        // Episode 15
+                        `${dailymotionBaseUrl}`,        // Episode 16
+                        `${dailymotionBaseUrl}`,        // Episode 17
+                        `${dailymotionBaseUrl}`,        // Episode 18
+                        `${dailymotionBaseUrl}`,        // Episode 19
+                        `${dailymotionBaseUrl}`,        // Episode 20
+                        `${dailymotionBaseUrl}`,        // Episode 21
+                        `${dailymotionBaseUrl}x8s55oo`, // Episode 22
+                        `${dailymotionBaseUrl}`,        // Episode 23
+                        `${dailymotionBaseUrl}`,        // Episode 24
+                        `${dailymotionBaseUrl}`,        // Episode 25
+                        `${dailymotionBaseUrl}`,        // Episode 26
+                        `${dailymotionBaseUrl}`,        // Episode 27
+                        `${dailymotionBaseUrl}`,        // Episode 28
+                        `${dailymotionBaseUrl}`,        // Episode 29
+                        `${dailymotionBaseUrl}`,        // Episode 30
+                        `${dailymotionBaseUrl}`,        // Episode 31
+                        `${dailymotionBaseUrl}`,        // Episode 32
+                        `${dailymotionBaseUrl}`,        // Episode 33
+                        `${dailymotionBaseUrl}`,        // Episode 34
+                        `${dailymotionBaseUrl}x9bvd9y`, // Episode 35
+                        `${dailymotionBaseUrl}`,        // Episode 36
+                        `${dailymotionBaseUrl}`,        // Episode 37
+                        `${dailymotionBaseUrl}`,        // Episode 38
+                        `${dailymotionBaseUrl}`,        // Episode 39
+                        `${dailymotionBaseUrl}x9003eo`, // Episode 40
+                        `${dailymotionBaseUrl}`,        // Episode 41
+                        `${dailymotionBaseUrl}`,        // Episode 42
+                        `${dailymotionBaseUrl}`,        // Episode 43
+                        `${dailymotionBaseUrl}`,        // Episode 44
+                        `${dailymotionBaseUrl}`,        // Episode 45
+                        `${dailymotionBaseUrl}`,        // Episode 46
+                        `${dailymotionBaseUrl}`,        // Episode 47
+                        `${dailymotionBaseUrl}`,        // Episode 48
+                        `${dailymotionBaseUrl}`,        // Episode 49
+                        `${dailymotionBaseUrl}`,        // Episode 50
+                        `${dailymotionBaseUrl}`,        // Episode 51
+                        `${dailymotionBaseUrl}`,        // Episode 52
+                        `${dailymotionBaseUrl}`,        // Episode 53
+                        `${dailymotionBaseUrl}`,        // Episode 54
+                        `${dailymotionBaseUrl}`,        // Episode 55
+                        `${dailymotionBaseUrl}`,        // Episode 56
+                        `${dailymotionBaseUrl}`,        // Episode 57
+                        `${dailymotionBaseUrl}`,        // Episode 58
+                        `${dailymotionBaseUrl}`,        // Episode 59
+                        `${dailymotionBaseUrl}`,        // Episode 60
+                        `${dailymotionBaseUrl}`,        // Episode 61
+                        `${dailymotionBaseUrl}`,        // Episode 62
+                        `${dailymotionBaseUrl}`,        // Episode 63
+                        `${dailymotionBaseUrl}`,        // Episode 64
+                        `${dailymotionBaseUrl}`,        // Episode 65
+                        `${dailymotionBaseUrl}`,        // Episode 66
+                        `${dailymotionBaseUrl}`,        // Episode 67
+                        `${dailymotionBaseUrl}x9bk7p0`, // Episode 68
+                        `${dailymotionBaseUrl}`,        // Episode 69
+                        `${dailymotionBaseUrl}`,        // Episode 70
+                        `${dailymotionBaseUrl}`,        // Episode 71
+                        `${dailymotionBaseUrl}`,        // Episode 72
+                        `${dailymotionBaseUrl}`,        // Episode 73
+                        `${dailymotionBaseUrl}`,        // Episode 74
+                        `${dailymotionBaseUrl}`,        // Episode 75
+                        `${dailymotionBaseUrl}`,        // Episode 76
+                        `${dailymotionBaseUrl}x9f013w`, // Episode 77
+                        `${dailymotionBaseUrl}`,        // Episode 78
+                        `${dailymotionBaseUrl}`,        // Episode 79
+                        `${dailymotionBaseUrl}`,        // Episode 80
+                        `${dailymotionBaseUrl}`,        // Episode 81
+                        `${dailymotionBaseUrl}`,        // Episode 82
+                        `${dailymotionBaseUrl}`,        // Episode 83
+                        `${dailymotionBaseUrl}`,        // Episode 84
+                        `${dailymotionBaseUrl}`,        // Episode 85
+                        `${dailymotionBaseUrl}`,        // Episode 86
+                        `${dailymotionBaseUrl}`,        // Episode 87
+                        `${dailymotionBaseUrl}x9jbgjg`, // Episode 88
+                        `${dailymotionBaseUrl}`,        // Episode 89
+                        `${dailymotionBaseUrl}`,        // Episode 90
+                        `${dailymotionBaseUrl}x9klflu`, // Episode 91
+                        `${dailymotionBaseUrl}`,        // Episode 92
+                        `${dailymotionBaseUrl}`,        // Episode 93
+                        `${dailymotionBaseUrl}x9lpxsg`, // Episode 94
+                        `${dailymotionBaseUrl}`,        // Episode 95
                 ],
                 rating: 9.4, status: 'Ongoing', studio: 'Studio DRE', duration: '20 min per ep', country: 'China',
                 network: 'Tencent Video', released: 'Nov 25, 2023', season: '1', type: 'ONA',
@@ -788,7 +869,7 @@ window.onload = () => {
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_LOX_EP_1`, // Episode 1
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_LOX_EP_2`, // Episode 2
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_LOX_EP_3`, // Episode 3
-                    `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_LOX_EP_4`, // Episode 4
+cc
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_LOX_EP_5`, // Episode 5
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_LOX_EP_6`, // Episode 6
                     `${dailymotionBaseUrl}YOUR_DAILYMOTION_VIDEO_ID_LOX_EP_7`, // Episode 7
