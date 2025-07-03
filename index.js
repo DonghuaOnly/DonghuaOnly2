@@ -172,51 +172,47 @@ window.onload = () => {
               subtitle: 'Fantasy, Adventure', description: 'Born for cultivation, a peerless genius, Shi Hao, embarks on a journey to become a legendary figure in a world full of wonders and dangers.', maxEpisodes: 156, latestEpisode: 156,
               img: 'images/Perfect world.jpg.jpg',
               episodeLinks: [
-              { start: 9, end: 16, url: 'x8u66va' }, // Part 2 of 17, approx. episodes, ENG SUB [1, 3]
-                    { start: 17, end: 24, url: 'x8u66vc' }, // Part 3 of 17, approx. episodes, ENG SUB [1, 4]
-                    { start: 25, end: 32, url: 'x8u66v8' }, // Part 4 of 17, approx. episodes, ENG SUB [1, 5]
-                    { start: 33, end: 40, url: 'x8u6fqc' }, // Part 5 of 17, approx. episodes, ENG SUB [1, 6]
-                    { start: 41, end: 48, url: 'x8u8q78' }, // Part 6 of 17, approx. episodes, ENG SUB [1, 7]
-                    { start: 49, end: 56, url: 'x8u6fqe' }, // Part 7 of 17, approx. episodes, ENG SUB [1, 8]
-                    { start: 57, end: 64, url: 'x8u6fqe' }, // Part 8 of 17, approx. episodes, ENG SUB (Inferred from Part 7) [1, 8]
-                    { start: 65, end: 72, url: 'x8u6fqe' }, // Part 9 of 17, approx. episodes, ENG SUB (Inferred from Part 7) [1, 8]
-                    { start: 73, end: 80, url: 'x8u6fqe' }, // Part 10 of 17, approx. episodes, ENG SUB (Inferred from Part 7) [1, 8]
-                    { start: 81, end: 88, url: 'x8u9hss' }, // Part 11 of 17, approx. episodes, ENG SUB (Inferred from Part 12) [1, 9]
-                    { start: 89, end: 96, url: 'x8u9hss' }, // Part 12 of 17, approx. episodes, ENG SUB [1, 9]
-                    { start: 97, end: 104, url: 'x8u9hss' }, // Part 13 of 17, approx. episodes, ENG SUB (Inferred from Part 12) [1, 9]
-                    { start: 105, end: 112, url: 'x8ub3b0' }, // Part 14 of 17, approx. episodes, ENG SUB [1, 10]
-                    { start: 113, end: 120, url: 'x8u9hss' }, // Part 15 of 17, approx. episodes, ENG SUB (Inferred from Part 12) [1, 9]
-                    { start: 121, end: 130, url: 'x8u9hss' }, // Part 17 of 17, approx. episodes, ENG SUB (Inferred from Part 12) [1, 9]
-
-                    // Mid-Series Compilations & Singles
-                    { start: 131, end: 140, url: 'x8u66va' }, // Compilation, ENG SUB [1, 3]
-                    { start: 141, end: 145, url: 'x83sto' }, // Compilation, ENG SUB (Note: This is a PLAYLIST ID, not a video ID) [1]
-                    { start: 146, end: 146, url: 'x83sto' }, // Single Episode, ENG SUB (Note: This is a PLAYLIST ID) [1]
-                    { start: 147, end: 147, url: 'x83sto' }, // Single Episode, ENG SUB (Note: This is a PLAYLIST ID) [1]
-                    { start: 148, end: 148, url: 'x83sto' }, // Single Episode, ENG SUB (Note: This is a PLAYLIST ID) [1]
-                    { start: 149, end: 149, url: 'x83sto' }, // Single Episode, ENG SUB (Note: This is a PLAYLIST ID) [1]
-                    { start: 150, end: 150, url: 'x83sto' }, // Single Episode, ENG SUB (Note: This is a PLAYLIST ID) [1]
-                    { start: 151, end: 151, url: 'x83sto' }, // Single Episode, ENG SUB (Note: This is a PLAYLIST ID) [1]
-                    { start: 152, end: 152, url: 'x83sto' }, // Single Episode, ENG SUB (Note: This is a PLAYLIST ID) [1]
-
-                    // Episodes 153-204 are not individually cataloged in the report.
-
-                    // Recent Episodes (from various uploaders)
-                    { start: 205, end: 205, url: 'x9fnxhg' }, // Single Episode, 4K, ENG/Indo Sub [11]
-                    { start: 206, end: 206, url: 'x9fnxhg' }, // Single Episode, ENG SUB (Note: ID may be for Ep 205) [11]
-                    { start: 207, end: 207, url: 'x9ggcyc' }, // Single Episode, ENG/Indo Sub [12]
-                    { start: 208, end: 208, url: 'x9fnxhg' }, // Single Episode, ENG/Indo Sub (Note: ID may be for Ep 205) [11]
-                    { start: 209, end: 209, url: 'x9h8vcu' }, // Single Episode, 4K, ENG/Indo Sub [13]
-                    { start: 210, end: 210, url: 'x9hfks' }, // Single Episode, Sub Indo (Note: This is a PLAYLIST ID) [14]
-                    { start: 213, end: 213, url: 'x9itcpm' }, // Single Episode, 4K, ENG/Indo Sub [15]
-                    { start: 215, end: 215, url: 'x9fnxhg' }, // Single Episode, ENG SUB (Note: ID may be for Ep 205) [11]
-                    { start: 218, end: 218, url: 'x9kudhq' }, // Single Episode, 4K, ENG/Indo Sub [16]
-                    { start: 219, end: 219, url: 'x9l8xik' }, // Single Episode, 4K, ENG/Indo Sub [17]
-                    { start: 220, end: 220, url: 'x9lxjgg' }, // Single Episode, 4K, ENG/Indo Sub (Note: ID may be for Ep 221) [18]
-                    { start: 221, end: 221, url: 'x9lxjgg' }, // Single Episode, 4K, ENG/Indo Sub [18]
-                    { start: 221, end: 221, url: 'x9lxlnc' }, // Alternative Upload, 4K, Multi-Sub [19]
-                    { start: 221, end: 221, url: 'x9l8xik' }, // Alternative Upload, Sub Indo (Note: ID may be for Ep 219) [17]
-                    { start: 222, end: 223, url: 'x9lxjgg' }, // Preview for upcoming episodes (Note: ID may be for Ep 221) [18]
+                            { start: 9, end: 16, url: `${dailymotionBaseUrl}x8u66va` },
+                            { start: 17, end: 24, url: `${dailymotionBaseUrl}x8u66vc` },
+                            { start: 25, end: 32, url: `${dailymotionBaseUrl}x8u66v8` },
+                            { start: 33, end: 40, url: `${dailymotionBaseUrl}x8u6fqc` },
+                            { start: 41, end: 48, url: `${dailymotionBaseUrl}x8u8q78` },
+                            { start: 49, end: 56, url: `${dailymotionBaseUrl}x8u6fqe` },
+                            { start: 57, end: 64, url: `${dailymotionBaseUrl}x8u6fqe` },
+                            { start: 65, end: 72, url: `${dailymotionBaseUrl}x8u6fqe` },
+                            { start: 73, end: 80, url: `${dailymotionBaseUrl}x8u6fqe` },
+                            { start: 81, end: 88, url: `${dailymotionBaseUrl}x8u9hss` },
+                            { start: 89, end: 96, url: `${dailymotionBaseUrl}x8u9hss` },
+                            { start: 97, end: 104, url: `${dailymotionBaseUrl}x8u9hss` },
+                            { start: 105, end: 112, url: `${dailymotionBaseUrl}x8ub3b0` },
+                            { start: 113, end: 120, url: `${dailymotionBaseUrl}x8u9hss` },
+                            { start: 121, end: 130, url: `${dailymotionBaseUrl}x8u9hss` },
+                            
+                            { start: 131, end: 140, url: `${dailymotionBaseUrl}x8u66va` },
+                            { start: 141, end: 145, url: `${dailymotionBaseUrl}x83sto` },
+                            { start: 146, end: 146, url: `${dailymotionBaseUrl}x83sto` },
+                            { start: 147, end: 147, url: `${dailymotionBaseUrl}x83sto` },
+                            { start: 148, end: 148, url: `${dailymotionBaseUrl}x83sto` },
+                            { start: 149, end: 149, url: `${dailymotionBaseUrl}x83sto` },
+                            { start: 150, end: 150, url: `${dailymotionBaseUrl}x83sto` },
+                            { start: 151, end: 151, url: `${dailymotionBaseUrl}x83sto` },
+                            { start: 152, end: 152, url: `${dailymotionBaseUrl}x83sto` },
+                            
+                            { start: 205, end: 205, url: `${dailymotionBaseUrl}x9fnxhg` },
+                            { start: 206, end: 206, url: `${dailymotionBaseUrl}x9fnxhg` },
+                            { start: 207, end: 207, url: `${dailymotionBaseUrl}x9ggcyc` },
+                            { start: 208, end: 208, url: `${dailymotionBaseUrl}x9fnxhg` },
+                            { start: 209, end: 209, url: `${dailymotionBaseUrl}x9h8vcu` },
+                            { start: 210, end: 210, url: `${dailymotionBaseUrl}x9hfks` },
+                            { start: 213, end: 213, url: `${dailymotionBaseUrl}x9itcpm` },
+                            { start: 215, end: 215, url: `${dailymotionBaseUrl}x9fnxhg` },
+                            { start: 218, end: 218, url: `${dailymotionBaseUrl}x9kudhq` },
+                            { start: 219, end: 219, url: `${dailymotionBaseUrl}x9l8xik` },
+                            { start: 220, end: 220, url: `${dailymotionBaseUrl}x9lxjgg` },
+                            { start: 221, end: 221, url: `${dailymotionBaseUrl}x9lxjgg` },
+                            { start: 221, end: 221, url: `${dailymotionBaseUrl}x9lxlnc` },
+                            { start: 221, end: 221, url: `${dailymotionBaseUrl}x9l8xik` },
+                            { start: 222, end: 223, url: `${dailymotionBaseUrl}x9lxjgg` },
               ],
               rating: 9.3, status: 'Ongoing', studio: 'Shanghai Foch Film', duration: '20 min per ep', country: 'China',
               network: 'Tencent Video', released: '2021-04-23', season: '1', type: 'ONA',
