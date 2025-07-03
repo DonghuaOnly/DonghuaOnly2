@@ -260,7 +260,7 @@ window.onload = () => {
           {
               id: 'd6', title: 'Soul Land 2', slug: 'soul-land-2',
               subtitle: 'Action, Romance', description: 'The story continues with the next generation of spirit masters from Shrek Academy, facing new challenges and powerful enemies.', maxEpisodes: 250, latestEpisode: 53,
-              img: 'images/Soul land 2.jpg.jpg',
+              img: 'images/images/Soul land 2.jpg.jpg',
               episodeLinks: [ ],
               rating: 9.1, status: 'Ongoing', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
               network: 'Tencent Video', released: '2023-06-24', season: '1', type: 'ONA',
@@ -366,7 +366,7 @@ window.onload = () => {
           {
               id: 'd9', title: 'Legend Of Xianwu', slug: 'legend-of-xianwu',
               subtitle: 'E-Sports, Action', description: 'A top-tier professional e-sports player is unexpectedly reborn and must use his gaming knowledge to navigate a new world of martial arts.', maxEpisodes: 24, latestEpisode: 24,
-              img: 'images/Legend of xianwu.jpg.jpg',
+              img: 'images/images/Legend of xianwu.jpg.jpg',
               episodeLinks: [ ],
               rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '24 min per ep', country: 'China',
               network: 'Tencent Video', released: '2017-04-27', season: '2', type: 'ONA',
@@ -439,7 +439,7 @@ window.onload = () => {
           {
               id: 'd12', title: 'Tales Of Herding God', slug: '',
               subtitle: 'Modern, Fantasy', description: 'A powerful immortal doctor is reborn in the modern world. He uses his ancient skills to heal the sick, fight injustice, and navigate modern life.', maxEpisodes: 24, latestEpisode: 24,
-              img: 'images/Tails of herding god.jpg.jpg',
+              img: 'images/images/Tails of herding god.jpg.jpg',
               episodeLinks: [
                     { start: 2, end: 2, url: 'x983ozs' }, // Single Episode, Eng/Indo Sub [2]
                     { start: 3, end: 3, url: 'x98i2rc' }, // Single Episode, Eng/Indo Sub [3]
