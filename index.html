@@ -10,27 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="images/logo.png" type="images/iamges/logo.png">
-    <meta name="google-site-verification" content="tzTmxqJy2aamlVzOGeUklcdGMsqRDengJzcsmbf8lUw" />
-    <style>
-
-    </style>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png" type="image/png">
 </head>
 <body>
     <header class="site-header">
         <div class="container">
             <nav class="header-nav">
-                <a href="#" class="logo">DonghuaOnly<span></span></a>
-                <div class="nav-links"> <a href="#" class="active">Home</a> <a href="#">Series</a> <a href="#">Movies</a> <a href="#">Popular</a> </div>
+                <a href="#" class="logo"><img src="images/logo.png" alt="DonghuaOnly Logo" onerror="this.onerror=null;this.parentElement.style.display='none';"></a>
+                <div class="nav-links"> 
+                    <a id="home-link" class="active">Home</a> 
+                    <a id="series-link">Series</a> 
+                    <a id="movies-link">Movies</a> 
+                    <a id="popular-link">Popular</a> 
+                </div>
                 <div class="header-actions">
                     <form class="search-form" id="search-form" onsubmit="return false;">
-                        <input type="text" class="search-input" id="search-input" placeholder="Search by name or ID...">
+                        <input type="text" class="search-input" id="search-input" placeholder="Search...">
                     </form>
                     <button id="search-btn" class="search-btn" aria-label="Toggle Search"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Theme">
-                        <i class="fa-solid fa-moon"></i>
-                    </button>
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
                 </div>
             </nav>
         </div>
@@ -47,8 +48,13 @@
         </div>
     </section>
     
-    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
-    <nav class="mobile-nav" id="mobile-nav"> <a href="#" class="active">Home</a> <a href="#">Series</a> <a href="#">Movies</a> <a href="#">Popular</a> </nav>
+    <nav class="mobile-nav" id="mobile-nav">
+        <button id="mobile-nav-close" class="mobile-nav-close" aria-label="Close Menu">&times;</button>
+        <a id="mobile-home-link" class="active">Home</a> 
+        <a id="mobile-series-link">Series</a> 
+        <a id="mobile-movies-link">Movies</a> 
+        <a id="mobile-popular-link">Popular</a> 
+    </nav>
 
     <div id="loading-spinner" class="loading-spinner"><i class="fa-solid fa-spinner"></i></div>
 
@@ -71,6 +77,13 @@
                     </div>
                     <div class="content-grid" id="latest-release-grid"></div>
                 </section>
+                <section id="recommend-section" class="donghua-section">
+                    <div class="section-header"> 
+                        <h2 class="section-title">Recommend For You</h2> 
+                        <a href="#" class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                    <div class="content-grid" id="home-recommend-grid"></div>
+                </section>
                 <section id="new-episodes-today-section" class="donghua-section">
                     <div class="section-header"> 
                         <h2 class="section-title">New Episode Release Today</h2> 
@@ -78,8 +91,8 @@
                     </div>
                     <ul class="new-item-list" id="new-episodes-today-list"></ul>
                 </section>
-            </div>
-            <aside class="right-sidebar">
+             </div>
+             <aside class="right-sidebar">
                 <div class="sidebar-section">
                     <h3 class="sidebar-title">New Series</h3>
                     <ul class="new-item-list" id="new-series-list"></ul>
@@ -92,7 +105,7 @@
                     <h3 class="sidebar-title">Completed Series</h3>
                     <ul class="new-item-list" id="completed-series-list"></ul>
                 </div>
-            </aside>
+             </aside>
         </div>
         
         <div id="search-view" style="display: none;" class="container">
@@ -104,20 +117,27 @@
             </section>
         </div>
 
-
+        <div id="movies-view" style="display: none;" class="container">
+            <section class="donghua-section">
+                <div class="container">
+                    <div class="section-header"> <h2 class="section-title">All Movies</h2> </div>
+                    <div class="content-grid" id="movies-grid"></div>
+        </div>
+            </section>
+        </div>
         <div id="watch-view" style="display: none;">
              <section id="watch-page">
                  <div class="container main-layout">
                      <div class="main-column">
-                        <div class="watch-page-header">
-                            <h1 id="watch-title-header" class="watch-title"></h1>
-                            <div id="watch-metadata" class="watch-metadata"></div>
-                        </div>
-                        <div class="notice-box">
-                            <p>1) If the Dailymotion player is showing you ads, please note that those ads are not from my side, and I'm not able to remove them.</p>
-                            <p>2) If you're irritated by the ads, I understand — ads can be annoying. However, I'm placing ads on the website because it cannot be maintained without generating some profit.</p>
-                        </div>
-                        <div class="video-player-wrapper">
+                         <div class="watch-page-header">
+                             <h1 id="watch-title-header" class="watch-title"></h1>
+                             <div id="watch-metadata" class="watch-metadata"></div>
+                         </div>
+                         <div class="notice-box">
+                             <p>1) If the Dailymotion player is showing you ads, please note that those ads are not from my side, and I'm not able to remove them.</p>
+                             <p>2) If you're irritated by the ads, I understand — ads can be annoying. However, I'm placing ads on the website because it cannot be maintained without generating some profit.</p>
+                         </div>
+                         <div class="video-player-wrapper">
                              <!-- Dailymotion player will be embedded here -->
                              <iframe id="dailymotion-player" 
                                  frameborder="0" 
@@ -127,31 +147,31 @@
                                  style="display: none;">
                              </iframe>
                              <p id="video-placeholder-message"></p>
-                        </div>
-                        <div class="episode-actions">
+                         </div>
+                         <div class="episode-actions">
                              <button class="episode-nav-btn" id="prev-episode-btn"><i class="fa-solid fa-backward-step"></i> Previous</button>
                              <button class="episode-nav-btn" id="show-all-episodes-btn"><i class="fa-solid fa-list-ol"></i> All Episodes</button>
                              <button class="episode-nav-btn" id="next-episode-btn">Next <i class="fa-solid fa-forward-step"></i></button>
-                        </div>
-                         <div class="video-description">
-                             <p id="video-desc-text"></p>
                          </div>
-                        <div id="recommended-container" class="donghua-section" style="margin-top: 2rem;">
-                            <div class="section-header">
-                               <h2 class="section-title">Recommendation</h2>
-                            </div>
-                            <div class="content-grid" id="recommended-grid"></div>
-                        </div>
+                          <div class="video-description">
+                               <p id="video-desc-text"></p>
+                          </div>
+                         <div id="recommended-container" class="donghua-section" style="margin-top: 2rem;">
+                             <div class="section-header">
+                                 <h2 class="section-title">Recommendation</h2>
+                             </div>
+                             <div class="content-grid" id="recommended-grid"></div>
+                         </div>
                      </div>
                      <aside class="right-sidebar">
-                           <div class="sidebar-section" id="watch-page-ongoing">
-                                  <h3 class="sidebar-title">Ongoing Series</h3>
-                                  <ul class="new-item-list" id="watch-page-ongoing-list"></ul>
-                           </div>
-                           <div class="sidebar-section" id="watch-page-popular">
-                                  <h3 class="sidebar-title">Popular Series</h3>
-                                  <ul class="new-item-list" id="watch-page-popular-list"></ul>
-                           </div>
+                             <div class="sidebar-section" id="watch-page-ongoing">
+                                     <h3 class="sidebar-title">Ongoing Series</h3>
+                                     <ul class="new-item-list" id="watch-page-ongoing-list"></ul>
+                             </div>
+                             <div class="sidebar-section" id="watch-page-popular">
+                                     <h3 class="sidebar-title">Popular Series</h3>
+                                     <ul class="new-item-list" id="watch-page-popular-list"></ul>
+                             </div>
                      </aside>
                  </div>
              </section>
@@ -190,9 +210,9 @@
                     <h4>Community</h4> 
                     <ul>
                         <li class="telegram-join-btn">
-                           <a href="https://t.me/FLIXXKH" target="_blank" rel="noopener noreferrer">
-                               <i class="fa-brands fa-telegram"></i> Join our Telegram
-                           </a>
+                            <a href="https://t.me/FLIXXKH" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-telegram"></i> Join our Telegram
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -208,9 +228,7 @@
             <div class="footer-bottom"> <p>&copy; 2025 DonghuaOnly. All Rights Reserved.</p> </div>
         </div>
     </footer>
-
-    <script src="index.js">
-        
-    </script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
