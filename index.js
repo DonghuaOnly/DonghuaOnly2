@@ -430,7 +430,7 @@
                   fansub: 'Official Sub', tags: ['Fantasy', 'Action', 'Romance', 'Adventure'],
               },
               {
-                  id: 'd11', title: 'c', slug: 'immortal-doctor',
+                  id: 'd11', title: 'The Immortal  Doctor in Modern City', slug: 'immortal-doctor',
                   subtitle: 'Modern, Fantasy', description: 'A powerful immortal doctor is reborn in the modern world. He uses his ancient skills to heal the sick, fight injustice, and navigate modern life.', maxEpisodes: 24, latestEpisode: 24,
                   img: 'images/The Immortal  Doctor in Modern City.jpg.jpg',
                   episodeLinks: [ ],
