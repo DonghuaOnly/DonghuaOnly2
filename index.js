@@ -430,7 +430,7 @@ window.onload = () => {
           {
               id: 'd11', title: 'The Immortal  Doctor in Modern City', slug: 'immortal-doctor',
               subtitle: 'Modern, Fantasy', description: 'A powerful immortal doctor is reborn in the modern world. He uses his ancient skills to heal the sick, fight injustice, and navigate modern life.', maxEpisodes: 24, latestEpisode: 24,
-              img: 'images/images/The Immortal Doctor in Modern City.jpg.jpg',
+              img: 'images/images/The Immortal  Doctor in Modern City.jpg.jpg',
               episodeLinks: [ ],
               rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
