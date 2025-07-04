@@ -610,7 +610,7 @@ window.onload = () => {
            {
               id: 'd21', title: 'The Great Ruler', slug: '',
               subtitle: 'Xianxia, Cultivation, Action, Adventure', description: 'Follows the adventures of Mu Chen, a young man from the Northern Spiritual Realm, on his path to becoming a "Great Ruler," a being of immense power, to protect his loved ones and uncover the secrets of his past.', maxEpisodes: 52, latestEpisode: 52,
-              img: 'images/the great ruler.jpg.jpg',
+              img: 'images/the great ruler.jpg.jpg.jpg',
               episodeLinks: [],
               rating: 9.6, status: 'Completed (Season 1)', studio: 'I-Animation Studio', duration: '20 min per ep', country: 'China',
               network: 'iQIYI', released: '2023-06-30', season: '1', type: 'ONA',
