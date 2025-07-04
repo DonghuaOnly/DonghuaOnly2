@@ -369,7 +369,7 @@ window.onload = () => {
           {
               id: 'd9', title: 'Legend Of Xianwu', slug: 'legend-of-xianwu',
               subtitle: 'E-Sports, Action', description: 'A top-tier professional e-sports player is unexpectedly reborn and must use his gaming knowledge to navigate a new world of martial arts.', maxEpisodes: 24, latestEpisode: 24,
-              img: 'images/legend of xianwu.jpg.jpg',
+              img: 'images/Legend of xianwu.jpg.jpg',
               episodeLinks: [ ],
               rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '24 min per ep', country: 'China',
               network: 'Tencent Video', released: '2017-04-27', season: '2', type: 'ONA',
