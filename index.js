@@ -111,7 +111,7 @@ window.onload = () => {
                     { start: 112, end: 114, url: `${dailymotionBaseUrl}x9kppwk` }, // Compilation Video [8, 6]
                     { start: 115, end: 116, url: `${dailymotionBaseUrl}x9ltkeq` }  // 4K Multi-Sub Upload [6, 9];
               ],
-              rating: 9.0, status: 'Ongoing', studio: 'B.CMAY PICTURES', duration: '22 min per ep', country: 'China',
+              rating: 8, status: 'Ongoing', studio: 'B.CMAY PICTURES', duration: '22 min per ep', country: 'China',
               network: 'Bilibili', released: '2023-11-18', season: '1', type: 'ONA',
               fansub: 'Anime Official', tags: ['Xianxia', 'Comedy', 'Adventure']
           },
@@ -265,7 +265,7 @@ window.onload = () => {
                       { start: 107, end: 107, url: `${dailymotionBaseUrl}x9lzh7c` } /* [21] */
                       
               ],
-              rating: 9.1, status: 'Ongoing', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
+              rating: 8, status: 'Ongoing', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
               network: 'Tencent Video', released: '2023-06-24', season: '1', type: 'ONA',
               fansub: 'Official Sub', tags: ['Action', 'Romance', 'Fantasy', 'Adventure']
           },
@@ -334,7 +334,7 @@ window.onload = () => {
                   { start: 71,  end: 75,  url: `${dailymotionBaseUrl}x9kjva0` }, // Compilation Video
                   { start: 76,  end: 78,  url: `${dailymotionBaseUrl}x9kjva2` }, // Compilation Video
               ],
-              rating: 8.8, status: 'Ongoing', studio: 'Cloud Art', duration: '22 min per ep', country: 'China',
+              rating: 9, status: 'Ongoing', studio: 'Cloud Art', duration: '22 min per ep', country: 'China',
               network: 'Tencent Video', released: '2022-11-02', season: '1', type: 'ONA',
               fansub: 'Subber Team', tags: ['Xianxia', 'Romance', 'Action']
           },
@@ -426,7 +426,7 @@ window.onload = () => {
                       { start: 255, end: 260, url: `${dailymotionBaseUrl}x8roux7` }, // Uploader: Donghua Addict (6 episodes)
                       { start: 261, end: 263, url: `${dailymotionBaseUrl}x8rp1hp` }, // Uploader: Donghua Addict (Final 3 episodes)
               ],
-              rating: 9.6, status: 'Finished', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
+              rating: 8, status: 'Finished', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
               network: 'Tencent Video', released: '2018-01-20', season: '1', type: 'ONA',
               fansub: 'Official Sub', tags: ['Fantasy', 'Action', 'Romance', 'Adventure'],
           },
@@ -549,7 +549,7 @@ window.onload = () => {
               subtitle: 'Xianxia, Cultivation', description: 'Watch Immortality, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/immortality.jpg.jpg',
               episodeLinks: [],
-              rating: 9.0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 7, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Xianxia', 'Cultivation', 'Action', 'Drama'],
           },
@@ -576,7 +576,7 @@ window.onload = () => {
               subtitle: 'Xianxia, Cultivation', description: 'Watch A Record Of Mortal’s Journey To Immortality, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/A Record Of Mortal’s Journey To Immortality.jpg.jpg',
               episodeLinks: [],
-              rating: 9.3, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 8, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Xianxia', 'Cultivation', 'Action', 'Adventure'],
           },
