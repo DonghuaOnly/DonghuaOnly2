@@ -111,7 +111,7 @@ window.onload = () => {
                     { start: 112, end: 114, url: `${dailymotionBaseUrl}x9kppwk` }, // Compilation Video [8, 6]
                     { start: 115, end: 116, url: `${dailymotionBaseUrl}x9ltkeq` }  // 4K Multi-Sub Upload [6, 9];
               ],
-              rating: 8, status: 'Ongoing', studio: 'B.CMAY PICTURES', duration: '22 min per ep', country: 'China',
+              rating: 7.0, status: 'Ongoing', studio: 'B.CMAY PICTURES', duration: '22 min per ep', country: 'China',
               network: 'Bilibili', released: '2023-11-18', season: '1', type: 'ONA',
               fansub: 'Anime Official', tags: ['Xianxia', 'Comedy', 'Adventure']
           },
