@@ -241,7 +241,7 @@ window.onload = () => {
           {
               id: 'd6', title: 'Soul Land 2', slug: 'soul-land-2',
               subtitle: 'Action, Romance', description: 'The story continues with the next generation of spirit masters from Shrek Academy, facing new challenges and powerful enemies.', maxEpisodes: 250, latestEpisode: 53,
-              img: 'images/soul land 2.jpg.jpg',
+              img: 'images/Soul land 2.jpg.jpg',
               episodeLinks: [
                   { start: 2, end: 2, url: `${dailymotionBaseUrl}x9j06dk` }, /* [2] */
                       { start: 3, end: 3, url: `${dailymotionBaseUrl}x9j2hsu` }, /* [3] */
@@ -447,7 +447,7 @@ window.onload = () => {
           {
               id: 'd12', title: 'Tales Of Herding God', slug: 'tales-of-herding-god',
               subtitle: 'Fantasy, Adventure', description: 'Watch Tales Of Herding God, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
-              img: 'images/tails of herding god.jpg.jpg',
+              img: 'images/Tails of herding god.jpg.jpg',
               episodeLinks: [
                       { start: 2, end: 2, url: `${dailymotionBaseUrl}x983ozs` },
                       { start: 3, end: 3, url: `${dailymotionBaseUrl}x98i2rc` },
@@ -565,7 +565,7 @@ window.onload = () => {
           {
               id: 'd20', title: 'Dragon Prince Yuan', slug: 'dragon-prince-yuan',
               subtitle: 'Fantasy, Action', description: 'Watch Dragon Prince Yuan, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
-              img: 'images/Dragon Prince Yuan.jpg.jpg',
+              img: 'images/Dragon prince yuan.jpg.jpg',
               episodeLinks: [],
               rating: 8.9, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
