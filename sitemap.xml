@@ -4,115 +4,149 @@
     <!-- Main Pages -->
     <url>
         <loc>https://www.donghuaonly.com/</loc>
-        <lastmod>2025-07-03</lastmod>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/sitemap.html</loc>
-        <lastmod>2025-07-03</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://www.donghuaonly.com/#series-link</loc>
-        <lastmod>2025-07-03</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.donghuaonly.com/#movies-link</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#movies</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
-    <!-- Donghua Series Pages -->
+    <!-- Donghua Series Pages (with corrected links) -->
     <url>
-        <loc>https://www.donghuaonly.com/watch/battle-through-the-heavens</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=battle-through-the-heavens</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/shrouding-the-heavens</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=shrouding-the-heavens</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/swallowed-star</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=swallowed-star</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/perfect-world</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=perfect-world</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/throne-of-seal</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=throne-of-seal</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/soul-land-2</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=soul-land-2</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/jade-dynasty</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=jade-dynasty</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/renegade-immortal</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=renegade-immortal</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/legend-of-xianwu</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=legend-of-xianwu</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/soul-land-1</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=soul-land-1</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/immortal-doctor</loc>
-        <lastmod>2025-07-03</lastmod>
+        <loc>https://www.donghuaonly.com/#watch=the-immortal-doctor-in-modern-city</loc>
+        <lastmod>2025-07-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
-
-    <!-- Movie Pages -->
     <url>
-        <loc>https://www.donghuaonly.com/watch/ne-zha</loc>
-        <lastmod>2025-07-03</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <loc>https://www.donghuaonly.com/#watch=tales-of-herding-god</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.donghuaonly.com/watch/white-snake</loc>
-        <lastmod>2025-07-03</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <loc>https://www.donghuaonly.com/#watch=sword-of-coming</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
-    <url>
-        <loc>https://www.donghuaonly.com/watch/big-fish-begonia</loc>
-        <lastmod>2025-07-03</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+     <url>
+        <loc>https://www.donghuaonly.com/#watch=ten-thousand-world-s3</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://www.donghuaonly.com/#watch=swallowing-the-heavens</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://www.donghuaonly.com/#watch=my-senior-brother-is-too-strong</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://www.donghuaonly.com/#watch=big-brother</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://www.donghuaonly.com/#watch=immortality</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://www.donghuaonly.com/#watch=ancient-war-soul</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://www.donghuaonly.com/#watch=dragon-prince-yuan</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://www.donghuaonly.com/#watch=a-record-of-mortals-journey-to-immortality</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://www.donghuaonly.com/#watch=spirit-sword-sovereign</loc>
+        <lastmod>2025-07-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
 
 </urlset>
