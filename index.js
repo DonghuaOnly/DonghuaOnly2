@@ -48,9 +48,9 @@ window.onload = () => {
 
     function createMovieData() {
          return [
-             { id: 'm1', title: 'Ne Zha', subtitle: 'Fantasy, Action', img: 'images/nezha.jpg' },
-             { id: 'm2', title: 'White Snake', subtitle: 'Romance, Fantasy', img: 'images/whitesnake.jpg' },
-             { id: 'm3', title: 'Big Fish & Begonia', subtitle: 'Fantasy, Drama', img: 'images/bigfish.jpg' },
+             { id: 'd3', title: 'Ne Zha', subtitle: 'Fantasy, Action', img: 'images/nezha.jpg' },
+             { id: 'd2', title: 'White Snake', subtitle: 'Romance, Fantasy', img: 'images/whitesnake.jpg' },
+             { id: 'd1', title: 'Big Fish & Begonia', subtitle: 'Fantasy, Drama', img: 'images/bigfish.jpg' },
          ];
     }
 
@@ -234,7 +234,7 @@ window.onload = () => {
                       { start: 165, end: 165, url: `${dailymotionBaseUrl}x9lv9l4` },    // Episode 165 [21]
                       { start: 166, end: 166, url: `${dailymotionBaseUrl}x9m7m5a` }     // Episode 166 [22]
                     ],
-              rating: 8.9, status: 'Finished', studio: 'Shenman Entertainment', duration: '20 min per ep', country: 'China',
+              rating: 4.0, status: 'Finished', studio: 'Shenman Entertainment', duration: '20 min per ep', country: 'China',
               network: 'Tencent Video', released: '2022-04-28', season: '2', type: 'ONA',
               fansub: '3D Anime Official', tags: ['Fantasy', 'Magic', 'Adventure', 'Action']
           },
@@ -265,7 +265,7 @@ window.onload = () => {
                       { start: 107, end: 107, url: `${dailymotionBaseUrl}x9lzh7c` } /* [21] */
                       
               ],
-              rating: 8, status: 'Ongoing', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
+              rating: 8.0, status: 'Ongoing', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
               network: 'Tencent Video', released: '2023-06-24', season: '1', type: 'ONA',
               fansub: 'Official Sub', tags: ['Action', 'Romance', 'Fantasy', 'Adventure']
           },
