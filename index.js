@@ -628,6 +628,7 @@ window.onload = () => {
                       img: 'images/Eclipse of Illusion (2025).jpg.jpg',
                       episodeLinks: [
                           {start: 1, end: 1, url: `${dailymotionBaseUrl}x9mcxgs` },
+                          {start: 2, end: 2, url: `${dailymotionBaseUrl}x9mcz0y` },
                           
 
                           
