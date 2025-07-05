@@ -634,9 +634,14 @@ window.onload = () => {
                       maxEpisodes: 52,
                       latestEpisode: 52,
                       img: 'images/Eclipse of Illusion (2025).jpg,jpg',
-                      episodeLinks: [], // You can populate this later
+                      episodeLinks: [
+                          {start: 1, end: 1, url: `${dailymotionBaseUrl}x9mcxgs`,
+                          
+
+                          
+                      ], // You can populate this later
                       rating: 9.6,
-                      status: 'Completed (Season 1)',
+                      status: '',
                       studio: 'I-Animation Studio',
                       duration: '20 min per ep',
                       country: 'China',
