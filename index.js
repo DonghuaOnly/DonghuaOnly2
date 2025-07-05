@@ -266,7 +266,7 @@ window.onload = () => {
                       { start: 107, end: 107, url: `${dailymotionBaseUrl}x9lzh7c` } /* [21] */
                       
               ],
-              rating: 9.1, status: 'Ongoing', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
               network: 'Tencent Video', released: '2023-06-24', season: '1', type: 'ONA',
               fansub: 'Official Sub', tags: ['Action', 'Romance', 'Fantasy', 'Adventure']
           },
@@ -335,7 +335,7 @@ window.onload = () => {
                   { start: 71,  end: 75,  url: `${dailymotionBaseUrl}x9kjva0` }, // Compilation Video
                   { start: 76,  end: 78,  url: `${dailymotionBaseUrl}x9kjva2` }, // Compilation Video
               ],
-              rating: 8.8, status: 'Ongoing', studio: 'Cloud Art', duration: '22 min per ep', country: 'China',
+              rating: 8.9, status: 'Ongoing', studio: 'Cloud Art', duration: '22 min per ep', country: 'China',
               network: 'Tencent Video', released: '2022-11-02', season: '1', type: 'ONA',
               fansub: 'Subber Team', tags: ['Xianxia', 'Romance', 'Action']
           },
@@ -370,7 +370,7 @@ window.onload = () => {
           {
               id: 'd9', title: 'Legend Of Xianwu', slug: 'legend-of-xianwu',
               subtitle: 'E-Sports, Action', description: 'A top-tier professional e-sports player is unexpectedly reborn and must use his gaming knowledge to navigate a new world of martial arts.', maxEpisodes: 24, latestEpisode: 24,
-              img: 'images/legend of xianwu.jpg.jpg',
+              img: 'images/Legend of xianwu.jpg.jpg',
               episodeLinks: [ ],
               rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '24 min per ep', country: 'China',
               network: 'Tencent Video', released: '2017-04-27', season: '2', type: 'ONA',
@@ -427,7 +427,7 @@ window.onload = () => {
                       { start: 255, end: 260, url: `${dailymotionBaseUrl}x8roux7` }, // Uploader: Donghua Addict (6 episodes)
                       { start: 261, end: 263, url: `${dailymotionBaseUrl}x8rp1hp` }, // Uploader: Donghua Addict (Final 3 episodes)
               ],
-              rating: 9.6, status: 'Finished', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
+              rating: 0, status: 'Finished', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
               network: 'Tencent Video', released: '2018-01-20', season: '1', type: 'ONA',
               fansub: 'Official Sub', tags: ['Fantasy', 'Action', 'Romance', 'Adventure'],
           },
@@ -441,7 +441,7 @@ window.onload = () => {
                   { start: 44, end: 44, url: `${dailymotionBaseUrl}x9e230e` },
                   { start: 15, end: 15, url: `${dailymotionBaseUrl}x98ik0e` },
               ],
-              rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Modern', 'Fantasy', 'Action', 'Comedy'],
           },
@@ -505,7 +505,7 @@ window.onload = () => {
                   { start: 96, end: 96, url: `${dailymotionBaseUrl}x95xrbg` }, // Narrative content, no episode number [7]
                   { start: 96, end: 96, url: `${dailymotionBaseUrl}x9atbdk` }, // Episode 25 [8];
               ],
-              rating: 8.7, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Xianxia', 'Adventure', 'Action', 'Fantasy'],
           },
@@ -514,7 +514,7 @@ window.onload = () => {
               subtitle: 'Fantasy, Martial Arts', description: 'Watch Ten Thousand World ( Wan Jie Du Zun ) Season-3, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/Ten Thousand World ( Wan Jie Du Zun ) Season-3.jpg.jpg',
               episodeLinks: [],
-              rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '3', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Fantasy', 'Martial Arts', 'Action', 'Comedy'],
           },
@@ -523,7 +523,7 @@ window.onload = () => {
               subtitle: 'Xianxia, Fantasy', description: 'Watch Swallowing the Heavens, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/Swallowing the Heavens.jpg.jpg',
               episodeLinks: [],
-              rating: 8.6, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Xianxia', 'Fantasy', 'Action', 'Adventure'],
           },
@@ -532,7 +532,7 @@ window.onload = () => {
               subtitle: 'Comedy, Fantasy', description: 'Watch My Senior Brother Is Too Strong, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/My Senior Brother Is Too Strong.jpg.jpg',
               episodeLinks: [],
-              rating: 8.4, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Comedy', 'Fantasy', 'Action', 'Cultivation'],
           },
@@ -541,7 +541,7 @@ window.onload = () => {
               subtitle: 'Comedy, Xianxia', description: 'Watch Big Brother, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/Big brother.jpg.jpg',
               episodeLinks: [],
-              rating: 8.8, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Comedy', 'Xianxia', 'Action', 'Fantasy'],
           },
@@ -550,7 +550,7 @@ window.onload = () => {
               subtitle: 'Xianxia, Cultivation', description: 'Watch Immortality, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/immortality.jpg.jpg',
               episodeLinks: [],
-              rating: 9.0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Xianxia', 'Cultivation', 'Action', 'Drama'],
           },
@@ -559,7 +559,7 @@ window.onload = () => {
               subtitle: 'Action, Fantasy', description: 'Watch Ancient War Soul, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/ancient War Soul.jpg.jpg',
               episodeLinks: [],
-              rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Action', 'Fantasy', 'Adventure'],
           },
@@ -568,7 +568,7 @@ window.onload = () => {
               subtitle: 'Fantasy, Action', description: 'Watch Dragon Prince Yuan, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/Dragon prince yuan.jpg.jpg',
               episodeLinks: [],
-              rating: 8.9, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Fantasy', 'Action', 'Adventure', 'Xianxia'],
           },
@@ -577,7 +577,7 @@ window.onload = () => {
               subtitle: 'Xianxia, Cultivation', description: 'Watch A Record Of Mortal’s Journey To Immortality, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/A Record Of Mortal’s Journey To Immortality.jpg.jpg',
               episodeLinks: [],
-              rating: 9.3, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Xianxia', 'Cultivation', 'Action', 'Adventure'],
           },
@@ -604,7 +604,7 @@ window.onload = () => {
                     { start: 566, end: 578, url: `${dailymotionBaseUrl}x9h8qsw` }, // Compilation of 13 episodes [19]
                     { start: 586, end: 586, url: `${dailymotionBaseUrl}x9hpryw` } // Standalone upload [20];
               ],
-              rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+              rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Martial Arts', 'Fantasy', 'Action', 'Comedy'],
           },
@@ -613,7 +613,7 @@ window.onload = () => {
               subtitle: 'Xianxia, Cultivation, Action, Adventure', description: 'Follows the adventures of Mu Chen, a young man from the Northern Spiritual Realm, on his path to becoming a "Great Ruler," a being of immense power, to protect his loved ones and uncover the secrets of his past.', maxEpisodes: 52, latestEpisode: 52,
               img: 'images/the great ruler.jpg.jpg.jpg',
               episodeLinks: [],
-              rating: 9.6, status: 'Completed (Season 1)', studio: 'I-Animation Studio', duration: '20 min per ep', country: 'China',
+              rating: 0, status: 'Completed (Season 1)', studio: 'I-Animation Studio', duration: '20 min per ep', country: 'China',
               network: 'iQIYI', released: '2023-06-30', season: '1', type: 'ONA',
               fansub: 'Various', tags: ['Xianxia', 'Cultivation', 'Action', 'Adventure', 'Fantasy'],
           },
