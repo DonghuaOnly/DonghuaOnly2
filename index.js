@@ -625,7 +625,7 @@ window.onload = () => {
                       description: 'Follows the adventures of Mu Chen, a young man from the Northern Spiritual Realm, on his path to becoming a "Great Ruler," a being of immense power, to protect his loved ones and uncover the secrets of his past.',
                       maxEpisodes: 52,
                       latestEpisode: 52,
-                      img: 'images/Eclipse of Illusion (2025).jpg,jpg',
+                      img: 'images/Eclipse of Illusion (2025).jpg.jpg',
                       episodeLinks: [
                           {start: 1, end: 1, url: `${dailymotionBaseUrl}x9mcxgs` },
                           
