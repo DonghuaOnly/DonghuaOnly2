@@ -633,7 +633,26 @@ window.onload = () => {
               id: 'd15', title: 'Swallowing the Heavens', slug: 'swallowing-the-heavens',
               subtitle: 'Xianxia, Fantasy', description: 'Watch Swallowing the Heavens, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/Swallowing the Heavens.jpg.jpg',
-              episodeLinks: [],
+              episodeLinks: [
+                    { start: 1, end: 1, url: `${dailymotionBaseUrl}x9k1dd6` }, // Episode 1
+                    { start: 2, end: 2, url: `${dailymotionBaseUrl}x9k1erc` }, // Episode 2
+                    { start: 3, end: 3, url: `${dailymotionBaseUrl}x9k5pym` }, // Episode 3
+                    { start: 4, end: 4, url: `${dailymotionBaseUrl}x9k5qqm` }, // Episode 4
+                    { start: 5, end: 5, url: `${dailymotionBaseUrl}x9k5oqs` }, // Episode 5
+                    { start: 6, end: 6, url: `${dailymotionBaseUrl}x9kd2yu` }, // Episode 6
+                    { start: 7, end: 7, url: `${dailymotionBaseUrl}x9kenwc` }, // Episode 7
+                    { start: 8, end: 8, url: `${dailymotionBaseUrl}x9l01jy` }, // Episode 8
+                    { start: 9, end: 9, url: `${dailymotionBaseUrl}x9l02ky` }, // Episode 9
+                    { start: 10, end: 10, url: `${dailymotionBaseUrl}x9l1use` }, // Episode 10
+                    { start: 11, end: 11, url: `${dailymotionBaseUrl}x9l66a4` }, // Episode 11
+                    { start: 13, end: 13, url: `${dailymotionBaseUrl}x9lllqc` }, // Episode 13
+                    { start: 15, end: 15, url: `${dailymotionBaseUrl}x9lv8i8` }  // Episode 15
+
+                     
+
+
+                  
+              ],
               rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Xianxia', 'Fantasy', 'Action', 'Adventure'],
@@ -642,7 +661,34 @@ window.onload = () => {
               id: 'd16', title: 'My Senior Brother Is Too Strong', slug: 'my-senior-brother-is-too-strong',
               subtitle: 'Comedy, Fantasy', description: 'Watch My Senior Brother Is Too Strong, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/My Senior Brother Is Too Strong.jpg.jpg',
-              episodeLinks: [],
+              episodeLinks: [
+  // Single Episodes
+                      { start: 1, end: 1, url: `${dailymotionBaseUrl}x9h9sua` }, // Episode 1 [3]
+                      { start: 2, end: 2, url: `${dailymotionBaseUrl}x9hit4a` }, // Episode 2 [4]
+                      { start: 3, end: 3, url: `${dailymotionBaseUrl}x9hit4a` }, // Episode 3 [4]
+                      { start: 4, end: 4, url: `${dailymotionBaseUrl}x9h9sua` }, // Episode 4 [3]
+                      { start: 5, end: 5, url: `${dailymotionBaseUrl}x9h9sua` }, // Episode 5 [3]
+                      { start: 6, end: 6, url: `${dailymotionBaseUrl}x9h9sn2` }, // Episode 6 [5]
+                      { start: 7, end: 7, url: `${dailymotionBaseUrl}x9h9sua` }, // Episode 7 [3]
+                      { start: 8, end: 8, url: `${dailymotionBaseUrl}x9f1rlk` }, // Episode 8 [6]
+                      { start: 9, end: 9, url: `${dailymotionBaseUrl}x9hx5ck` }, // Episode 9 [7]
+                      { start: 10, end: 10, url: `${dailymotionBaseUrl}x9hz56a` }, // Episode 10 [8]
+                      { start: 11, end: 11, url: `${dailymotionBaseUrl}x9hx5ck` }, // Episode 11 [7]
+                      { start: 12, end: 12, url: `${dailymotionBaseUrl}x9h9sn2` }, // Episode 12 [5]
+                      { start: 13, end: 13, url: `${dailymotionBaseUrl}x9hit4a` }, // Episode 13 [4]
+                      { start: 14, end: 14, url: `${dailymotionBaseUrl}x9h9sn2` }, // Episode 14 [5]
+                      { start: 15, end: 15, url: `${dailymotionBaseUrl}x9h9sn2` }, // Episode 15 [5]
+                      { start: 16, end: 16, url: `${dailymotionBaseUrl}x9hx5ck` }, // Episode 16 [7]
+                      { start: 17, end: 17, url: `${dailymotionBaseUrl}x9j9ibw` }, // Episode 17 [9]
+                      { start: 18, end: 18, url: `${dailymotionBaseUrl}x9hit4a` }, // Episode 18 [4]
+                      { start: 19, end: 19, url: `${dailymotionBaseUrl}x95y2re` }, // Episode 19 [10]
+                      { start: 20, end: 20, url: `${dailymotionBaseUrl}x9kow0s` }, // Episode 20 [11]
+                      { start: 23, end: 23, url: `${dailymotionBaseUrl}x9kow0s` }, // Episode 23 [11]
+                      { start: 24, end: 24, url: `${dailymotionBaseUrl}x9kow0s` }, // Episode 24 [11]
+                      { start: 25, end: 25, url: `${dailymotionBaseUrl}x9kow0s` }, // Episode 25 [11]
+                      { start: 26, end: 26, url: `${dailymotionBaseUrl}x9kow0s` }, // Episode 26 [11]
+                      { start: 27, end: 27, url: `${dailymotionBaseUrl}x9kow0s` }, // Episode 27 [11];
+              ],
               rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Comedy', 'Fantasy', 'Action', 'Cultivation'],
@@ -651,7 +697,20 @@ window.onload = () => {
               id: 'd17', title: 'Big Brother', slug: 'big-brother',
               subtitle: 'Comedy, Xianxia', description: 'Watch Big Brother, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
               img: 'images/Big brother.jpg.jpg',
-              episodeLinks: [],
+              episodeLinks: [
+                      { start: 14, end: 14, url: `${dailymotionBaseUrl}x9kow0s` }, // Episode 14
+                      { start: 29, end: 29, url: `${dailymotionBaseUrl}x8v6mok` }, // Episode 29 [2]
+                      { start: 49, end: 49, url: `${dailymotionBaseUrl}x994otg` }, // Episode 49 [3]
+                      { start: 70, end: 70, url: `${dailymotionBaseUrl}x9h96vo` }, // Episode 70 (Often listed with cumulative Ep. 83) [4]
+                      { start: 71, end: 71, url: `${dailymotionBaseUrl}x9c1896` }, // Episode 71 (Often listed with cumulative Ep. 84) [5]
+                      { start: 72, end: 72, url: `${dailymotionBaseUrl}x9bns2q` }, // Episode 72 [6]
+                      { start: 75, end: 75, url: `${dailymotionBaseUrl}x9j5lbk` }, // Episode 75 (Often listed with cumulative Ep. 88) [7]
+                      { start: 79, end: 79, url: `${dailymotionBaseUrl}x9fn868` }, // Episode 79 [8]
+                      { start: 80, end: 80, url: `${dailymotionBaseUrl}x9m3o7c` }, // Episode 80 (Often listed with cumulative Ep. 93) [9]
+                      { start: 81, end: 81, url: `${dailymotionBaseUrl}x9ll946` }, // Episode 81 (Often listed with cumulative Ep. 94) [10]
+                      { start: 82, end: 82, url: `${dailymotionBaseUrl}x9lx1gu` }, // Episode 82 (Often listed with cumulative Ep. 95) [11]
+                      { start: 92, end: 92, url: `${dailymotionBaseUrl}x9ktkag` }, // Episode 92 [12];
+                                  ],
               rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
               network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
               fansub: 'Anime Fans', tags: ['Comedy', 'Xianxia', 'Action', 'Fantasy'],
