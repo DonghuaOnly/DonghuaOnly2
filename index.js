@@ -80,6 +80,7 @@ window.onload = () => {
                   { start: 151, end: 151, url: `${dailymotionBaseUrl}x9lcuba` },
                   { start: 152, end: 152, url: `${dailymotionBaseUrl}x9lolp4` },
                   { start: 153, end: 153, url: `${dailymotionBaseUrl}x9mdak8` },
+                  { start: 154, end: 154, url: `${dailymotionBaseUrl}x9iwvbq` },
               ],
               rating: 9.2, status: 'Ongoing', studio: 'Shanghai Motion Magic', duration: '20 min per ep', country: 'China',
               network: 'Tencent Penguin Pictures', released: '2022-07-31', season: '5', type: 'ONA',
@@ -609,7 +610,7 @@ window.onload = () => {
               fansub: 'Anime Fans', tags: ['Martial Arts', 'Fantasy', 'Action', 'Comedy'],
           },
            {
-              id: 'd21', title: 'The Great Ruler', slug: '',
+              id: 'd23', title: 'The Great Ruler', slug: '',
               subtitle: 'Xianxia, Cultivation, Action, Adventure', description: 'Follows the adventures of Mu Chen, a young man from the Northern Spiritual Realm, on his path to becoming a "Great Ruler," a being of immense power, to protect his loved ones and uncover the secrets of his past.', maxEpisodes: 52, latestEpisode: 52,
               img: 'images/the great ruler.jpg.jpg.jpg',
               episodeLinks: [],
@@ -618,34 +619,22 @@ window.onload = () => {
               fansub: 'Various', tags: ['Xianxia', 'Cultivation', 'Action', 'Adventure', 'Fantasy'],
           },
             {
-                      id: 'd22',
-                      title: 'Eclipse of Illusion',
-                      slug: 'eclipse-of-illusion',
-                      subtitle: 'Xianxia, Cultivation, Action, Adventure',
-                      description: 'Follows the adventures of Mu Chen, a young man from the Northern Spiritual Realm, on his path to becoming a "Great Ruler," a being of immense power, to protect his loved ones and uncover the secrets of his past.',
-                      maxEpisodes: 52,
-                      latestEpisode: 52,
-                      img: 'images/Eclipse of Illusion (2025).jpg.jpg',
-                      episodeLinks: [
-                          {start: 1, end: 1, url: `${dailymotionBaseUrl}x9mcxgs` },
-                          {start: 2, end: 2, url: `${dailymotionBaseUrl}x9mcz0y` },
-                          
-
-                          
-                      ], // You can populate this later
-                      rating: 9.6,
-                      status: '',
-                      studio: 'I-Animation Studio',
-                      duration: '20 min per ep',
-                      country: 'China',
-                      network: 'iQIYI',
-                      released: '2023-06-30',
-                      season: '1',
-                      type: 'ONA',
-                      fansub: 'Various',
-                      tags: ['Xianxia', 'Cultivation', 'Action', 'Adventure', 'Fantasy']
-                    }
-            
+              id: 'd24',
+              title: 'Eclipse of Illusion',
+              slug: 'eclipse-of-illusion',
+              subtitle: 'Xianxia, Cultivation, Action, Adventure',
+              description: 'Follows the adventures of Mu Chen, a young man from the Northern Spiritual Realm, on his path to becoming a "Great Ruler," a being of immense power, to protect his loved ones and uncover the secrets of his past.',
+              maxEpisodes: 52,
+              latestEpisode: 52,
+              img: 'images/Eclipse of Illusion (2025).jpg.jpg',
+              episodeLinks: [
+                  {start: 1, end: 1, url: `${dailymotionBaseUrl}x9mcxgs` },
+                  {start: 2, end: 2, url: `${dailymotionBaseUrl}x9mcz0y` },                
+              ], // You can populate this later
+              rating: 9.6, status: '',studio: 'I-Animation Studio', duration: '20 min per ep', country: 'China', network: 'iQIYI',  released: '2023-06-30',
+              season: '1', type: 'ONA', fansub: 'Various', tags: ['Xianxia', 'Cultivation', 'Action', 'Adventure', 'Fantasy'],
+            }
+    
         ];
         return dramaData;
     }
