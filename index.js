@@ -374,109 +374,109 @@ window.onload = () => {
               img: 'images/Legend of xianwu.jpg.jpg',
               episodeLinks: [
 
-                    { start: 2, end: 2, url: `${dailymotionBaseUrl}x9cm2sm` }[3]
-                    { start: 3, end: 3, url: `${dailymotionBaseUrl}x92khm8` }[4]
-                    { start: 4, end: 4, url: `${dailymotionBaseUrl}x97ojta` }[5]
-                    { start: 5, end: 5, url: `${dailymotionBaseUrl}x9486oe` }, // No standalone episode found; part of a compilation [2]
-                    { start: 6, end: 6, url: `${dailymotionBaseUrl}x8kjtmd` }[6]
-                    { start: 7, end: 7, url: `${dailymotionBaseUrl}x92khm8` }[4]
-                    { start: 8, end: 8, url: `${dailymotionBaseUrl}x94kfa8` }[7]
-                    { start: 9, end: 9, url: `${dailymotionBaseUrl}x91nnaq` }[8]
-                    { start: 10, end: 10, url: `${dailymotionBaseUrl}x9ikds2` }, // Primary ID is part of a 1-10 compilation [1]
-                    { start: 11, end: 11, url: `${dailymotionBaseUrl}x93u7es` }[9]
-                    { start: 12, end: 12, url: `${dailymotionBaseUrl}x9ixew8` }[10]
-                    { start: 13, end: 13, url: `${dailymotionBaseUrl}x924oqm` }[11]
-                    { start: 14, end: 14, url: `${dailymotionBaseUrl}x9cqjw0` }[12]
-                    { start: 15, end: 15, url: `${dailymotionBaseUrl}x9cm2sm` }[3]
-                    { start: 16, end: 16, url: `${dailymotionBaseUrl}x9486oe` }[2]
-                    { start: 17, end: 17, url: `${dailymotionBaseUrl}x8r1ymb` }[13]
-                    { start: 18, end: 18, url: `${dailymotionBaseUrl}x9cm2sm` }[3]
-                    { start: 19, end: 19, url: `${dailymotionBaseUrl}x8uo92k` }[14]
+                   { start: 2, end: 2, url: `${dailymotionBaseUrl}x9cm2sm` },
+                    { start: 3, end: 3, url: `${dailymotionBaseUrl}x92khm8` },
+                    { start: 4, end: 4, url: `${dailymotionBaseUrl}x97ojta` },
+                    { start: 5, end: 5, url: `${dailymotionBaseUrl}x9486oe` }, // No standalone episode found; part of a compilation
+                    { start: 6, end: 6, url: `${dailymotionBaseUrl}x8kjtmd` },
+                    { start: 7, end: 7, url: `${dailymotionBaseUrl}x92khm8` },
+                    { start: 8, end: 8, url: `${dailymotionBaseUrl}x94kfa8` },
+                    { start: 9, end: 9, url: `${dailymotionBaseUrl}x91nnaq` },
+                    { start: 10, end: 10, url: `${dailymotionBaseUrl}x9ikds2` }, // Primary ID is part of a 1-10 compilation
+                    { start: 11, end: 11, url: `${dailymotionBaseUrl}x93u7es` },
+                    { start: 12, end: 12, url: `${dailymotionBaseUrl}x9ixew8` },
+                    { start: 13, end: 13, url: `${dailymotionBaseUrl}x924oqm` },
+                    { start: 14, end: 14, url: `${dailymotionBaseUrl}x9cqjw0` },
+                    { start: 15, end: 15, url: `${dailymotionBaseUrl}x9cm2sm` },
+                    { start: 16, end: 16, url: `${dailymotionBaseUrl}x9486oe` },
+                    { start: 17, end: 17, url: `${dailymotionBaseUrl}x8r1ymb` },
+                    { start: 18, end: 18, url: `${dailymotionBaseUrl}x9cm2sm` },
+                    { start: 19, end: 19, url: `${dailymotionBaseUrl}x8uo92k` },
                     { start: 20, end: 20, url: null }, // Not Found
-                    { start: 21, end: 21, url: `${dailymotionBaseUrl}x92khm8` }[4]
-                    { start: 22, end: 22, url: `${dailymotionBaseUrl}x9bu18i` }[15]
-                    { start: 23, end: 23, url: `${dailymotionBaseUrl}x9486oe` }[2]
-                    { start: 24, end: 24, url: `${dailymotionBaseUrl}x93u7es` }[9]
-                    { start: 25, end: 25, url: `${dailymotionBaseUrl}x94kfa8` }, // An alternative ID, x8ni9ux, was found but is inaccessible [16, 17, 7]
-                    { start: 26, end: 26, url: `${dailymotionBaseUrl}x8nokzl` }, // Primary ID is inaccessible [18, 19]
-                    { start: 27, end: 27, url: `${dailymotionBaseUrl}x9dcim6` }[20]
-                    { start: 28, end: 28, url: `${dailymotionBaseUrl}x91nnaq` }[8]
-                    { start: 29, end: 29, url: `${dailymotionBaseUrl}x96f91o` }[21]
-                    { start: 30, end: 30, url: `${dailymotionBaseUrl}x9d14hy` }[22]
-                    { start: 31, end: 31, url: `${dailymotionBaseUrl}x9kjjx0` }[23]
-                    { start: 32, end: 32, url: `${dailymotionBaseUrl}x8nokzl` }[19]
-                    { start: 33, end: 33, url: `${dailymotionBaseUrl}x93gywy` }[24]
-                    { start: 34, end: 34, url: `${dailymotionBaseUrl}x8pk5mp` }, // Primary ID is inaccessible [25, 26]
-                    { start: 35, end: 35, url: `${dailymotionBaseUrl}x9d14hy` }, // Alternative ID x8pr5si is inaccessible [27, 28, 22]
-                    { start: 36, end: 36, url: `${dailymotionBaseUrl}x96u4c6` }, // Alternative ID x8pypav is inaccessible [29, 30]
-                    { start: 37, end: 37, url: `${dailymotionBaseUrl}x9d14hy` }[22]
-                    { start: 38, end: 38, url: `${dailymotionBaseUrl}x91nnaq` }[8]
-                    { start: 39, end: 39, url: `${dailymotionBaseUrl}x93u7es` }[9]
-                    { start: 40, end: 40, url: `${dailymotionBaseUrl}x9c7g1g` }[31]
-                    { start: 41, end: 41, url: `${dailymotionBaseUrl}x91nnaq` }, // Alternative ID x8r199i is inaccessible [32, 8]
-                    { start: 42, end: 42, url: `${dailymotionBaseUrl}x93gywy` }, // Alternative ID x8r8gbd is inaccessible [33, 24]
-                    { start: 43, end: 43, url: `${dailymotionBaseUrl}x96f91o` }, // Alternative ID x8rfwoa is inaccessible [34, 21]
-                    { start: 44, end: 44, url: `${dailymotionBaseUrl}x9c7g1g` }[31]
-                    { start: 45, end: 45, url: `${dailymotionBaseUrl}x9bu18i` }[15]
-                    { start: 46, end: 46, url: `${dailymotionBaseUrl}x92khm8` }, // Alternative ID x8s4jvo is inaccessible [35, 4]
-                    { start: 47, end: 47, url: `${dailymotionBaseUrl}x96u4c6` }[36]
-                    { start: 48, end: 48, url: `${dailymotionBaseUrl}x93u7es` }[9]
-                    { start: 49, end: 49, url: `${dailymotionBaseUrl}x9478lu` }, // Alternative ID x8t9oh4 is inaccessible [37, 38]
-                    { start: 50, end: 50, url: `${dailymotionBaseUrl}x94kfa8` }, // Alternative ID x8tr918 is inaccessible [39, 7]
-                    { start: 51, end: 51, url: `${dailymotionBaseUrl}x8uo7i4` }, // Primary ID is inaccessible [40, 41]
-                    { start: 52, end: 52, url: `${dailymotionBaseUrl}x8uo92k` }, // Alternative ID x8uo7i4 is inaccessible [14, 40]
-                    { start: 53, end: 53, url: `${dailymotionBaseUrl}x9ds57g` }, // Alternative ID x8visjo is inaccessible [42, 43]
-                    { start: 54, end: 54, url: `${dailymotionBaseUrl}x8uo7i4` }, // Alternative ID x8w2abe is inaccessible [40, 44]
-                    { start: 55, end: 55, url: `${dailymotionBaseUrl}x96f91o` }[21]
-                    { start: 56, end: 56, url: `${dailymotionBaseUrl}x9d14hy` }, // Alternative ID x8wrwy8 is inaccessible [45, 22]
-                    { start: 57, end: 57, url: `${dailymotionBaseUrl}x9ds57g` }[43]
-                    { start: 58, end: 58, url: `${dailymotionBaseUrl}x9g696g` }[46]
-                    { start: 59, end: 59, url: `${dailymotionBaseUrl}x8ydgwi` }[47]
-                    { start: 60, end: 60, url: `${dailymotionBaseUrl}x9i3yx0` }, // Alternative ID x8ydgwi is inaccessible [48, 49]
-                    { start: 61, end: 61, url: `${dailymotionBaseUrl}x8ypfsk` }[50]
-                    { start: 62, end: 62, url: `${dailymotionBaseUrl}x8z3bti` }[51]
-                    { start: 63, end: 63, url: `${dailymotionBaseUrl}x8zhv1e` }[52]
-                    { start: 64, end: 64, url: `${dailymotionBaseUrl}x8z3bti` }[51]
-                    { start: 65, end: 65, url: `${dailymotionBaseUrl}x90emlc` }[53]
-                    { start: 66, end: 66, url: `${dailymotionBaseUrl}x90slp4` }[54]
-                    { start: 67, end: 67, url: `${dailymotionBaseUrl}x916ofc` }[55]
-                    { start: 68, end: 68, url: `${dailymotionBaseUrl}x91nnaq` }[8]
-                    { start: 69, end: 69, url: `${dailymotionBaseUrl}x924oqm` }[11]
-                    { start: 70, end: 70, url: `${dailymotionBaseUrl}x924ixa` }[56]
-                    { start: 71, end: 71, url: `${dailymotionBaseUrl}x92khm8` }[4]
-                    { start: 72, end: 72, url: `${dailymotionBaseUrl}x9ds57g` }[43]
-                    { start: 73, end: 73, url: `${dailymotionBaseUrl}x93i6l6` }[57]
-                    { start: 74, end: 74, url: `${dailymotionBaseUrl}x94kfa8` }[7]
-                    { start: 75, end: 75, url: `${dailymotionBaseUrl}x9478lu` }[38]
-                    { start: 76, end: 76, url: `${dailymotionBaseUrl}x94kfa8` }[7]
-                    { start: 77, end: 77, url: `${dailymotionBaseUrl}x9kbv6e` }[58]
-                    { start: 78, end: 78, url: `${dailymotionBaseUrl}x9heesa` }[59]
-                    { start: 79, end: 79, url: `${dailymotionBaseUrl}x9d14hy` }[22]
-                    { start: 80, end: 80, url: `${dailymotionBaseUrl}x9613gu` }[60]
+                    { start: 21, end: 21, url: `${dailymotionBaseUrl}x92khm8` },
+                    { start: 22, end: 22, url: `${dailymotionBaseUrl}x9bu18i` },
+                    { start: 23, end: 23, url: `${dailymotionBaseUrl}x9486oe` },
+                    { start: 24, end: 24, url: `${dailymotionBaseUrl}x93u7es` },
+                    { start: 25, end: 25, url: `${dailymotionBaseUrl}x94kfa8` }, // An alternative ID, x8ni9ux, was found but is inaccessible
+                    { start: 26, end: 26, url: `${dailymotionBaseUrl}x8nokzl` }, // Primary ID is inaccessible
+                    { start: 27, end: 27, url: `${dailymotionBaseUrl}x9dcim6` },
+                    { start: 28, end: 28, url: `${dailymotionBaseUrl}x91nnaq` },
+                    { start: 29, end: 29, url: `${dailymotionBaseUrl}x96f91o` },
+                    { start: 30, end: 30, url: `${dailymotionBaseUrl}x9d14hy` },
+                    { start: 31, end: 31, url: `${dailymotionBaseUrl}x9kjjx0` },
+                    { start: 32, end: 32, url: `${dailymotionBaseUrl}x8nokzl` },
+                    { start: 33, end: 33, url: `${dailymotionBaseUrl}x93gywy` },
+                    { start: 34, end: 34, url: `${dailymotionBaseUrl}x8pk5mp` }, // Primary ID is inaccessible
+                    { start: 35, end: 35, url: `${dailymotionBaseUrl}x9d14hy` }, // Alternative ID x8pr5si is inaccessible
+                    { start: 36, end: 36, url: `${dailymotionBaseUrl}x96u4c6` }, // Alternative ID x8pypav is inaccessible
+                    { start: 37, end: 37, url: `${dailymotionBaseUrl}x9d14hy` },
+                    { start: 38, end: 38, url: `${dailymotionBaseUrl}x91nnaq` },
+                    { start: 39, end: 39, url: `${dailymotionBaseUrl}x93u7es` },
+                    { start: 40, end: 40, url: `${dailymotionBaseUrl}x9c7g1g` },
+                    { start: 41, end: 41, url: `${dailymotionBaseUrl}x91nnaq` }, // Alternative ID x8r199i is inaccessible
+                    { start: 42, end: 42, url: `${dailymotionBaseUrl}x93gywy` }, // Alternative ID x8r8gbd is inaccessible
+                    { start: 43, end: 43, url: `${dailymotionBaseUrl}x96f91o` }, // Alternative ID x8rfwoa is inaccessible
+                    { start: 44, end: 44, url: `${dailymotionBaseUrl}x9c7g1g` },
+                    { start: 45, end: 45, url: `${dailymotionBaseUrl}x9bu18i` },
+                    { start: 46, end: 46, url: `${dailymotionBaseUrl}x92khm8` }, // Alternative ID x8s4jvo is inaccessible
+                    { start: 47, end: 47, url: `${dailymotionBaseUrl}x96u4c6` },
+                    { start: 48, end: 48, url: `${dailymotionBaseUrl}x93u7es` },
+                    { start: 49, end: 49, url: `${dailymotionBaseUrl}x9478lu` }, // Alternative ID x8t9oh4 is inaccessible
+                    { start: 50, end: 50, url: `${dailymotionBaseUrl}x94kfa8` }, // Alternative ID x8tr918 is inaccessible
+                    { start: 51, end: 51, url: `${dailymotionBaseUrl}x8uo7i4` }, // Primary ID is inaccessible
+                    { start: 52, end: 52, url: `${dailymotionBaseUrl}x8uo92k` }, // Alternative ID x8uo7i4 is inaccessible
+                    { start: 53, end: 53, url: `${dailymotionBaseUrl}x9ds57g` }, // Alternative ID x8visjo is inaccessible
+                    { start: 54, end: 54, url: `${dailymotionBaseUrl}x8uo7i4` }, // Alternative ID x8w2abe is inaccessible
+                    { start: 55, end: 55, url: `${dailymotionBaseUrl}x96f91o` },
+                    { start: 56, end: 56, url: `${dailymotionBaseUrl}x9d14hy` }, // Alternative ID x8wrwy8 is inaccessible
+                    { start: 57, end: 57, url: `${dailymotionBaseUrl}x9ds57g` },
+                    { start: 58, end: 58, url: `${dailymotionBaseUrl}x9g696g` },
+                    { start: 59, end: 59, url: `${dailymotionBaseUrl}x8ydgwi` },
+                    { start: 60, end: 60, url: `${dailymotionBaseUrl}x9i3yx0` }, // Alternative ID x8ydgwi is inaccessible
+                    { start: 61, end: 61, url: `${dailymotionBaseUrl}x8ypfsk` },
+                    { start: 62, end: 62, url: `${dailymotionBaseUrl}x8z3bti` },
+                    { start: 63, end: 63, url: `${dailymotionBaseUrl}x8zhv1e` },
+                    { start: 64, end: 64, url: `${dailymotionBaseUrl}x8z3bti` },
+                    { start: 65, end: 65, url: `${dailymotionBaseUrl}x90emlc` },
+                    { start: 66, end: 66, url: `${dailymotionBaseUrl}x90slp4` },
+                    { start: 67, end: 67, url: `${dailymotionBaseUrl}x916ofc` },
+                    { start: 68, end: 68, url: `${dailymotionBaseUrl}x91nnaq` },
+                    { start: 69, end: 69, url: `${dailymotionBaseUrl}x924oqm` },
+                    { start: 70, end: 70, url: `${dailymotionBaseUrl}x924ixa` },
+                    { start: 71, end: 71, url: `${dailymotionBaseUrl}x92khm8` },
+                    { start: 72, end: 72, url: `${dailymotionBaseUrl}x9ds57g` },
+                    { start: 73, end: 73, url: `${dailymotionBaseUrl}x93i6l6` },
+                    { start: 74, end: 74, url: `${dailymotionBaseUrl}x94kfa8` },
+                    { start: 75, end: 75, url: `${dailymotionBaseUrl}x9478lu` },
+                    { start: 76, end: 76, url: `${dailymotionBaseUrl}x94kfa8` },
+                    { start: 77, end: 77, url: `${dailymotionBaseUrl}x9kbv6e` },
+                    { start: 78, end: 78, url: `${dailymotionBaseUrl}x9heesa` },
+                    { start: 79, end: 79, url: `${dailymotionBaseUrl}x9d14hy` },
+                    { start: 80, end: 80, url: `${dailymotionBaseUrl}x9613gu` },
                     { start: 81, end: 91, url: null }, // Not Found
-                    { start: 92, end: 92, url: `${dailymotionBaseUrl}x9ikds2` }[1]
-                    { start: 93, end: 93, url: `${dailymotionBaseUrl}x9ikds2` }[1]
-                    { start: 94, end: 94, url: `${dailymotionBaseUrl}x9bt9de` }[61]
-                    { start: 95, end: 95, url: `${dailymotionBaseUrl}x9bt9de` }[61]
-                    { start: 96, end: 96, url: `${dailymotionBaseUrl}x9c7g1g` }[31]
-                    { start: 97, end: 97, url: `${dailymotionBaseUrl}x9cm0lq` }[62]
-                    { start: 98, end: 98, url: `${dailymotionBaseUrl}x9cm0lq` }[62]
-                    { start: 99, end: 99, url: `${dailymotionBaseUrl}x9cm0lq` }[62]
-                    { start: 100, end: 100, url: `${dailymotionBaseUrl}x9cm0lq` }[62]
+                    { start: 92, end: 92, url: `${dailymotionBaseUrl}x9ikds2` },
+                    { start: 93, end: 93, url: `${dailymotionBaseUrl}x9ikds2` },
+                    { start: 94, end: 94, url: `${dailymotionBaseUrl}x9bt9de` },
+                    { start: 95, end: 95, url: `${dailymotionBaseUrl}x9bt9de` },
+                    { start: 96, end: 96, url: `${dailymotionBaseUrl}x9c7g1g` },
+                    { start: 97, end: 97, url: `${dailymotionBaseUrl}x9cm0lq` },
+                    { start: 98, end: 98, url: `${dailymotionBaseUrl}x9cm0lq` },
+                    { start: 99, end: 99, url: `${dailymotionBaseUrl}x9cm0lq` },
+                    { start: 100, end: 100, url: `${dailymotionBaseUrl}x9cm0lq` },
                     { start: 101, end: 101, url: null }, // Not Found
-                    { start: 102, end: 102, url: `${dailymotionBaseUrl}x9ft1nk` }[63]
-                    { start: 103, end: 103, url: `${dailymotionBaseUrl}x9ft1nk` }[63]
-                    { start: 104, end: 104, url: `${dailymotionBaseUrl}x9ft1nk` }[63]
-                    { start: 105, end: 105, url: `${dailymotionBaseUrl}x9ft1nk` }[63]
-                    { start: 106, end: 106, url: `${dailymotionBaseUrl}x9ft1nk` }[63]
-                    { start: 107, end: 107, url: `${dailymotionBaseUrl}x9h0m7q` }[64]
-                    { start: 108, end: 108, url: `${dailymotionBaseUrl}x9cm2po` }[65]
-                    { start: 109, end: 109, url: `${dailymotionBaseUrl}x9h0m7q` }[64]
-                    { start: 110, end: 110, url: `${dailymotionBaseUrl}x9cm0lq` }[62]
-                    { start: 111, end: 111, url: `${dailymotionBaseUrl}x9ikds2` }[1]
-                    { start: 112, end: 112, url: `${dailymotionBaseUrl}x9ikds2` }[1]
-                    { start: 113, end: 113, url: `${dailymotionBaseUrl}x9ikds2` }[1]
-                    { start: 114, end: 114, url: `${dailymotionBaseUrl}x9ikds2` }[1]
+                    { start: 102, end: 102, url: `${dailymotionBaseUrl}x9ft1nk` },
+                    { start: 103, end: 103, url: `${dailymotionBaseUrl}x9ft1nk` },
+                    { start: 104, end: 104, url: `${dailymotionBaseUrl}x9ft1nk` },
+                    { start: 105, end: 105, url: `${dailymotionBaseUrl}x9ft1nk` },
+                    { start: 106, end: 106, url: `${dailymotionBaseUrl}x9ft1nk` },
+                    { start: 107, end: 107, url: `${dailymotionBaseUrl}x9h0m7q` },
+                    { start: 108, end: 108, url: `${dailymotionBaseUrl}x9cm2po` },
+                    { start: 109, end: 109, url: `${dailymotionBaseUrl}x9h0m7q` },
+                    { start: 110, end: 110, url: `${dailymotionBaseUrl}x9cm0lq` },
+                    { start: 111, end: 111, url: `${dailymotionBaseUrl}x9ikds2` },
+                    { start: 112, end: 112, url: `${dailymotionBaseUrl}x9ikds2` },
+                    { start: 113, end: 113, url: `${dailymotionBaseUrl}x9ikds2` }
+                    { start: 114, end: 114, url: `${dailymotionBaseUrl}x9ikds2` }
                     { start: 115, end: 121, url: null }, // Not Found
                     { start: 122, end: 122, url: `${dailymotionBaseUrl}x9md1ve` }, // This is the highest episode number found [66]
                     { start: 123, end: 188, url: null }, // Not yet released [67, 68, 69];
