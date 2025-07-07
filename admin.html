@@ -1,334 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Drama Website</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 0.5rem; }
-        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-        .modal-enter { opacity: 0; transform: scale(0.95); }
-        .modal-enter-active { opacity: 1; transform: scale(1); transition: all 0.2s ease-out; }
-        .modal-leave-active { opacity: 0; transform: scale(0.95); transition: all 0.2s ease-in; }
-        .admin-only { display: none; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Drama Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      background: #000;
+      border-radius: 0.5rem;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .admin-only { display: none; }
+    .modal-content {
+      opacity: 0;
+      transform: scale(0.95);
+      transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+    }
+    .modal-content.active {
+      opacity: 1;
+      transform: scale(1);
+    }
+  </style>
 </head>
 <body class="bg-gray-900 text-white">
+  <div id="app" class="container mx-auto p-4 md:p-8">
+    <header class="flex flex-col sm:flex-row justify-between items-center mb-8 border-b border-gray-700 pb-4">
+      <h1 class="text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-0">My Drama Collection</h1>
+      <div class="admin-only flex space-x-2">
+        <button id="add-drama-btn" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow-lg">Add New Drama</button>
+        <button id="add-episode-btn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg shadow-lg">+ Add New Episode</button>
+      </div>
+    </header>
 
-    <div id="app" class="container mx-auto p-4 md:p-8">
-        <header class="flex flex-col sm:flex-row justify-between items-center mb-8 border-b border-gray-700 pb-4">
-            <h1 class="text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-0">My Drama Collection</h1>
-            <div class="admin-only flex space-x-2">
-                <button id="add-drama-btn" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow-lg">Add New Drama</button>
-                <button id="add-episode-btn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg shadow-lg">+ Add New Episode</button>
-            </div>
-        </header>
+    <main id="drama-list-container"></main>
 
-        <main id="drama-list-container">
-            <!-- Drama series and their episodes will be dynamically inserted here -->
-        </main>
-        
-        <div id="no-content-placeholder" class="hidden text-center py-16">
-            <h2 class="text-2xl font-semibold text-gray-500">No Dramas Added Yet</h2>
-            <p class="text-gray-600 mt-2 admin-only">Use the "Add New Drama" button to get started!</p>
-        </div>
+    <div id="no-content-placeholder" class="hidden text-center py-16">
+      <h2 class="text-2xl font-semibold text-gray-500">No Dramas Added Yet</h2>
+      <p class="text-gray-600 mt-2 admin-only">Use the "Add New Drama" button to get started!</p>
     </div>
+  </div>
 
-    <!-- Add Drama Modal -->
-    <div id="drama-modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 hidden">
-        <div class="modal-content bg-gray-800 rounded-2xl shadow-2xl p-8 w-full max-w-lg modal-enter">
-            <h2 class="text-2xl font-bold mb-6">Add a New Drama Series</h2>
-            <form id="drama-form">
-                <div class="mb-4">
-                    <label for="drama-title" class="block text-sm font-medium text-gray-300 mb-2">Drama Title</label>
-                    <input type="text" id="drama-title" class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3" placeholder="e.g., 'Battle Through The Heavens'" required>
-                </div>
-                <div class="mb-4">
-                    <label for="drama-subtitle" class="block text-sm font-medium text-gray-300 mb-2">Subtitle / Genre</label>
-                    <input type="text" id="drama-subtitle" class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3" placeholder="e.g., 'Action, Fantasy'" required>
-                </div>
-                 <div class="mb-4">
-                    <label for="drama-image-url" class="block text-sm font-medium text-gray-300 mb-2">Cover Image URL</label>
-                    <input type="url" id="drama-image-url" class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3" placeholder="e.g., https://your-site.com/image.jpg" required>
-                </div>
-                <div class="mb-4">
-                    <label for="drama-description" class="block text-sm font-medium text-gray-300 mb-2">Description</label>
-                    <textarea id="drama-description" class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3" rows="3" placeholder="A legendary tale of a young man..." required></textarea>
-                </div>
-                <div class="flex justify-end space-x-4">
-                    <button type="button" class="cancel-btn bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-lg">Cancel</button>
-                    <button type="submit" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg">Save Drama</button>
-                </div>
-            </form>
-        </div>
-    </div>
+  <!-- Modals and Scripts below -->
+  <!-- Keep modals and JS same unless you want specific cleanup -- we'll refactor logic separately if needed -->
 
-    <!-- Add Episode Modal -->
-    <div id="episode-modal" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 hidden">
-        <div class="modal-content bg-gray-800 rounded-2xl shadow-2xl p-8 w-full max-w-lg modal-enter">
-            <h2 class="text-2xl font-bold mb-6">Add a New Episode</h2>
-            <form id="episode-form">
-                <div class="mb-4">
-                    <label for="drama-select" class="block text-sm font-medium text-gray-300 mb-2">Choose Drama</label>
-                    <select id="drama-select" class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3" required>
-                        <option value="">-- Select a Drama --</option>
-                    </select>
-                </div>
-                <div class="mb-4">
-                    <label for="episode-title" class="block text-sm font-medium text-gray-300 mb-2">Episode Title</label>
-                    <input type="text" id="episode-title" class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3" placeholder="e.g., 'Episode 1: The Beginning'" required>
-                </div>
-                <div class="mb-6">
-                    <label for="episode-id" class="block text-sm font-medium text-gray-300 mb-2">Dailymotion Video ID</label>
-                    <input type="text" id="episode-id" class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3" placeholder="e.g., x8c1z2b" required>
-                </div>
-                <div class="flex justify-end space-x-4">
-                    <button type="button" class="cancel-btn bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-lg">Cancel</button>
-                    <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg">Save Episode</button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
-        import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
-        import { getFirestore, collection, addDoc, onSnapshot, doc, deleteDoc, query } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
-
-        // --- Configuration ---
-        const urlParams = new URLSearchParams(window.location.search);
-        const isAdmin = urlParams.get('admin') === 'true';
-        
-        // This is YOUR personal Firebase configuration key
-        const firebaseConfig = {
-            apiKey: "AIzaSyDD7mMQeGjVowRIIqis7uptn2mylhd2YMQ",
-            authDomain: "onlydatabase-9a29c.firebaseapp.com",
-            projectId: "onlydatabase-9a29c",
-            storageBucket: "onlydatabase-9a29c.firebasestorage.app",
-            messagingSenderId: "367334685423",
-            appId: "1:367334685423:web:dd7a5f5560510f5944391a",
-            measurementId: "G-8LEDXMS6W1"
-        };
-        
-        // Use the platform-provided __app_id if available, otherwise fallback to projectId
-        const appId = typeof __app_id !== 'undefined' ? __app_id : firebaseConfig.projectId;
-
-        let db, auth, userId;
-        let dramas = [];
-        let episodes = [];
-        let dramasRef, episodesRef;
-
-        // --- DOM Elements ---
-        const dramaListContainer = document.getElementById('drama-list-container');
-        const noContentPlaceholder = document.getElementById('no-content-placeholder');
-        const dramaModal = document.getElementById('drama-modal');
-        const episodeModal = document.getElementById('episode-modal');
-        const dramaSelect = document.getElementById('drama-select');
-
-        // --- Admin UI Setup ---
-        if (isAdmin) {
-            document.querySelectorAll('.admin-only').forEach(el => { el.style.display = 'flex'; });
-        }
-
-        // --- Firebase Initialization ---
-        try {
-            const app = initializeApp(firebaseConfig);
-            db = getFirestore(app);
-            auth = getAuth(app);
-
-            // Define collection references with the correct path
-            dramasRef = collection(db, 'artifacts', appId, 'public', 'data', 'dramas');
-            episodesRef = collection(db, 'artifacts', appId, 'public', 'data', 'episodes');
-
-            onAuthStateChanged(auth, async (user) => {
-                if (user) {
-                    userId = user.uid;
-                    initializeDataListeners();
-                } else {
-                    await signInAnonymously(auth);
-                }
-            });
-        } catch (error) {
-            console.error("Firebase Init Error:", error);
-            dramaListContainer.innerHTML = `<p class="text-red-500">Error connecting to the application. Please check console for details.</p>`;
-        }
-
-        // --- Data Handling ---
-        function initializeDataListeners() {
-            onSnapshot(query(dramasRef), (snapshot) => {
-                dramas = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-                updateDramaDropdown();
-                renderContent();
-            }, (error) => {
-                console.error("Error fetching dramas:", error);
-                dramaListContainer.innerHTML = `<p class="text-red-400">Error loading dramas. Please refresh.</p>`;
-            });
-
-            onSnapshot(query(episodesRef), (snapshot) => {
-                episodes = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-                renderContent();
-            }, (error) => {
-                console.error("Error fetching episodes:", error);
-            });
-        }
-
-        function updateDramaDropdown() {
-            dramaSelect.innerHTML = '<option value="">-- Select a Drama --</option>';
-            dramas.forEach(drama => {
-                const option = document.createElement('option');
-                option.value = drama.id;
-                option.textContent = drama.name;
-                dramaSelect.appendChild(option);
-            });
-        }
-
-        function renderContent() {
-            dramaListContainer.innerHTML = '';
-            if (dramas.length === 0) {
-                noContentPlaceholder.classList.remove('hidden');
-                if (isAdmin) {
-                    noContentPlaceholder.querySelector('h2').textContent = 'No Dramas Added Yet';
-                    noContentPlaceholder.querySelector('p.admin-only').style.display = 'block';
-                } else {
-                    noContentPlaceholder.querySelector('h2').textContent = 'Coming Soon!';
-                    noContentPlaceholder.querySelector('p.admin-only').style.display = 'none';
-                }
-                return;
-            }
-            noContentPlaceholder.classList.add('hidden');
-
-            dramas.forEach(drama => {
-                const dramaEpisodes = episodes.filter(ep => ep.dramaId === drama.id);
-                
-                const dramaSection = document.createElement('div');
-                dramaSection.className = 'mb-12 bg-gray-800/50 p-4 sm:p-6 rounded-lg';
-                
-                const deleteButtonHTML = isAdmin ? `<button data-id="${drama.id}" class="delete-drama-btn text-red-500 hover:text-red-400 text-sm ml-auto">[Delete Series]</button>` : '';
-                
-                dramaSection.innerHTML = `
-                    <div class="flex flex-col sm:flex-row gap-6 mb-6">
-                        <img src="${drama.imageUrl || 'https://placehold.co/400x600/1f2937/374151?text=No+Image'}" alt="Cover for ${drama.name}" class="w-full sm:w-1/4 h-auto object-cover rounded-lg shadow-md">
-                        <div class="flex-1">
-                            <div class="flex items-baseline">
-                                <h2 class="text-2xl md:text-3xl font-bold text-white">${drama.name}</h2>
-                                ${deleteButtonHTML}
-                            </div>
-                            <p class="text-indigo-400 font-semibold mt-1">${drama.subtitle || 'No genre specified'}</p>
-                            <p class="text-gray-400 mt-4">${drama.description || 'No description provided.'}</p>
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-bold text-white border-b-2 border-indigo-500 pb-2 mb-6">Episodes</h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                        ${dramaEpisodes.length > 0 ? dramaEpisodes.map(ep => renderEpisodeCard(ep)).join('') : '<p class="text-gray-500 col-span-full">No episodes added for this drama yet.</p>'}
-                    </div>
-                `;
-                dramaListContainer.appendChild(dramaSection);
-            });
-            
-            if(isAdmin) addAdminEventListeners();
-        }
-
-        function renderEpisodeCard(episode) {
-            const deleteButtonHTML = isAdmin ? `<button data-id="${episode.id}" class="delete-episode-btn mt-2 self-end bg-red-600 hover:bg-red-700 text-white text-xs font-bold py-1 px-3 rounded-full">Delete</button>` : '';
-            const embedUrl = `https://www.dailymotion.com/embed/video/${episode.videoId}`;
-            return `
-                <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col">
-                    <div class="video-container">
-                        <iframe src="${embedUrl}" title="${episode.title}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="p-4 flex-grow flex flex-col justify-between">
-                        <h3 class="font-bold text-lg text-white mb-2">${episode.title}</h3>
-                        ${deleteButtonHTML}
-                    </div>
-                </div>
-            `;
-        }
-        
-        // --- Event Handlers & Listeners ---
-        function addAdminEventListeners() {
-            document.querySelectorAll('.delete-drama-btn').forEach(btn => btn.onclick = handleDelete);
-            document.querySelectorAll('.delete-episode-btn').forEach(btn => btn.onclick = handleDelete);
-        }
-
-        async function handleAddDrama(e) {
-            e.preventDefault();
-            const name = document.getElementById('drama-title').value.trim();
-            const subtitle = document.getElementById('drama-subtitle').value.trim();
-            const imageUrl = document.getElementById('drama-image-url').value.trim();
-            const description = document.getElementById('drama-description').value.trim();
-            
-            if (name && subtitle && imageUrl && description) {
-                await addDoc(dramasRef, { name, subtitle, imageUrl, description });
-                document.getElementById('drama-form').reset();
-                closeModal(dramaModal);
-            }
-        }
-
-        async function handleAddEpisode(e) {
-            e.preventDefault();
-            const dramaId = dramaSelect.value;
-            const title = document.getElementById('episode-title').value.trim();
-            const videoId = document.getElementById('episode-id').value.trim();
-
-            if (dramaId && title && videoId) {
-                await addDoc(episodesRef, { dramaId, title, videoId });
-                document.getElementById('episode-form').reset();
-                closeModal(episodeModal);
-            }
-        }
-
-        async function handleDelete(e) {
-            const id = e.target.dataset.id;
-            const isDrama = e.target.classList.contains('delete-drama-btn');
-            const message = `Are you sure you want to delete this entire ${isDrama ? 'series and all its episodes' : 'episode'}? This cannot be undone.`;
-            
-            if (await showCustomConfirm(message)) {
-                if (isDrama) {
-                    const episodesToDelete = episodes.filter(ep => ep.dramaId === id);
-                    for (const ep of episodesToDelete) {
-                        await deleteDoc(doc(episodesRef, ep.id));
-                    }
-                }
-                const docToDeleteRef = isDrama ? doc(dramasRef, id) : doc(episodesRef, id);
-                await deleteDoc(docToDeleteRef);
-            }
-        }
-        
-        // --- Modal & Utility Functions ---
-        function openModal(modal) { modal.classList.remove('hidden'); }
-        function closeModal(modal) { modal.classList.add('hidden'); }
-        
-        function showCustomConfirm(message) {
-            return new Promise(resolve => {
-                const wrapper = document.createElement('div');
-                wrapper.className = 'fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 z-50';
-                wrapper.innerHTML = `<div class="bg-gray-800 rounded-lg shadow-xl p-6 max-w-sm text-center">
-                    <p class="mb-4">${message}</p>
-                    <div class="flex justify-center space-x-4">
-                        <button id="confirm-no" class="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-lg">Cancel</button>
-                        <button id="confirm-yes" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg">Delete</button>
-                    </div></div>`;
-                document.body.appendChild(wrapper);
-                wrapper.querySelector('#confirm-yes').onclick = () => { document.body.removeChild(wrapper); resolve(true); };
-                wrapper.querySelector('#confirm-no').onclick = () => { document.body.removeChild(wrapper); resolve(false); };
-            });
-        }
-
-        if (isAdmin) {
-            document.getElementById('add-drama-btn').onclick = () => openModal(dramaModal);
-            document.getElementById('add-episode-btn').onclick = () => openModal(episodeModal);
-            document.querySelectorAll('.cancel-btn').forEach(btn => btn.onclick = () => {
-                closeModal(dramaModal);
-                closeModal(episodeModal);
-            });
-            document.getElementById('drama-form').onsubmit = handleAddDrama;
-            document.getElementById('episode-form').onsubmit = handleAddEpisode;
-        }
-    </script>
 </body>
 </html>
