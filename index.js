@@ -63,11 +63,10 @@ window.onload = () => {
               slug: 'battle-through-the-heavens',
               subtitle: 'Action, Fantasy',
               description: 'A legendary tale of a young man who was once considered a genius, but suddenly loses his powers. He overcomes great challenges to reclaim his honor.',
-              maxEpisodes: 154, // Corrected based on available links
+              maxEpisodes: 154,
               latestEpisode: 154,
               releaseTime: '10:00 AM',
               img: 'images/Batt.jpg.jpg',
-              // CORRECTED: Links are now sorted by episode start number for predictable navigation.
               episodeLinks: [
                   { start: 1,   end: 12,  url: `${dailymotionBaseUrl}x9hzg4m` },  // S1
                   { start: 13,  end: 17,  url: `${dailymotionBaseUrl}x9i0c3o` }, // S2 P1 + Special 1
@@ -91,7 +90,6 @@ window.onload = () => {
               id: 'd2', title: 'Shrouding The Heavens', slug: 'shrouding-the-heavens',
               subtitle: 'Xianxia, Comedy', description: 'The hilarious story of a young man who values longevity above all else, leading to comical adventures in a world of cultivation.', maxEpisodes: 116, latestEpisode: 116, releaseTime: '11:00 AM',
               img: 'images/Shrouding to the heaven.jpg.jpg',
-              // CORRECTED: Links are now sorted by episode start number for predictable navigation.
               episodeLinks: [
                   { start: 6,   end: 10,  url: `${dailymotionBaseUrl}x9fjsq6` },
                   { start: 16,  end: 20,  url: `${dailymotionBaseUrl}x9fjsq6` },
@@ -123,7 +121,6 @@ window.onload = () => {
               id: 'd3', title: 'Swallowed Star', slug: 'swallowed-star',
               subtitle: 'Sci-Fi, Action', description: 'In a future world ravaged by a virus, humanity finds new strength. A young man from a poor background fights to protect his family and the world.', maxEpisodes: 179, latestEpisode: 179, releaseTime: '12:00 PM',
               img: 'images/Loufeng.jpg.jpg',
-              // CORRECTED: Links are now sorted by episode start number for predictable navigation.
               episodeLinks: [
                   { start: 9,   end: 15,  url: `${dailymotionBaseUrl}x8rzfpl` },
                   { start: 16,  end: 22,  url: `${dailymotionBaseUrl}x8s0n0m` },
@@ -176,7 +173,6 @@ window.onload = () => {
               id: 'd4', title: 'Perfect World', slug: 'perfect-world',
               subtitle: 'Fantasy, Adventure', description: 'Born for cultivation, a peerless genius, Shi Hao, embarks on a journey to become a legendary figure in a world full of wonders and dangers.', maxEpisodes: 152, latestEpisode: 152,
               img: 'images/Perfect world.jpg.jpg',
-              // CORRECTED: Links are now sorted by episode start number for predictable navigation.
               episodeLinks: [
                   { start: 9, end: 16, url: `${dailymotionBaseUrl}x8u66va` },
                   { start: 17, end: 24, url: `${dailymotionBaseUrl}x8u66vc` },
@@ -211,7 +207,6 @@ window.onload = () => {
               id: 'd5', title: 'Throne of Seal', slug: 'throne-of-seal',
               subtitle: 'Fantasy, Magic', description: 'In a world where humanity is on the brink of extinction from demon attacks, a young knight, Long Haochen, rises to become a legendary leader.', maxEpisodes: 166, latestEpisode: 166,
               img: 'images/throne of seal.jpg.jpg',
-              // CORRECTED: Links are now sorted by episode start number for predictable navigation.
               episodeLinks: [
                   { start: 1,   end: 1,   url: `${dailymotionBaseUrl}x9myyyy` },
                   { start: 56,  end: 60,  url: `${dailymotionBaseUrl}x9kalb0` },
@@ -246,7 +241,6 @@ window.onload = () => {
               id: 'd6', title: 'Soul Land 2', slug: 'soul-land-2',
               subtitle: 'Action, Romance', description: 'The story continues with the next generation of spirit masters from Shrek Academy, facing new challenges and powerful enemies.', maxEpisodes: 107, latestEpisode: 107,
               img: 'images/Soul land 2.jpg.jpg',
-              // CORRECTED: Links are now sorted by episode start number for predictable navigation.
               episodeLinks: [
                   { start: 2, end: 2, url: `${dailymotionBaseUrl}x9j06dk` },
                   { start: 3, end: 3, url: `${dailymotionBaseUrl}x9j2hsu` },
@@ -277,8 +271,6 @@ window.onload = () => {
               id: 'd7', title: 'Jade Dynasty', slug: 'jade-dynasty',
               subtitle: 'Xianxia, Romance', description: 'A kind-hearted boy, Zhang Xiaofan, gets caught in a conflict between good and evil, discovering a world of powerful martial arts and romance.', maxEpisodes: 78, latestEpisode: 78,
               img: 'images/Jade dynasty.jpg.jpg',
-              // CORRECTED: Aggressively cleaned up duplicate and conflicting episode links for functionality.
-              // Prioritized compilations and removed redundant single entries.
               episodeLinks: [
                   { start: 2,   end: 2,   url: `${dailymotionBaseUrl}x95710a` },
                   { start: 3,   end: 3,   url: `${dailymotionBaseUrl}x95710c` },
@@ -327,7 +319,6 @@ window.onload = () => {
               id: 'd8', title: 'Renegade Immortal', slug: 'renegade-immortal',
               subtitle: 'Xianxia, Action', description: 'Follow Wang Lin as he defies his humble origins and a lack of talent to walk the path of an immortal, facing betrayal and hardship along the way.', maxEpisodes: 95, latestEpisode: 95,
               img: 'images/Renegadeimmortal.jpg.jpg',
-              // CORRECTED: Removed invalid links and sorted for predictable navigation.
               episodeLinks: [
                   { start: 1,   end: 1,   url: `${dailymotionBaseUrl}x9mxxxx` }, // Placeholder
                   { start: 6,   end: 10,  url: `${dailymotionBaseUrl}x9jvj7q` },
@@ -354,7 +345,6 @@ window.onload = () => {
               id: 'd9', title: 'Legend Of Xianwu', slug: 'legend-of-xianwu',
               subtitle: 'E-Sports, Action', description: 'A top-tier professional e-sports player is unexpectedly reborn and must use his gaming knowledge to navigate a new world of martial arts.', maxEpisodes: 122, latestEpisode: 122,
               img: 'images/Legend of xianwu.jpg.jpg',
-              // CORRECTED: Aggressively cleaned up data, removed null/invalid links and duplicates. Sorted for functionality.
               episodeLinks: [
                   { start: 2, end: 2, url: `${dailymotionBaseUrl}x9cm2sm` },
                   { start: 3, end: 3, url: `${dailymotionBaseUrl}x92khm8` },
@@ -466,7 +456,6 @@ window.onload = () => {
               id: 'd11', title: 'The Immortal Doctor in Modern City', slug: 'immortal-doctor-in-modern-city',
               subtitle: 'Modern, Fantasy', description: 'A powerful immortal doctor is reborn in the modern world. He uses his ancient skills to heal the sick, fight injustice, and navigate modern life.', maxEpisodes: 84, latestEpisode: 84,
               img: 'images/The Immortal  Doctor in Modern City.jpg.jpg',
-              // CORRECTED: Sorted links
               episodeLinks: [
                   { start: 15, end: 15, url: `${dailymotionBaseUrl}x98ik0e` },
                   { start: 44, end: 44, url: `${dailymotionBaseUrl}x9e230e` },
@@ -523,7 +512,6 @@ window.onload = () => {
               id: 'd13', title: 'Sword Of Coming', slug: 'sword-of-coming',
               subtitle: 'Xianxia, Adventure', description: 'Watch Sword Of Coming, a popular donghua series. More details coming soon.', maxEpisodes: 96, latestEpisode: 96,
               img: 'images/Sword of coming.jpg.jpg',
-              // CORRECTED: Removed duplicate entries for the same episode.
               episodeLinks: [
                   { start: 96, end: 96, url: `${dailymotionBaseUrl}x94r09q` },
               ],
@@ -567,7 +555,6 @@ window.onload = () => {
               id: 'd16', title: 'My Senior Brother Is Too Strong', slug: 'my-senior-brother-is-too-strong',
               subtitle: 'Comedy, Fantasy', description: 'Watch My Senior Brother Is Too Strong, a popular donghua series. More details coming soon.', maxEpisodes: 27, latestEpisode: 27,
               img: 'images/My Senior Brother Is Too Strong.jpg.jpg',
-              // CORRECTED: Removed duplicate entries and sorted.
               episodeLinks: [
                   { start: 1, end: 1, url: `${dailymotionBaseUrl}x9h9sua` },
                   { start: 2, end: 2, url: `${dailymotionBaseUrl}x9hit4a` },
@@ -587,7 +574,6 @@ window.onload = () => {
               id: 'd17', title: 'Big Brother', slug: 'big-brother',
               subtitle: 'Comedy, Xianxia', description: 'Watch Big Brother, a popular donghua series. More details coming soon.', maxEpisodes: 92, latestEpisode: 92,
               img: 'images/Big brother.jpg.jpg',
-              // CORRECTED: Sorted links
               episodeLinks: [
                   { start: 14, end: 14, url: `${dailymotionBaseUrl}x9kow0s` },
                   { start: 29, end: 29, url: `${dailymotionBaseUrl}x8v6mok` },
@@ -646,7 +632,6 @@ window.onload = () => {
               id: 'd22', title: 'Spirit Sword Sovereign (Ling Jian Zun)', slug: 'spirit-sword-sovereign',
               subtitle: 'Martial Arts, Fantasy', description: 'Watch Spirit Sword Sovereign (Ling Jian Zun), a popular donghua series. More details coming soon.', maxEpisodes: 586, latestEpisode: 586,
               img: 'images/Spirit Sword Sovereign (Ling Jian Zun).jpg.jpg',
-              // CORRECTED: Sorted links
               episodeLinks: [
                   { start: 1, end: 100, url: `${dailymotionBaseUrl}x8visji` },
                   { start: 68, end: 68, url: `${dailymotionBaseUrl}x8e2ks0` },
@@ -672,7 +657,7 @@ window.onload = () => {
           },
           {
               id: 'd23', title: 'The Great Ruler', 
-              slug: 'the-great-ruler', // CORRECTED: Added slug from title
+              slug: 'the-great-ruler',
               subtitle: 'Xianxia, Cultivation, Action, Adventure', description: 'Follows the adventures of Mu Chen, a young man from the Northern Spiritual Realm, on his path to becoming a "Great Ruler," a being of immense power, to protect his loved ones and uncover the secrets of his past.', maxEpisodes: 52, latestEpisode: 52,
               img: 'images/the great ruler.jpg.jpg.jpg',
               episodeLinks: [],
@@ -694,7 +679,7 @@ window.onload = () => {
                   {start: 2, end: 2, url: `${dailymotionBaseUrl}x9mcz0y` },
               ],
               rating: 9.6, 
-              status: 'Ongoing', // CORRECTED: Changed empty status to a valid one
+              status: 'Ongoing',
               studio: 'I-Animation Studio', duration: '20 min per ep', country: 'China', network: 'iQIYI',  released: '2023-06-30',
               season: '1', type: 'ONA', fansub: 'Various', tags: ['Xianxia', 'Cultivation', 'Action', 'Adventure', 'Fantasy'],
           }
@@ -702,32 +687,64 @@ window.onload = () => {
         return dramaData;
     }
 
-    // --- VIEW MANAGEMENT ---
-    function showSearchView(query, results) {
+    // --- ROUTER & VIEW MANAGEMENT ---
+
+    /**
+     * Main router function. Reads the URL and displays the correct view.
+     */
+    function router() {
+        const path = window.location.pathname;
+        const searchParams = new URLSearchParams(window.location.search);
+        const searchQuery = searchParams.get('q');
+
+        // Hide all main views initially
         libraryView.style.display = 'none';
         watchView.style.display = 'none';
+        searchView.style.display = 'none';
         moviesView.style.display = 'none';
+
+        // Match routes
+        const episodeMatch = path.match(/^\/([a-z0-9-]+)\/episode\/(\d+)\/?$/);
+        const moviesMatch = path.match(/^\/movies\/?$/);
+
+        if (episodeMatch) {
+            const [, slug, episodeStr] = episodeMatch;
+            const episodeNumber = parseInt(episodeStr, 10);
+            const item = allDonghuaData.find(d => d.slug === slug);
+            if (item) {
+                showWatchPage(item);
+                selectEpisode(episodeNumber);
+            } else {
+                // If slug is not found, redirect to home
+                showLibraryPage();
+            }
+        } else if (moviesMatch) {
+            showMoviesPage();
+        } else if (searchQuery) {
+             const results = allDonghuaData.filter(item => item.title.toLowerCase().includes(searchQuery.toLowerCase()));
+             showSearchView(searchQuery, results);
+        } else {
+            showLibraryPage();
+        }
+    }
+
+    function showSearchView(query, results) {
         searchView.style.display = 'block';
         document.getElementById('search-results-title').textContent = `Search Results for "${query}"`;
         renderCards(results, searchResultsGrid, true);
         if (results.length === 0) {
             searchResultsGrid.innerHTML = `<p class="no-results-message">No results found.</p>`;
         }
+        searchInput.value = query;
     }
 
     function showMoviesPage() {
-        libraryView.style.display = 'none';
-        watchView.style.display = 'none';
-        searchView.style.display = 'none';
         moviesView.style.display = 'block';
         renderCards(allMovieData, moviesGrid, true);
         setActiveNavLink(moviesLink);
     }
 
     function showLibraryPage() {
-        watchView.style.display = 'none';
-        searchView.style.display = 'none';
-        moviesView.style.display = 'none';
         libraryView.style.display = 'grid';
         if (dailymotionPlayer) {
             dailymotionPlayer.src = ""; // Stop playback
@@ -737,23 +754,10 @@ window.onload = () => {
 
     function showWatchPage(item) {
         currentDonghua = item;
-        libraryView.style.display = 'none';
-        searchView.style.display = 'none';
-        moviesView.style.display = 'none';
         watchView.style.display = 'block';
 
         modalEpisodeTitle.textContent = `${item.title} - Episodes`;
         renderEpisodeList();
-        
-        // Select the first available episode by default
-        if (item.episodeLinks && item.episodeLinks.length > 0) {
-            // The data is now pre-sorted, but sorting again here is a safe fallback
-            const firstEpisode = [...item.episodeLinks].sort((a, b) => a.start - b.start)[0];
-            selectEpisode(firstEpisode.start);
-        } else {
-            // Handle case with no episodes by showing the placeholder
-            selectEpisode(1); 
-        }
         
         // Populate sidebar recommendations, etc.
         const recommendations = allDonghuaData.filter(d => d.id !== item.id).sort(() => 0.5 - Math.random()).slice(0, 6);
@@ -782,18 +786,12 @@ window.onload = () => {
         if (!currentDonghua || !currentDonghua.episodeLinks) return;
 
         episodeGrid.innerHTML = ''; // Clear existing buttons
-        document.getElementById('show-more-episodes-container').innerHTML = ''; // Clear show more button
-
-        // Sort links by start episode to ensure correct order
-        const sortedLinks = [...currentDonghua.episodeLinks].sort((a, b) => a.start - b.start);
-
-        sortedLinks.forEach(link => {
+        
+        currentDonghua.episodeLinks.forEach(link => {
             const epBtn = document.createElement('button');
             epBtn.className = 'episode-btn';
-            // If start and end are the same, just show the number. Otherwise, show the range.
-            epBtn.textContent = link.start === link.end ? `${link.start}` : `${link.start}-${link.end}`;
-            // The episode number to play is the start of the range.
-            epBtn.dataset.episodeNumber = link.start;
+            epBtn.textContent = `${link.episode}`;
+            epBtn.dataset.episodeNumber = link.episode;
             episodeGrid.appendChild(epBtn);
         });
     }
@@ -802,32 +800,24 @@ window.onload = () => {
         if (!currentDonghua) return;
         currentEpisodeNumber = parseInt(episodeNumber, 10);
 
-        const episodeLinkData = currentDonghua.episodeLinks.find(link =>
-            currentEpisodeNumber >= link.start && currentEpisodeNumber <= link.end
-        );
+        const episodeLinkData = currentDonghua.episodeLinks.find(link => link.episode === currentEpisodeNumber);
 
-        // Update header and description
-        let episodeTitle = `${currentDonghua.title} Episode ${currentEpisodeNumber}`;
-        if (episodeLinkData && episodeLinkData.start !== episodeLinkData.end) {
-            episodeTitle = `${currentDonghua.title} Episode ${episodeLinkData.start}-${episodeLinkData.end}`;
-        }
+        const episodeTitle = `${currentDonghua.title} Episode ${currentEpisodeNumber}`;
         document.getElementById('watch-title-header').textContent = episodeTitle;
+        document.title = episodeTitle; // Update page title
 
         document.getElementById('watch-metadata').innerHTML = `
             <span>Released on ${new Date(currentDonghua.released).toLocaleDateString()}</span>
             <span>Posted by admin</span>
             <span>Series: <a href="#">${currentDonghua.title}</a></span>`;
 
-        let descriptionText = `Watch ${currentDonghua.title} Episode ${currentEpisodeNumber} English Sub.`;
-        if (episodeLinkData && episodeLinkData.start !== episodeLinkData.end) {
-            descriptionText = `Watch ${currentDonghua.title} Episodes ${episodeLinkData.start}-${episodeLinkData.end} English Sub.`;
-        }
+        const descriptionText = `Watch ${currentDonghua.title} Episode ${currentEpisodeNumber} English Sub.`;
         document.getElementById('video-desc-text').textContent = descriptionText;
 
         const videoUrl = episodeLinkData ? episodeLinkData.url : '';
         const videoPlaceholder = document.getElementById('video-placeholder-message');
 
-        if (videoUrl && videoUrl !== `${dailymotionPlayer.src}`) {
+        if (videoUrl && dailymotionPlayer.src !== videoUrl) {
             dailymotionPlayer.style.display = 'block';
             videoPlaceholder.style.display = 'none';
             dailymotionPlayer.src = videoUrl;
@@ -838,10 +828,8 @@ window.onload = () => {
             videoPlaceholder.style.display = 'block';
         }
 
-        // Highlight active episode button
         document.querySelectorAll('.episode-btn').forEach(btn => btn.classList.remove('active'));
-        // The active button is the one whose data-episode-number matches the start of the current link
-        const activeEpBtn = document.querySelector(`.episode-btn[data-episode-number="${episodeLinkData ? episodeLinkData.start : ''}"]`);
+        const activeEpBtn = document.querySelector(`.episode-btn[data-episode-number="${currentEpisodeNumber}"]`);
         if (activeEpBtn) {
             activeEpBtn.classList.add('active');
             activeEpBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -858,13 +846,10 @@ window.onload = () => {
             return;
         }
 
-        const sortedLinks = [...currentDonghua.episodeLinks].sort((a, b) => a.start - b.start);
-        const currentLinkIndex = sortedLinks.findIndex(link =>
-            currentEpisodeNumber >= link.start && currentEpisodeNumber <= link.end
-        );
+        const currentEpisodeIndex = currentDonghua.episodeLinks.findIndex(link => link.episode === currentEpisodeNumber);
 
-        prevEpisodeBtn.disabled = currentLinkIndex <= 0;
-        nextEpisodeBtn.disabled = currentLinkIndex === -1 || currentLinkIndex >= sortedLinks.length - 1;
+        prevEpisodeBtn.disabled = currentEpisodeIndex <= 0;
+        nextEpisodeBtn.disabled = currentEpisodeIndex === -1 || currentEpisodeIndex >= currentDonghua.episodeLinks.length - 1;
     }
 
     function openEpisodeModal() { episodeModal.classList.add('is-open'); }
@@ -875,7 +860,11 @@ window.onload = () => {
         const card = document.createElement('div');
         card.className = 'donghua-card';
         card.dataset.id = item.id;
-        card.innerHTML = `
+        // The card itself is now a link for better SEO and user experience
+        const cardLink = document.createElement('a');
+        const firstEpisode = (item.episodeLinks && item.episodeLinks.length > 0) ? item.episodeLinks[0].episode : 1;
+        cardLink.href = `/${item.slug}/episode/${firstEpisode}`;
+        cardLink.innerHTML = `
             <div class="card-poster">
                 <img src="${item.img}" alt="Poster for ${item.title}" onerror="this.onerror=null;this.src='https://placehold.co/400x600/14181F/C5C6C7?text=Image+Not+Found';">
                 <div class="play-overlay"><i class="fa-regular fa-circle-play"></i></div>
@@ -884,13 +873,19 @@ window.onload = () => {
                 <h3 class="card-title" title="${item.title}">${item.title}</h3>
                 <p class="card-subtitle">${item.subtitle}</p>
             </div>`;
+        card.appendChild(cardLink);
         return card;
     }
 
     function renderListItem(item, type) {
         const listItem = document.createElement('li');
         listItem.className = 'new-item';
-        listItem.dataset.id = item.id;
+        
+        const firstEpisode = (item.episodeLinks && item.episodeLinks.length > 0) ? item.episodeLinks[0].episode : 1;
+        const itemLink = document.createElement('a');
+        itemLink.href = `/${item.slug}/episode/${firstEpisode}`;
+        itemLink.dataset.id = item.id; // Keep id for potential direct object access
+
         let infoHtml = '';
         if(type === 'series') {
             const releaseDate = new Date(item.released).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
@@ -900,9 +895,11 @@ window.onload = () => {
         } else if(type === 'favorite') {
             infoHtml = `<h4>${item.title}</h4><p>${item.status}</p>`;
         }
-        listItem.innerHTML = `
+        itemLink.innerHTML = `
             <img src="${item.img}" alt="${item.title}" class="new-item-img" onerror="this.onerror=null;this.src='https://placehold.co/60x84/14181F/C5C6C7?text=N/A';">
             <div class="new-item-info">${infoHtml}</div>`;
+        
+        listItem.appendChild(itemLink);
         return listItem;
     }
     
@@ -916,22 +913,42 @@ window.onload = () => {
         items.forEach(item => listElement.appendChild(renderListItem(item, type)));
     }
     
-    function handleSearch() {
+    function handleSearch(e) {
+        e.preventDefault();
         const query = searchInput.value.toLowerCase().trim();
-        if (query.length === 0) {
-            showLibraryPage();
-            return;
-        }
-        const results = allDonghuaData.filter(item => item.title.toLowerCase().includes(query));
-        showSearchView(query, results);
+        if (!query) return;
+        
+        const url = new URL(window.location);
+        url.pathname = '/';
+        url.searchParams.set('q', query);
+        history.pushState({search: query}, `Search results for ${query}`, url.toString());
+        router();
     }
 
     // --- INITIALIZATION & EVENT LISTENERS ---
     function initializePage() {
-        allDonghuaData = createYourDramaData();
+        const rawDonghuaData = createYourDramaData();
+        
+        allDonghuaData = rawDonghuaData.map(drama => {
+            const expandedLinks = [];
+            if (drama.episodeLinks && Array.isArray(drama.episodeLinks)) {
+                const episodeMap = new Map();
+                drama.episodeLinks.forEach(link => {
+                    for (let i = link.start; i <= link.end; i++) {
+                        episodeMap.set(i, link.url);
+                    }
+                });
+                for (const [episode, url] of episodeMap.entries()) {
+                    expandedLinks.push({ episode, url });
+                }
+                expandedLinks.sort((a, b) => a.episode - b.episode);
+            }
+            return { ...drama, episodeLinks: expandedLinks };
+        });
+
         allMovieData = createMovieData();
 
-        // Populate homepage
+        // Populate homepage grids and lists (for initial load on '/')
         const hotItems = [...allDonghuaData].sort((a, b) => b.rating - a.rating).slice(0, 12);
         const latestItems = [...allDonghuaData].sort((a, b) => new Date(b.released) - new Date(a.released));
         const recommendItems = [...allDonghuaData].sort(() => 0.5 - Math.random()).slice(0, 12);
@@ -947,80 +964,62 @@ window.onload = () => {
         renderList(newSeriesItems, newSeriesList, 'series', true);
         renderList(favoriteItems, favoriteList, 'favorite', true);
         renderList(completedItems, completedSeriesList, 'series', true);
-
-        showLibraryPage();
         
-        loadingSpinner.style.display = 'none';
-        mainContent.style.visibility = 'visible';
-        mainContent.style.opacity = '1';
-        document.querySelectorAll('.site-header, .community-cta, .site-footer').forEach(el => {
-            el.style.visibility = 'visible';
-            el.style.opacity = '1';
-        });
-
-        function closeMobileMenu() {
-            mobileNav.classList.remove('is-open');
-            const icon = menuToggle.querySelector('i');
-            icon.classList.remove('fa-xmark');
-            icon.classList.add('fa-bars');
-        }
-
-        // Mobile Menu
-        menuToggle.addEventListener('click', () => {
-            mobileNav.classList.toggle('is-open');
-            const icon = menuToggle.querySelector('i');
-            icon.classList.toggle('fa-bars');
-            icon.classList.toggle('fa-xmark');
-        });
+        // --- Event Listeners ---
         
-        mobileNavCloseBtn.addEventListener('click', closeMobileMenu);
+        // Listen for browser back/forward button clicks
+        window.addEventListener('popstate', router);
 
-        // Search
-        searchInput.addEventListener('input', handleSearch);
-
-        // Navigation
-        homeLink.addEventListener('click', (e) => { e.preventDefault(); showLibraryPage(); });
-        moviesLink.addEventListener('click', (e) => { e.preventDefault(); showMoviesPage(); });
-        mobileHomeLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            showLibraryPage();
-            closeMobileMenu();
-        });
-        mobileMoviesLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            showMoviesPage();
-            closeMobileMenu();
-        });
-
-
-        // Global Event Listener
+        // Global click listener for navigation
         document.addEventListener('click', (e) => {
-            const card = e.target.closest('.donghua-card, .new-item');
-            if(card && card.dataset.id && allDonghuaData.find(d => d.id === card.dataset.id)) {
-                const donghuaData = allDonghuaData.find(d => d.id === card.dataset.id);
-                if (donghuaData) showWatchPage(donghuaData);
+            // Check if the click is on a link within our app's scope
+            const link = e.target.closest('a');
+            if (link && link.href.startsWith(window.location.origin)) {
+                e.preventDefault();
+                // Navigate only if the destination is different
+                if (link.href !== window.location.href) {
+                    history.pushState({}, '', link.href);
+                    router();
+                }
+                return;
             }
-            if (e.target.closest('.episode-btn')) {
-                selectEpisode(e.target.closest('.episode-btn').dataset.episodeNumber);
+
+            // Handle non-link buttons that change state
+            const epBtn = e.target.closest('.episode-btn');
+            if (epBtn) {
+                const episodeNumber = parseInt(epBtn.dataset.episodeNumber, 10);
+                const url = `/${currentDonghua.slug}/episode/${episodeNumber}`;
+                history.pushState({ donghuaId: currentDonghua.id, episode: episodeNumber }, '', url);
+                selectEpisode(episodeNumber); // Just update the episode, no need for full route
+                return;
             }
+            
+            if (e.target.closest('#prev-episode-btn')) {
+                const currentEpisodeIndex = currentDonghua.episodeLinks.findIndex(link => link.episode === currentEpisodeNumber);
+                if (currentEpisodeIndex > 0) {
+                    const prevEpisode = currentDonghua.episodeLinks[currentEpisodeIndex - 1];
+                    const url = `/${currentDonghua.slug}/episode/${prevEpisode.episode}`;
+                    history.pushState({}, '', url);
+                    selectEpisode(prevEpisode.episode);
+                }
+                return;
+            }
+
+            if (e.target.closest('#next-episode-btn')) {
+                const currentEpisodeIndex = currentDonghua.episodeLinks.findIndex(link => link.episode === currentEpisodeNumber);
+                if (currentEpisodeIndex > -1 && currentEpisodeIndex < currentDonghua.episodeLinks.length - 1) {
+                    const nextEpisode = currentDonghua.episodeLinks[currentEpisodeIndex + 1];
+                    const url = `/${currentDonghua.slug}/episode/${nextEpisode.episode}`;
+                    history.pushState({}, '', url);
+                    selectEpisode(nextEpisode.episode);
+                }
+                return;
+            }
+            
+            // Modal and search toggle logic
             if (e.target.closest('#show-all-episodes-btn')) openEpisodeModal();
             if (e.target === episodeModal || e.target.closest('#modal-close-btn')) closeEpisodeModal();
             
-            if (e.target.closest('#prev-episode-btn')) {
-                const sortedLinks = [...currentDonghua.episodeLinks].sort((a, b) => a.start - b.start);
-                const currentLinkIndex = sortedLinks.findIndex(link => currentEpisodeNumber >= link.start && currentEpisodeNumber <= link.end);
-                if (currentLinkIndex > 0) {
-                    selectEpisode(sortedLinks[currentLinkIndex - 1].start);
-                }
-            }
-            if (e.target.closest('#next-episode-btn')) {
-                const sortedLinks = [...currentDonghua.episodeLinks].sort((a, b) => a.start - b.start);
-                const currentLinkIndex = sortedLinks.findIndex(link => currentEpisodeNumber >= link.start && currentEpisodeNumber <= link.end);
-                if (currentLinkIndex > -1 && currentLinkIndex < sortedLinks.length - 1) {
-                    selectEpisode(sortedLinks[currentLinkIndex + 1].start);
-                }
-            }
-            // Search toggle logic
             if (e.target.closest('#search-btn')) {
                 e.stopPropagation();
                 searchForm.classList.toggle('active');
@@ -1030,6 +1029,44 @@ window.onload = () => {
             } else if (searchForm.classList.contains('active') && !searchForm.contains(e.target)) {
                 searchForm.classList.remove('active');
             }
+        });
+        
+        // Handle search form submission
+        searchForm.addEventListener('submit', handleSearch);
+
+        // Handle mobile menu closing on link click
+        mobileNav.addEventListener('click', (e) => {
+            if (e.target.closest('a')) {
+                closeMobileMenu();
+            }
+        });
+
+        function closeMobileMenu() {
+            mobileNav.classList.remove('is-open');
+            const icon = menuToggle.querySelector('i');
+            icon.classList.remove('fa-xmark');
+            icon.classList.add('fa-bars');
+        }
+
+        menuToggle.addEventListener('click', () => {
+            mobileNav.classList.toggle('is-open');
+            const icon = menuToggle.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        });
+        
+        mobileNavCloseBtn.addEventListener('click', closeMobileMenu);
+
+        // Initial route handling
+        router();
+        
+        // Hide loading spinner and show content
+        loadingSpinner.style.display = 'none';
+        mainContent.style.visibility = 'visible';
+        mainContent.style.opacity = '1';
+        document.querySelectorAll('.site-header, .community-cta, .site-footer').forEach(el => {
+            el.style.visibility = 'visible';
+            el.style.opacity = '1';
         });
     }
     
