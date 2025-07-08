@@ -448,7 +448,7 @@
               {
                   id: 'd12', title: 'Tales Of Herding God', slug: 'tales-of-herding-god',
                   subtitle: 'Fantasy, Adventure', description: 'Watch Tales Of Herding God, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
-                  img: 'images/tails of herding god.jpg.jpg',
+                  img: 'images/Tails of herding god.jpg.jpg',
                   episodeLinks: [
                           { start: 2, end: 2, url: `${dailymotionBaseUrl}x983ozs` },
                           { start: 3, end: 3, url: `${dailymotionBaseUrl}x98i2rc` },
