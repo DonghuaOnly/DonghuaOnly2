@@ -242,7 +242,7 @@
               {
                   id: 'd6', title: 'Soul Land 2', slug: 'soul-land-2',
                   subtitle: 'Action, Romance', description: 'The story continues with the next generation of spirit masters from Shrek Academy, facing new challenges and powerful enemies.', maxEpisodes: 250, latestEpisode: 53,
-                  img: 'images/soul land 2.jpg.jpg',
+                  img: 'images/Soul land 2.jpg.jpg',
                   episodeLinks: [
                       { start: 2, end: 2, url: `${dailymotionBaseUrl}x9j06dk` }, /* [2] */
                           { start: 3, end: 3, url: `${dailymotionBaseUrl}x9j2hsu` }, /* [3] */
