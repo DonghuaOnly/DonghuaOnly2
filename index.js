@@ -364,6 +364,7 @@
                       { start: 93,  end: 93,  url: `${dailymotionBaseUrl}x9lehqo` },   // Episode 93 [13]
                       { start: 94,  end: 94,  url: `${dailymotionBaseUrl}x9lpunq` },   // Episode 94 [14]
                       { start: 95,  end: 95,  url: `${dailymotionBaseUrl}x9m2c8y` }    // Episode 95 [15]
+                   { start: 96,  end: 96,  url: `${dailymotionBaseUrl}x9mf9e6` } 
                   ],
                   rating: 9.4, status: 'Ongoing', studio: 'Studio DRE', duration: '20 min per ep', country: 'China',
                   network: 'Tencent Video', released: '2023-11-25', season: '1', type: 'ONA',
