@@ -10,23 +10,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="images/logo.png" type="images/logo.png">
     <link rel="stylesheet" href="index.css">
-   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="images/logo.png" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
     <header class="site-header">
         <div class="container">
             <nav class="header-nav">
-                <a href="#" class="logo"><img src="images/logo.png" alt="DonghuaOnly Logo" onerror="this.onerror=null;this.parentElement.style.display='none';"></a>
+                <a href="#" class="logo" id="logo-link"><img src="images/logo.png" alt="DonghuaOnly Logo" onerror="this.onerror=null;this.parentElement.style.display='none';"></a>
                 <div class="nav-links"> 
-                    <a id="home-link" class="active">Home</a> 
-                    <a id="series-link">Series</a> 
-                    <a id="movies-link">Movies</a> 
-                    <a id="popular-link">Popular</a> 
+                    <a id="home-link" class="active">🏠Home</a> 
+                    <a id="donation-link">💸Donation Page💸</a> 
+                    <a id="tencent-link">Tencent Anime</a> 
+                    <a id="youku-link">YouKu Anime</a> 
+                    <a id="az-list-link">A-Z Lists</a> 
+                    <a id="contact-link">Contact Us</a> 
                 </div>
                 <div class="header-actions">
                     <form class="search-form" id="search-form" onsubmit="return false;">
@@ -41,7 +39,7 @@
 
     <section class="community-cta">
         <div class="container">
-            <a href="https.t.me/FLIXXKH" target="_blank" class="cta-btn telegram-btn">
+            <a href="https://t.me/donghuaonlycom" target="_blank" class="cta-btn telegram-btn">
                 <i class="fa-brands fa-telegram"></i> Join Our Telegram
             </a>
             <a href="https://wa.me/your_number" target="_blank" class="cta-btn whatsapp-btn">
@@ -52,10 +50,12 @@
     
     <nav class="mobile-nav" id="mobile-nav">
         <button id="mobile-nav-close" class="mobile-nav-close" aria-label="Close Menu">&times;</button>
-        <a id="mobile-home-link" class="active">Home</a> 
-        <a id="mobile-series-link">Series</a> 
-        <a id="mobile-movies-link">Movies</a> 
-        <a id="mobile-popular-link">Popular</a> 
+        <a id="mobile-home-link" class="active">🏠Home</a> 
+        <a id="mobile-donation-link">💸Donation Page💸</a> 
+        <a id="mobile-tencent-link">Tencent Anime</a> 
+        <a id="mobile-youku-link">YouKu Anime</a> 
+        <a id="mobile-az-list-link">A-Z Lists</a> 
+        <a id="mobile-contact-link">Contact Us</a> 
     </nav>
 
     <div id="loading-spinner" class="loading-spinner"><i class="fa-solid fa-spinner"></i></div>
@@ -69,27 +69,30 @@
                     <p class="hero-description">Watch and download Donghua (Chinese anime) with subtitles available in English, Indonesian, Myanmar (Burmese), Arabic, French, German, Italian, ...</p>
                 </section>
                 <section id="hot-series-section" class="donghua-section">
-                    <div class="section-header"> <h2 class="section-title">Hot Series Update</h2> </div>
+                    <div class="section-header"> 
+                        <h2 class="section-title">Hot Series Update</h2> 
+                        <a class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                     <div class="content-grid" id="hot-series-grid"></div>
                 </section>
                 <section id="latest-release-section" class="donghua-section">
                     <div class="section-header"> 
                         <h2 class="section-title">Latest Release</h2> 
-                        <a href="#" class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
+                        <a class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                     <div class="content-grid" id="latest-release-grid"></div>
                 </section>
                 <section id="recommend-section" class="donghua-section">
                     <div class="section-header"> 
                         <h2 class="section-title">Recommend For You</h2> 
-                        <a href="#" class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
+                        <a class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                     <div class="content-grid" id="home-recommend-grid"></div>
                 </section>
                 <section id="new-episodes-today-section" class="donghua-section">
                     <div class="section-header"> 
                         <h2 class="section-title">New Episode Release Today</h2> 
-                        <a href="#" class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
+                        <a class="view-all-link">View All <i class="fa-solid fa-angle-right"></i></a>
                     </div>
                     <ul class="new-item-list" id="new-episodes-today-list"></ul>
                 </section>
@@ -119,14 +122,46 @@
             </section>
         </div>
 
-        <div id="movies-view" style="display: none;" class="container">
+        <div id="tencent-view" style="display: none;" class="container">
             <section class="donghua-section">
                 <div class="container">
-                    <div class="section-header"> <h2 class="section-title">All Movies</h2> </div>
-                    <div class="content-grid" id="movies-grid"></div>
-        </div>
+                    <div class="section-header"> <h2 class="section-title">Tencent Anime</h2> </div>
+                    <div class="content-grid" id="tencent-grid"></div>
+                </div>
             </section>
         </div>
+
+        <div id="youku-view" style="display: none;" class="container">
+            <section class="donghua-section">
+                <div class="container">
+                    <div class="section-header"> <h2 class="section-title">YouKu Anime</h2> </div>
+                    <div class="content-grid" id="youku-grid"></div>
+                </div>
+            </section>
+        </div>
+
+        <div id="az-list-view" style="display: none;" class="container">
+            <div class="az-list-container" id="az-list-container">
+                </div>
+        </div>
+
+        <div id="donation-view" style="display: none;" class="container placeholder-page">
+            <h2>💸 Support Us 💸</h2>
+            <p>If you enjoy our content, please consider making a donation to help us keep the site running. Every little bit helps! Thank you for your support.</p>
+            </div>
+
+        <div id="contact-view" style="display: none;" class="container placeholder-page">
+            <h2>Contact Us</h2>
+            <p>Have questions, suggestions, or feedback? We'd love to hear from you. Please reach out to us through our official channels.</p>
+            </div>
+
+        <div id="view-all-view" style="display: none;" class="container">
+            <section class="donghua-section">
+                <div class="section-header"> <h2 class="section-title">All Content</h2> </div>
+                <div class="content-grid" id="view-all-grid"></div>
+            </section>
+        </div>
+
         <div id="watch-view" style="display: none;">
              <section id="watch-page">
                  <div class="container main-layout">
@@ -140,7 +175,6 @@
                              <p>2) If you're irritated by the ads, I understand — ads can be annoying. However, I'm placing ads on the website because it cannot be maintained without generating some profit.</p>
                          </div>
                          <div class="video-player-wrapper">
-                             <!-- Dailymotion player will be embedded here -->
                              <iframe id="dailymotion-player" 
                                  frameborder="0" 
                                  allowfullscreen 
@@ -201,18 +235,20 @@
                 </div>
                 <div class="footer-column"> 
                     <h4>Navigation</h4> 
-                    <ul> 
-                        <li><a href="#">Home</a></li> 
-                        <li><a href="#">Series</a></li> 
-                        <li><a href="#">Schedule</a></li> 
-                        <li><a href="#">Contact Us</a></li> 
+                    <ul id="footer-nav-links"> 
+                        <li><a id="footer-home-link">🏠Home</a></li> 
+                        <li><a id="footer-donation-link">💸Donation Page💸</a></li> 
+                        <li><a id="footer-tencent-link">Tencent Anime</a></li> 
+                        <li><a id="footer-youku-link">YouKu Anime</a></li> 
+                        <li><a id="footer-az-list-link">A-Z Lists</a></li> 
+                        <li><a id="footer-contact-link">Contact Us</a></li> 
                     </ul> 
                 </div>
                 <div class="footer-column"> 
                     <h4>Community</h4> 
                     <ul>
                         <li class="telegram-join-btn">
-                            <a href="https.t.me/FLIXXKH" target="_blank" rel="noopener noreferrer">
+                            <a href="https://t.me/donghuaonlycom" target="_blank" rel="noopener noreferrer">
                                 <i class="fa-brands fa-telegram"></i> Join our Telegram
                             </a>
                         </li>
@@ -221,14 +257,23 @@
                 <div class="footer-column"> 
                     <h4>Sitemap</h4> 
                     <ul id="sitemap-list"> 
-                        <!-- Sitemap will be generated here -->
-                    </ul> 
+                        </ul> 
                 </div>
             </div>
             <div class="footer-bottom"> <p>&copy; 2025 DonghuaOnly. All Rights Reserved.</p> </div>
         </div>
     </footer>
-    <script src="index.js">
-    </script>
+
+    <div id="telegram-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Join Our Community!</h2>
+            <p>Do you want to join our Telegram channel for the latest updates?</p>
+            <div class="modal-actions">
+                <a href="https://t.me/donghuaonlycom" target="_blank" id="telegram-yes-btn" class="modal-btn yes-btn">Yes, take me there!</a>
+                <button id="telegram-no-btn" class="modal-btn no-btn">No, thanks</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
