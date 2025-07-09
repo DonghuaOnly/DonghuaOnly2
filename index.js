@@ -123,7 +123,9 @@ window.onload = () => {
                  { start: 105, end: 108, url: `${dailymotionBaseUrl}x9gqzue` },
                  { start: 109, end: 111, url: `${dailymotionBaseUrl}x9kppwk` },
                  { start: 112, end: 114, url: `${dailymotionBaseUrl}x9kppwk` },
-                 { start: 115, end: 116, url: `${dailymotionBaseUrl}x9ltkeq` }
+                 { start: 115, end: 115, url: `${dailymotionBaseUrl}x9ltkeq` },
+                 { start: 116, end: 116, url: `${dailymotionBaseUrl}x9mkpak` },
+                 
              ],
              rating: 9.0, status: 'Ongoing', studio: 'B.CMAY PICTURES', duration: '22 min per ep', country: 'China',
              network: 'Bilibili', released: '2023-11-18', season: '1', type: 'ONA',
