@@ -49,8 +49,24 @@ window.onload = () => {
 
     function createMovieData() {
          return [
-             { id: 'm1', title: 'Ne Zha', slug: 'ne-zha', subtitle: 'Fantasy, Action', img: 'images/nezha.jpg' },
-             { id: 'm2', title: 'White Snake', slug: 'white-snake', subtitle: 'Romance, Fantasy', img: 'images/whitesnake.jpg' },
+             { id: 'm1', title: 'Ne Zha', slug: 'ne-zha', subtitle: 'Fantasy, Action', img: 'images/nezha.jpg'
+             episodeLinks: [
+                 { start: 1,   end: 12,  url: `${dailymotionBaseUrl}x9hzg4m` },  // S1
+                 { start: 13,  end: 17,  url: `${dailymotionBaseUrl}x9i0c3o` }, // S2 P1 + Special 1
+                 { start: 18,  end: 24,  url: `${dailymotionBaseUrl}x9i14di` }, // S2 P2 + Special 2
+                 { start: 25,  end: 36,  url: `${dailymotionBaseUrl}x9i5x32` }, // S3
+                 { start: 37,  end: 60,  url: `${dailymotionBaseUrl}x9j9ymg` }, // S4
+                 { start: 61,  end: 73,  url: `${dailymotionBaseUrl}x9j9ymg` }, // Three Year Agreement
+                 { start: 74,  end: 147, url: `${dailymotionBaseUrl}x9k2vhc` },
+                 { start: 148, end: 149, url: `${dailymotionBaseUrl}x9k2vhc` },
+                 { start: 150, end: 150, url: `${dailymotionBaseUrl}x9kyf98` },
+                 { start: 151, end: 151, url: `${dailymotionBaseUrl}x9lcuba` },
+                 { start: 152, end: 152, url: `${dailymotionBaseUrl}x9lolp4` },
+                 { start: 153, end: 153, url: `${dailymotionBaseUrl}x9mdak8` },
+                 { start: 154, end: 154, url: `${dailymotionBaseUrl}x9mf7vi` },
+             ],
+             },
+             { id: 'm2', title: 'White Snake', slug: 'white-snake', subtitle: 'Romance, Fantasy', img: 'images/whitesnake.jpg'  },
              { id: 'm3', title: 'Big Fish & Begonia', slug: 'big-fish-begonia', subtitle: 'Fantasy, Drama', img: 'images/bigfish.jpg' },
          ];
     }
