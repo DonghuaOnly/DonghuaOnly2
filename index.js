@@ -365,7 +365,7 @@ window.onload = () => {
                  { start: 61,  end: 65,  url: `${dailymotionBaseUrl}` },
                  { start: 66,  end: 70,  url: `${dailymotionBaseUrl}` },
                  { start: 71,  end: 75,  url: `${dailymotionBaseUrl}` },
-                 { start: 76,  end: 78,  url: `${dailymotionBaseUrl}` },
+                 { start: 76,  end: 78,  url: `${dailymotionBaseUrl}x9mkote` },
              ],
              rating: 8.8, status: 'Ongoing', studio: 'Cloud Art', duration: '22 min per ep', country: 'China',
              network: 'Tencent Video', released: '2022-11-02', season: '1', type: 'ONA',
