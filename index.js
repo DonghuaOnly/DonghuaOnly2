@@ -66,7 +66,8 @@ window.onload = () => {
              description: 'A legendary tale of a young man who was once considered a genius, but suddenly loses his powers. He overcomes great challenges to reclaim his honor.',
              maxEpisodes: 154, // Corrected max episodes
              latestEpisode: 154, // Corrected latest episode
-             releaseTime: '10:00 AM',
+             releaseTime: '6:00 PM',
+             releaseDate: 'Saturday',
              img: 'images/Batt.jpg.jpg',
              episodeLinks: [
                  { start: 1,   end: 12,  url: `${dailymotionBaseUrl}x9hzg4m` },  // S1
@@ -90,6 +91,8 @@ window.onload = () => {
            {
              id: 'd2', title: 'Shrouding The Heavens', slug: 'shrouding-the-heavens',
              subtitle: 'Xianxia, Comedy', description: 'The hilarious story of a young man who values longevity above all else, leading to comical adventures in a world of cultivation.', maxEpisodes: 116, latestEpisode: 116, releaseTime: '11:00 AM',
+             releaseTime: '6:00 PM',
+             releaseDate: 'Tueday',
              img: 'images/Shrouding to the heaven.jpg.jpg',
              episodeLinks: [
                  { start: 1,   end: 5,   url: `${dailymotionBaseUrl}x9fjsq6` }, // Placeholder for missing episodes
@@ -300,7 +303,7 @@ window.onload = () => {
            },
            {
              id: 'd7', title: 'Jade Dynasty', slug: 'jade-dynasty',
-             subtitle: 'Xianxia, Romance', description: 'A kind-hearted boy, Zhang Xiaofan, gets caught in a conflict between good and evil, discovering a world of powerful martial arts and romance.', maxEpisodes: 78, latestEpisode: 78,
+             subtitle: 'Xianxia, Romance', description: 'A kind-hearted boy, Zhang Xiaofan, gets caught in a conflict between good and evil, discovering a world of powerful martial arts and romance.', maxEpisodes: 90, latestEpisode: 78,
              img: 'images/Jade dynasty.jpg.jpg',
              episodeLinks: [
                  { start: 1,   end: 1,   url: `${dailymotionBaseUrl}x95710a` }, // Placeholder
@@ -356,13 +359,13 @@ window.onload = () => {
                  { start: 51,  end: 51,  url: `${dailymotionBaseUrl}x93swl4` },
                  { start: 52,  end: 52,  url: `${dailymotionBaseUrl}x93duuo` },
                  { start: 53,  end: 53,  url: `${dailymotionBaseUrl}x9l891e` },
-                 { start: 54,  end: 54,  url: `${dailymotionBaseUrl}x9l89e2` },
-                 { start: 55,  end: 55,  url: `${dailymotionBaseUrl}x9l8fkm` },
-                 { start: 56,  end: 60,  url: `${dailymotionBaseUrl}x9kalb0` },
-                 { start: 61,  end: 65,  url: `${dailymotionBaseUrl}x9kfp9o` },
-                 { start: 66,  end: 70,  url: `${dailymotionBaseUrl}x9khb3m` },
-                 { start: 71,  end: 75,  url: `${dailymotionBaseUrl}x9kjva0` },
-                 { start: 76,  end: 78,  url: `${dailymotionBaseUrl}x9kjva2` },
+                 { start: 54,  end: 54,  url: `${dailymotionBaseUrl}` },
+                 { start: 55,  end: 55,  url: `${dailymotionBaseUrl}` },
+                 { start: 56,  end: 60,  url: `${dailymotionBaseUrl}` },
+                 { start: 61,  end: 65,  url: `${dailymotionBaseUrl}` },
+                 { start: 66,  end: 70,  url: `${dailymotionBaseUrl}` },
+                 { start: 71,  end: 75,  url: `${dailymotionBaseUrl}` },
+                 { start: 76,  end: 78,  url: `${dailymotionBaseUrl}` },
              ],
              rating: 8.8, status: 'Ongoing', studio: 'Cloud Art', duration: '22 min per ep', country: 'China',
              network: 'Tencent Video', released: '2022-11-02', season: '1', type: 'ONA',
