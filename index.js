@@ -378,7 +378,7 @@ window.onload = () => {
            {
              id: 'd8', title: 'Renegade Immortal', slug: 'renegade-immortal',
              subtitle: 'Xianxia, Action', description: 'Follow Wang Lin as he defies his humble origins and a lack of talent to walk the path of an immortal, facing betrayal and hardship along the way.', maxEpisodes: 96, latestEpisode: 96,
-             img: 'images/Renegadeimmortal.jpg.jpg',
+             img: 'images/renegade immortal normal.jpg',
              releaseTime: '6:00 PM',
              episodeLinks: [
                  { start: 1,   end: 1,   url: `${dailymotionBaseUrl}x9mxxxx` }, // Placeholder for Ep 1
@@ -686,6 +686,56 @@ window.onload = () => {
              network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
              fansub: 'Anime Fans', tags: ['Martial Arts', 'Fantasy', 'Action', 'Comedy'],
            },
+            {
+              id: 'd23',
+              title: 'Renegade Immortal Movie',
+              slug: 'renegade-immortal',
+              subtitle: 'Fantasy, Martial Arts',
+              description: 'Watch Renegade Immortal, a thrilling donghua series filled with action, cultivation, and revenge. Follow the journey of Wang Lin as he defies fate and ascends to immortality.',
+              maxEpisodes: 24,
+              latestEpisode: 24,
+              img: 'images/renegade-immortal.jpg',
+              episodeLinks: [
+                // Add episode links here
+              ],
+              rating: 8.5,
+              status: 'Ongoing',
+              studio: 'G.CMay Animation & Film',
+              duration: '15 min per ep',
+              country: 'China',
+              network: 'Youku',
+              released: '2023-08-27',
+              season: '3',
+              type: 'ONA',
+              fansub: 'Anime Fans',
+              tags: ['Fantasy', 'Martial Arts', 'Action', 'Comedy']
+            },
+            {
+              id: 'd25',
+              title: 'Ten Thousand Years of Refining Qi',
+              slug: 'ten-thousand-years-of-refining-qi',
+              subtitle: 'Fantasy, Martial Arts',
+              description: 'After refining Qi for ten thousand years, Su Yu steps into the world with unmatched power. Watch as he dominates cultivators and uncovers the secrets of the ancient realms in this intense donghua journey.',
+              maxEpisodes: 24,
+              latestEpisode: 24,
+              img: 'images/Ten thousand year of refining qi.jpg',
+              episodeLinks: [
+                // Add episode links here
+              ],
+              rating: 8.5,
+              status: 'Ongoing',
+              studio: 'G.CMay Animation & Film',
+              duration: '15 min per ep',
+              country: 'China',
+              network: 'Youku',
+              released: '2023-08-27',
+              season: '1',
+              type: 'ONA',
+              fansub: 'Anime Fans',
+              tags: ['Fantasy', 'Martial Arts', 'Action', 'Cultivation']
+            }
+
+
          ];
         return dramaData;
     }
