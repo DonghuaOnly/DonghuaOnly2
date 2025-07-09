@@ -67,7 +67,6 @@ window.onload = () => {
              maxEpisodes: 154, // Corrected max episodes
              latestEpisode: 154, // Corrected latest episode
              releaseTime: '6:00 PM',
-             releaseDate: 'Saturday',
              img: 'images/Batt.jpg.jpg',
              episodeLinks: [
                  { start: 1,   end: 12,  url: `${dailymotionBaseUrl}x9hzg4m` },  // S1
@@ -92,7 +91,6 @@ window.onload = () => {
              id: 'd2', title: 'Shrouding The Heavens', slug: 'shrouding-the-heavens',
              subtitle: 'Xianxia, Comedy', description: 'The hilarious story of a young man who values longevity above all else, leading to comical adventures in a world of cultivation.', maxEpisodes: 116, latestEpisode: 116, releaseTime: '11:00 AM',
              releaseTime: '6:00 PM',
-             releaseDate: 'Tueday',
              img: 'images/Shrouding to the heaven.jpg.jpg',
              episodeLinks: [
                  { start: 1,   end: 5,   url: `${dailymotionBaseUrl}x9fjsq6` }, // Placeholder for missing episodes
@@ -133,7 +131,8 @@ window.onload = () => {
            },
            {
              id: 'd3', title: 'Swallowed Star', slug: 'swallowed-star',
-             subtitle: 'Sci-Fi, Action', description: 'In a future world ravaged by a virus, humanity finds new strength. A young man from a poor background fights to protect his family and the world.', maxEpisodes: 179, latestEpisode: 179, releaseTime: '12:00 PM',
+             subtitle: 'Sci-Fi, Action', description: 'In a future world ravaged by a virus, humanity finds new strength. A young man from a poor background fights to protect his family and the world.', maxEpisodes: 179, latestEpisode: 179, 
+             releaseTime: '6:00 PM',            
              img: 'images/Loufeng.jpg.jpg',
              episodeLinks: [
                  { start: 1,   end: 8,   url: `${dailymotionBaseUrl}x8rzfpl` }, // Placeholder
@@ -188,6 +187,7 @@ window.onload = () => {
              id: 'd4', title: 'Perfect World', slug: 'perfect-world',
              subtitle: 'Fantasy, Adventure', description: 'Born for cultivation, a peerless genius, Shi Hao, embarks on a journey to become a legendary figure in a world full of wonders and dangers.', maxEpisodes: 152, latestEpisode: 152,
              img: 'images/Perfect world.jpg.jpg',
+             releaseTime: '6:00 PM',
              episodeLinks: [
                  { start: 1, end: 8, url: `${dailymotionBaseUrl}x8u66va` }, // Placeholder
                  { start: 9, end: 16, url: `${dailymotionBaseUrl}x8u66va` },
@@ -222,6 +222,7 @@ window.onload = () => {
            {
              id: 'd5', title: 'Throne of Seal', slug: 'throne-of-seal',
              subtitle: 'Fantasy, Magic', description: 'In a world where humanity is on the brink of extinction from demon attacks, a young knight, Long Haochen, rises to become a legendary leader.', maxEpisodes: 166, latestEpisode: 166,
+             releaseTime: '6:00 PM',
              img: 'images/throne of seal.jpg.jpg',
              episodeLinks: [
                  { start: 1,   end: 55,  url: `${dailymotionBaseUrl}x9myyyy` }, // Placeholder
@@ -264,6 +265,7 @@ window.onload = () => {
            {
              id: 'd6', title: 'Soul Land 2', slug: 'soul-land-2',
              subtitle: 'Action, Romance', description: 'The story continues with the next generation of spirit masters from Shrek Academy, facing new challenges and powerful enemies.', maxEpisodes: 107, latestEpisode: 107,
+             releaseTime: '6:00 PM',
              img: 'images/Soul land 2.jpg.jpg',
              episodeLinks: [
                  { start: 1, end: 1, url: `${dailymotionBaseUrl}x9j06dk` }, // Placeholder
@@ -306,6 +308,7 @@ window.onload = () => {
            {
              id: 'd7', title: 'Jade Dynasty', slug: 'jade-dynasty',
              subtitle: 'Xianxia, Romance', description: 'A kind-hearted boy, Zhang Xiaofan, gets caught in a conflict between good and evil, discovering a world of powerful martial arts and romance.', maxEpisodes: 90, latestEpisode: 78,
+             releaseTime: '6:00 PM',
              img: 'images/Jade dynasty.jpg.jpg',
              episodeLinks: [
                  { start: 1,   end: 1,   url: `${dailymotionBaseUrl}x95710a` }, // Placeholder
@@ -377,6 +380,7 @@ window.onload = () => {
              id: 'd8', title: 'Renegade Immortal', slug: 'renegade-immortal',
              subtitle: 'Xianxia, Action', description: 'Follow Wang Lin as he defies his humble origins and a lack of talent to walk the path of an immortal, facing betrayal and hardship along the way.', maxEpisodes: 96, latestEpisode: 96,
              img: 'images/Renegadeimmortal.jpg.jpg',
+             releaseTime: '6:00 PM',
              episodeLinks: [
                  { start: 1,   end: 1,   url: `${dailymotionBaseUrl}x9mxxxx` }, // Placeholder for Ep 1
                  { start: 2,   end: 5,   url: `${dailymotionBaseUrl}x9jvj7q`}, // Placeholder
@@ -467,7 +471,7 @@ window.onload = () => {
                  { start: 255, end: 260, url: `${dailymotionBaseUrl}x8roux7` },
                  { start: 261, end: 263, url: `${dailymotionBaseUrl}x8rp1hp` },
              ],
-             rating: 9.6, status: 'Finished', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
+             rating: 0, status: 'Finished', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
              network: 'Tencent Video', released: '2018-01-20', season: '1', type: 'ONA',
              fansub: 'Official Sub', tags: ['Fantasy', 'Action', 'Romance', 'Adventure'],
            },
@@ -485,7 +489,7 @@ window.onload = () => {
                  { start: 79, end: 83, url: `${dailymotionBaseUrl}x9m7fau` },// Placeholder
                  { start: 84, end: 84, url: `${dailymotionBaseUrl}x9m7fau` },
              ],
-             rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
+             rating: 0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
              network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
              fansub: 'Anime Fans', tags: ['Modern', 'Fantasy', 'Action', 'Comedy'],
            },
