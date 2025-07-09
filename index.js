@@ -47,14 +47,9 @@ window.onload = () => {
     let currentDonghua = null;
     let currentEpisodeNumber = 1;
 
-    function createMovieData() {
-         return [
-             { id: 'm1', title: 'Ne Zha', slug: 'ne-zha', subtitle: 'Fantasy, Action', img: 'images/nezha.jpg'},
-             { id: 'm2', title: 'White Snake', slug: 'white-snake', subtitle: 'Romance, Fantasy', img: 'images/whitesnake.jpg'  },
-             { id: 'm3', title: 'Big Fish & Begonia', slug: 'big-fish-begonia', subtitle: 'Fantasy, Drama', img: 'images/bigfish.jpg' },
-         ];
-    }
 
+
+    
     function createYourDramaData() {
         const dailymotionBaseUrl = "https://www.dailymotion.com/embed/video/";
         const dramaData = [
