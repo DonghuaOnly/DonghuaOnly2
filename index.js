@@ -599,7 +599,7 @@ window.onload = () => {
            },
            {
              id: 'd19', title: 'Ancient War Soul', slug: 'ancient-war-soul',
-             subtitle: 'Action, Fantasy', description: 'Watch Ancient War Soul, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
+             subtitle: 'Action, Fantasy', description: 'Watch Ancient War Soul, a popular donghua series. More details coming soon.', maxEpisodes: 27, latestEpisode: 27,
              img: 'images/ancient War Soul.jpg.jpg',
              episodeLinks: [
                 { start: 1,  end: 14, url: `${dailymotionBaseUrl}x9k2r0u`  }, // Example placeholder
