@@ -602,7 +602,14 @@ window.onload = () => {
              subtitle: 'Action, Fantasy', description: 'Watch Ancient War Soul, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
              img: 'images/ancient War Soul.jpg.jpg',
              episodeLinks: [
-                { start: 1, end: 24, url: `${dailymotionBaseUrl}x8placeholder` }, // Example placeholder
+                { start: 1,  end: 14, url: `${dailymotionBaseUrl}x9k2r0u`  }, // Example placeholder
+                { start: 15, end: 22, url:`${dailymotionBaseUrl}x9lrmn2`  },
+                { start: 23, end: 23, url: `${dailymotionBaseUrl}x9lrsv0` },
+                { start: 24, end: 24, url: `${dailymotionBaseUrl}x9lzg7w` },
+                { start: 25, end: 25, url: `${dailymotionBaseUrl}x9m3g9g` },
+                { start: 26, end: 26, url: `${dailymotionBaseUrl}x9mb8ju` },
+                { start: 27, end: 27, url: `${dailymotionBaseUrl}x9mg4rm` },
+                 
              ],
              rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
              network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
