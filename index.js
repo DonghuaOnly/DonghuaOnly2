@@ -620,7 +620,7 @@
                           description: 'Enter the world of Wealth and Wonder, where a humble cultivator dares to challenge fate and ascend the heavens. A thrilling Xianxia journey filled with power, destiny, and mystic adventure.',
                           maxEpisodes: 24,
                           latestEpisode: 24,
-                          img: 'images/wealth-and-wonder.jpg',
+                          img: 'images/wealth and wonder.jpg',
                           episodeLinks: [
                             { start: 1, end: 1, url: `${dailymotionBaseUrl}x9mmv10` }
                           ],
