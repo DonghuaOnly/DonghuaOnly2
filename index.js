@@ -622,7 +622,12 @@
                           latestEpisode: 24,
                           img: 'images/wealth and wonder.jpg',
                           episodeLinks: [
-                            { start: 1, end: 1, url: `${dailymotionBaseUrl}x9mmv10` }
+                            { start: 1, end: 1, url: `${dailymotionBaseUrl}x9mmv10` },
+                            {start: 2, end: 2 , url: `${dailymotionBaseUrl}x9mn0t4` },
+                            {start: 3, end: 3 , url: `${dailymotionBaseUrl}x9mn4gc` },
+                            {start: 4, end: 4 , url: `${dailymotionBaseUrl}x9mn0sy` },
+                            {start: 5, end: 5 , url: `${dailymotionBaseUrl}x9mn0t0` },
+                                  
                           ],
                           rating: 9.3,
                           status: 'Ongoing',
