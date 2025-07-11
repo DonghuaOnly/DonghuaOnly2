@@ -718,7 +718,9 @@
                           maxEpisodes: 80,
                           latestEpisode: 80,
                           img: 'images/apotheosis.jpg',
-                          episodeLinks: [],
+                          episodeLinks: [
+                                  {start: 1, end: 104, url: 'https://www.youtube.com/embed/N5qdNftWvBs?si=uR1OdRTQaS_QXWLC'
+                          ],
                           rating: 9.1,
                           status: 'Ongoing',
                           studio: 'Foch Film',
