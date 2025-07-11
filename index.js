@@ -1405,5 +1405,3 @@
     initializePage();
                 
 };
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2462895175972909"
-     crossorigin="anonymous"></script>
