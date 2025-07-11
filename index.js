@@ -719,7 +719,8 @@
                           latestEpisode: 80,
                           img: 'images/apotheosis.jpg',
                           episodeLinks: [
-                                  {start: 1, end: 104, url: 'https://www.youtube.com/embed/N5qdNftWvBs?si=uR1OdRTQaS_QXWLC'
+                                 { start: 1, end: 104, url: 'https://www.youtube.com/embed/N5qdNftWvBs?si=k2-0TCwRr5G_TzKM' },
+
                           ],
                           rating: 9.1,
                           status: 'Ongoing',
