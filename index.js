@@ -806,7 +806,10 @@
                           maxEpisodes: 1,
                           latestEpisode: 1,
                           img: 'images/nezha reborn.jpg',
-                          episodeLinks: [],
+                          episodeLinks: [
+                                  {start: 1, end: 1, url: `${dailymotionBaseUrl}x9mpdi0`},
+                                  
+                          ],
                           rating: 8.7,
                           status: 'Completed',
                           studio: 'Light Chaser Animation',
