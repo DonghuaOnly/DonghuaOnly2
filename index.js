@@ -358,11 +358,11 @@
                  img: 'images/Renegadeimmortal.jpg.jpg',
                  episodeLinks: [ 
                      // Example of adding episode 1 back
-                     { start: 1,   end: 1,   url: `${dailymotionBaseUrl}x9mxxxx` }, // Placeholder for Ep 1
-                     { start: 2,   end: 2,   url: `${dailymotionBaseUrl}`},
-                     { start: 3,   end: 3,   url: `${dailymotionBaseUrl}`},
-                     { start: 6,   end: 10,  url: `${dailymotionBaseUrl}x9jvj7q` },   // Episodes 6-10 (4K Multi-Sub) [2]
-                     { start: 11,  end: 15,  url: `${dailymotionBaseUrl}x9jvru6` },   // Episodes 11-15 (4K Multi-Sub) [3]
+                     { start: 1,   end: 1,   url: `${dailymotionBaseUrl}x9mrp52` }, // Placeholder for Ep 1
+                     { start: 2,   end: 2,   url: `${dailymotionBaseUrl}x9mrp4w`},
+                     { start: 3,   end: 3,   url: `${dailymotionBaseUrl}x9mrp4y`},
+                     { start: 4,   end: 4,  url: `${dailymotionBaseUrl}x9mrp4u` },   // Episodes 6-10 (4K Multi-Sub) [2]
+                     { start: 5,  end: 5,  url: `${dailymotionBaseUrl}x9mrp50` },   // Episodes 11-15 (4K Multi-Sub) [3]
                      { start: 16,  end: 20,  url: `${dailymotionBaseUrl}x9bu166` },   // Episodes 16-20 (4K Multi-Sub) [4]
                      { start: 38,  end: 43,  url: `${dailymotionBaseUrl}x9c02si` },   // Episodes 38-43 (Compilation) [5]
                      { start: 60,  end: 60,  url: `${dailymotionBaseUrl}x9h15x6` },   // Episode 60 [6]
