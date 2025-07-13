@@ -77,8 +77,8 @@
                  slug: 'battle-through-the-heavens',
                  subtitle: 'Action, Fantasy',
                  description: 'A legendary tale of a young man who was once considered a genius, but suddenly loses his powers. He overcomes great challenges to reclaim his honor.',
-                 maxEpisodes: 152,
-                 latestEpisode: 152,
+                 maxEpisodes: 153,
+                 latestEpisode: 153,
                  releaseTime: '10:00 AM',
                  img: 'images/Batt.jpg.jpg',
                  episodeLinks: [
@@ -93,7 +93,7 @@
                      { start: 150, end: 150, url: `${dailymotionBaseUrl}x9kyf98` },
                      { start: 151, end: 151, url: `${dailymotionBaseUrl}x9lcuba` },
                      { start: 152, end: 152, url: `${dailymotionBaseUrl}x9lolp4` },
-                     {start: 153, end: 153, url:'https://t.me/donghuaonlycom/19'}
+                     { start: 153, end: 153, url:'https://t.me/donghuaonlycom/19'}
                  ],
                  rating: 9.2, status: 'Ongoing', studio: 'Shanghai Motion Magic', duration: '20 min per ep', country: 'China',
                  network: 'Tencent Penguin Pictures', released: '2022-07-31', season: '5', type: 'ONA',
