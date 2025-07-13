@@ -363,10 +363,11 @@
                      { start: 3,   end: 3,   url: `${dailymotionBaseUrl}x9mrp4y`},
                      { start: 4,   end: 4,  url: `${dailymotionBaseUrl}x9mrp4u` },   // Episodes 6-10 (4K Multi-Sub) [2]
                      { start: 5,  end: 5,  url: `${dailymotionBaseUrl}x9mrp50` },   // Episodes 11-15 (4K Multi-Sub) [3]
-                     { start: 16,  end: 20,  url: `${dailymotionBaseUrl}x9bu166` },   // Episodes 16-20 (4K Multi-Sub) [4]
-                     { start: 38,  end: 43,  url: `${dailymotionBaseUrl}x9c02si` },   // Episodes 38-43 (Compilation) [5]
-                     { start: 60,  end: 60,  url: `${dailymotionBaseUrl}x9h15x6` },   // Episode 60 [6]
-                     { start: 61,  end: 65,  url: `${dailymotionBaseUrl}x9c4jgm` },   // Episodes 61-65 (Compilation) [7]
+                     { start: 6,  end: 6,  url: `${dailymotionBaseUrl}x9mt6fa` },   // Episodes 16-20 (4K Multi-Sub) [4]
+                     { start: 7,  end: 7,  url: `${dailymotionBaseUrl}x9mt6fc` },   // Episodes 38-43 (Compilation) [5]
+                     { start: 8,  end: 8,  url: `${dailymotionBaseUrl}x9h15x6` },   // Episode 60 [6]
+                     { start: 9,  end: 9,  url: `${dailymotionBaseUrl}x9c4jgm` },   // Episodes 61-65 (Compilation) [7]
+                     { start: 10,  end: 10,  url: `${dailymotionBaseUrl}x9c4jgm` },
                      { start: 66,  end: 70,  url: `${dailymotionBaseUrl}x9ca72q` },   // Episodes 66-70 (Compilation) [8]
                      { start: 71,  end: 73,  url: `${dailymotionBaseUrl}x9d1ij6` },   // Episodes 71-73 (Compilation) [9]
                      { start: 74,  end: 74,  url: `${dailymotionBaseUrl}x9dehzu` },   // Episode 74 [10]
