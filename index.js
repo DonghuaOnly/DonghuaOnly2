@@ -256,6 +256,7 @@
              {
                  id: 'd6', title: 'Soul Land 2', slug: 'soul-land-2',
                  subtitle: 'Action, Romance', description: 'The story continues with the next generation of spirit masters from Shrek Academy, facing new challenges and powerful enemies.', maxEpisodes: 250, latestEpisode: 53,
+                 releaseTime: '6:00 PM',
                  img: 'images/Soul land 2.jpg.jpg',
                  episodeLinks: [
                      { start: 2, end: 2, url: `${dailymotionBaseUrl}x9j06dk` }, /* [2] */
@@ -287,6 +288,7 @@
              {
                  id: 'd7', title: 'Jade Dynasty', slug: 'jade-dynasty',
                  subtitle: 'Xianxia, Romance', description: 'A kind-hearted boy, Zhang Xiaofan, gets caught in a conflict between good and evil, discovering a world of powerful martial arts and romance.', maxEpisodes: 26, latestEpisode: 26,
+                 releaseTime: '6:00 PM',
                  img: 'images/Jade dynasty.jpg.jpg',
                  episodeLinks: [
                      { start: 2,   end: 2,   url: `${dailymotionBaseUrl}x95710a` }, // Single Episode [3]
@@ -356,6 +358,7 @@
              {
                  id: 'd8', title: 'Renegade Immortal', slug: 'renegade-immortal',
                  subtitle: 'Xianxia, Action', description: 'Follow Wang Lin as he defies his humble origins and a lack of talent to walk the path of an immortal, facing betrayal and hardship along the way.', maxEpisodes: 98, latestEpisode: 98,
+                 releaseTime: '6:00 PM',
                  img: 'images/Renegadeimmortal.jpg.jpg',
                  episodeLinks: [ 
                      // Example of adding episode 1 back
