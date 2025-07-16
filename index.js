@@ -369,7 +369,7 @@
                      { start: 8,  end: 8,  url: `${dailymotionBaseUrl}x9h15x6` },   // Episode 60 [6]
                      { start: 9,  end: 9,  url: `${dailymotionBaseUrl}x9c4jgm` },   // Episodes 61-65 (Compilation) [7]
                      { start: 10,  end: 10,  url: `${dailymotionBaseUrl}x9c4jgm` },
-                     { start: 66,  end: 70,  url: `${dailymotionBaseUrl}x9ca72q` },   // Episodes 66-70 (Compilation) [8]
+                     { start: 11,  end: 11,  url: `${dailymotionBaseUrl}x9n0500` },   // Episodes 66-70 (Compilation) [8]
                      { start: 71,  end: 73,  url: `${dailymotionBaseUrl}x9d1ij6` },   // Episodes 71-73 (Compilation) [9]
                      { start: 74,  end: 74,  url: `${dailymotionBaseUrl}x9dehzu` },   // Episode 74 [10]
                      { start: 81,  end: 85,  url: `${dailymotionBaseUrl}x9jppdm` },   // Episodes 81-85 (Compilation) [11]
