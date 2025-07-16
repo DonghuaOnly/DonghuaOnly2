@@ -355,7 +355,7 @@
              },
              {
                  id: 'd8', title: 'Renegade Immortal', slug: 'renegade-immortal',
-                 subtitle: 'Xianxia, Action', description: 'Follow Wang Lin as he defies his humble origins and a lack of talent to walk the path of an immortal, facing betrayal and hardship along the way.', maxEpisodes: 95, latestEpisode: 95,
+                 subtitle: 'Xianxia, Action', description: 'Follow Wang Lin as he defies his humble origins and a lack of talent to walk the path of an immortal, facing betrayal and hardship along the way.', maxEpisodes: 98, latestEpisode: 98,
                  img: 'images/Renegadeimmortal.jpg.jpg',
                  episodeLinks: [ 
                      // Example of adding episode 1 back
@@ -371,7 +371,6 @@
                      { start: 10,  end: 10,  url: `${dailymotionBaseUrl}x9c4jgm` },
                      { start: 11,  end: 11,  url: `${dailymotionBaseUrl}x9n0500` },   // Episodes 66-70 (Compilation) [8]
                      { start: 12, end: 12, url: `${dailymotionBaseUrl}x9n0mu4` },
-                        { start: 12, end: 12, url: `${dailymotionBaseUrl}` },
                         { start: 13, end: 13, url: `${dailymotionBaseUrl}` },
                         { start: 14, end: 14, url: `${dailymotionBaseUrl}` },
                         { start: 15, end: 15, url: `${dailymotionBaseUrl}` },
