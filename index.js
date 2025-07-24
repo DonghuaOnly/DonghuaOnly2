@@ -101,7 +101,7 @@
              },
              {
                  id: 'd2', title: 'Shrouding The Heavens', slug: 'shrouding-the-heavens',
-                 subtitle: 'Xianxia, Comedy', description: 'The hilarious story of a young man who values longevity above all else, leading to comical adventures in a world of cultivation.', maxEpisodes: 52, latestEpisode: 23, releaseTime: '11:00 AM',
+                 subtitle: 'Xianxia, Comedy', description: 'The hilarious story of a young man who values longevity above all else, leading to comical adventures in a world of cultivation.', maxEpisodes: 119, latestEpisode: 119, releaseTime: '11:00 AM',
                  img: 'images/Shrouding to the heaven.jpg.jpg',
                  episodeLinks: [
                          { start: 6,   end: 10,  url: `${dailymotionBaseUrl}x9fjsq6` }, // Compilation Video [1]
@@ -125,6 +125,7 @@
                          { start: 109, end: 111, url: `${dailymotionBaseUrl}x9kppwk` }, // Compilation Video [8, 6]
                          { start: 112, end: 114, url: `${dailymotionBaseUrl}x9kppwk` }, // Compilation Video [8, 6]
                          { start: 115, end: 116, url: `${dailymotionBaseUrl}x9ltkeq` },  // 4K Multi-Sub Upload [6, 9];
+                         { start: 117,  end: 119, url:  "https://www.youtube.com/embed/SliV5I_fOro?si=mWdAn7PYhUJWEdwn"},
                  ],
                  rating: 9.0, status: 'Ongoing', studio: 'B.CMAY PICTURES', duration: '22 min per ep', country: 'China',
                  network: 'i', released: '2023-11-18', season: '1', type: 'ONA',
@@ -678,7 +679,7 @@
                  subtitle: 'Fantasy, Action', description: 'Watch Dragon Prince Yuan, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
                  img: 'images/Dragon prince yuan.jpg.jpg',
                  episodeLinks: [
-                         { start: 1, end: 26, url: ""},
+                         { start: 1, end: 26, url: "https://www.youtube.com/embed/Juwq_9LHEDM?si=sD9x0Z4yvaLgDUsi"},
                  ],
                  rating: 8.9, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
                  network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
