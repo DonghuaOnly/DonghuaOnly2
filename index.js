@@ -282,7 +282,7 @@
                          
                  ],
                  rating: 9.1, status: 'Ongoing', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
-                 network: 'Tencent Video', released: '2023-06-24', season: '1', type: 'ONA',
+                 network: '', released: '2023-06-24', season: '1', type: 'ONA',
                  fansub: 'Official Sub', tags: ['Action', 'Romance', 'Fantasy', 'Adventure']
              },
              {
@@ -352,7 +352,7 @@
                      { start: 76,  end: 78,  url: `${dailymotionBaseUrl}x9kjva2` }, // Compilation Video
                  ],
                  rating: 8.8, status: 'Ongoing', studio: 'Cloud Art', duration: '22 min per ep', country: 'China',
-                 network: 'Tencent Video', released: '2022-11-02', season: '1', type: 'ONA',
+                 network: '', released: '2022-11-02', season: '1', type: 'ONA',
                  fansub: 'Subber Team', tags: ['Xianxia', 'Romance', 'Action']
              },
              {
@@ -464,7 +464,7 @@
                             // Episode 95 [15]
                  ],
                  rating: 9.4, status: 'Ongoing', studio: 'Studio DRE', duration: '20 min per ep', country: 'China',
-                 network: 'Tencent Video', released: '2023-11-25', season: '1', type: 'ONA',
+                 network: '', released: '2023-11-25', season: '1', type: 'ONA',
                  fansub: 'Lucifer Donghua', tags: ['Xianxia', 'Action', 'Cultivation']
              },
              {
@@ -473,7 +473,7 @@
                  img: 'images/Legend of xianwu.jpg.jpg',
                  episodeLinks: [ ],
                  rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '24 min per ep', country: 'China',
-                 network: 'Tencent Video', released: '2017-04-27', season: '2', type: 'ONA',
+                 network: '', released: '2017-04-27', season: '2', type: 'ONA',
                  fansub: 'Anime Fans', tags: ['E-Sports', 'Action', 'Comedy'],
              },
              {
@@ -528,7 +528,7 @@
                          { start: 261, end: 263, url: `${dailymotionBaseUrl}x8rp1hp` }, // Uploader: Donghua Addict (Final 3 episodes)
                  ],
                  rating: 9.6, status: 'Finished', studio: 'Sparkly Key Animation', duration: '20 min per ep', country: 'China',
-                 network: 'Tencent Video', released: '2018-01-20', season: '1', type: 'ONA',
+                 network: '', released: '2018-01-20', season: '1', type: 'ONA',
                  fansub: 'Official Sub', tags: ['Fantasy', 'Action', 'Romance', 'Adventure'],
              },
              {
@@ -768,7 +768,7 @@
                           studio: 'Foch Film',
                           duration: '20 min per ep',
                           country: 'China',
-                          network: 'Tencent',
+                          network: '',
                           released: '2024',
                           season: '1',
                           type: 'ONA',
@@ -790,7 +790,7 @@
                           studio: 'BeDream Studio',
                           duration: '20 min per ep',
                           country: 'China',
-                          network: 'Tencent',
+                          network: '',
                           released: '2022',
                           season: '1',
                           type: 'ONA',
@@ -947,7 +947,7 @@
                           episodeLinks: [],
                           rating: 8.3,
                           status: 'Completed',
-                          studio: 'Tencent Animation',
+                          studio: '',
                           duration: '24 min per ep',
                           country: 'China',
                           network: 'Tencent',
