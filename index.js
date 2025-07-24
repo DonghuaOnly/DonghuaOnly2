@@ -125,7 +125,6 @@
                          { start: 109, end: 111, url: `${dailymotionBaseUrl}x9kppwk` }, // Compilation Video [8, 6]
                          { start: 112, end: 114, url: `${dailymotionBaseUrl}x9kppwk` }, // Compilation Video [8, 6]
                          { start: 115, end: 116, url: `${dailymotionBaseUrl}x9ltkeq` },  // 4K Multi-Sub Upload [6, 9];
-                         { start: 117, end: 119, url: {"https://www.youtube.com/embed/SliV5I_fOro?si=o737BWMAX-Zmyb3x" },
                  ],
                  rating: 9.0, status: 'Ongoing', studio: 'B.CMAY PICTURES', duration: '22 min per ep', country: 'China',
                  network: 'i', released: '2023-11-18', season: '1', type: 'ONA',
