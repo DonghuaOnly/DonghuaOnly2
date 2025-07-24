@@ -469,9 +469,22 @@
              },
              {
                  id: 'd9', title: 'Legend Of Xianwu', slug: 'legend-of-xianwu',
-                 subtitle: 'E-Sports, Action', description: 'A top-tier professional e-sports player is unexpectedly reborn and must use his gaming knowledge to navigate a new world of martial arts.', maxEpisodes: 24, latestEpisode: 24,
+                 subtitle: 'E-Sports, Action', description: 'A top-tier professional e-sports player is unexpectedly reborn and must use his gaming knowledge to navigate a new world of martial arts.', maxEpisodes: 121, latestEpisode: 121,
                  img: 'images/Legend of xianwu.jpg.jpg',
-                 episodeLinks: [ ],
+                 episodeLinks: [
+                         {start: 1, end: 100, url: "https://www.youtube.com/embed/jVRUxwn5mFM?si=pOs8-qaaHfEcK7Yn"},
+                         {start: 101, end: 115, url: "https://www.youtube.com/embed/LSJo_I6QrVE?si=mYJBWC02_R8Vvs4O"},
+                         {start: 116, end: 116, url: "https://www.youtube.com/embed/3HveTMvo3dU?si=UYaRH4cH0kaIBOhH"},
+                         {start: 117, end: 117, url: "https://www.youtube.com/embed/5T5wigSdQAM?si=4opCifh9vyIh-7AL"},
+                         {start: 118, end: 118, url: "https://www.youtube.com/embed/y8K5mStTAUM?si=c6v8Oyp5A4m84_Ow"},
+                         {start: 119, end: 119, url: "https://www.youtube.com/embed/RdOcWeWMSNE?si=-TltTO0fol2kSoXQ"},
+                         {start: 120, end: 120, url: "https://www.youtube.com/embed/Vv2uo_pPQ9g?si=qoHwgVuLRsdFtat6"},
+                         {start: 121, end: 121, url: "https://www.youtube.com/embed/Rr5Pfm4MYQ8?si=62dixCj7nsRb77Um"},
+                          {start: 122, end: 122, url: ""},
+                          {start: 123, end: 123, url: ""},
+                          {start: 124, end: 124, url: ""},
+                         
+                 ],
                  rating: 8.5, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '24 min per ep', country: 'China',
                  network: '', released: '2017-04-27', season: '2', type: 'ONA',
                  fansub: 'Anime Fans', tags: ['E-Sports', 'Action', 'Comedy'],
@@ -632,7 +645,10 @@
                  id: 'd17', title: 'Big Brother', slug: 'big-brother',
                  subtitle: 'Comedy, Xianxia', description: 'Watch Big Brother, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
                  img: 'images/Big brother.jpg.jpg',
-                 episodeLinks: [],
+                 episodeLinks: [
+
+                         { start: 1, end: 90, url: "https://www.youtube.com/embed/-CCwYkvb9xU?si=mmXBodQGp2KOyFwX"},
+                 ],
                  rating: 8.8, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
                  network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
                  fansub: 'Anime Fans', tags: ['Comedy', 'Xianxia', 'Action', 'Fantasy'],
@@ -641,7 +657,9 @@
                  id: 'd18', title: 'Immortality', slug: 'immortality',
                  subtitle: 'Xianxia, Cultivation', description: 'Watch Immortality, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
                  img: 'images/immortality.jpg.jpg',
-                 episodeLinks: [],
+                 episodeLinks: [
+                         {start: 1, end: 56, url : "https://www.youtube.com/embed/3rASPYMtXAM?si=KQNf-IT6AkcUHSoN"},
+                 ],
                  rating: 9.0, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
                  network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
                  fansub: 'Anime Fans', tags: ['Xianxia', 'Cultivation', 'Action', 'Drama'],
@@ -922,7 +940,10 @@
                           maxEpisodes: 30,
                           latestEpisode: 30,
                           img: 'images/World of immortal.jpg',
-                          episodeLinks: [],
+                          episodeLinks: [
+
+                                  {start: 1, end: 20, url: "https://www.youtube.com/embed/rTGTV1xMLY0?si=5QyZdBb-8jjFs2gf"},
+                          ],
                           rating: 8.6,
                           status: 'Ongoing',
                           studio: 'Youku Originals',
