@@ -1025,7 +1025,7 @@
         const tencentItems = allDonghuaData.filter(d => d.network && d.network.toLowerCase().includes('tencent'));
         renderCards(tencentItems, tencentGrid, true);
         setActiveNavLink(navLinks.tencent[0]);
-        history.pushState({page: 'tencent'}, 'Tencent Anime', '#tencent');
+        history.pushState({page: 'tencent'}, 'Japenese Anime', '#tencent');
     }
 
     function showYoukuPage() {
