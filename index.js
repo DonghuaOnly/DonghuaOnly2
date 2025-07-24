@@ -215,7 +215,7 @@
 // Preview for upcoming episodes (Note: ID may be for Ep 221) [18]
                  ],
                  rating: 9.3, status: 'Ongoing', studio: 'Shanghai Foch Film', duration: '20 min per ep', country: 'China',
-                 network: 'Tencent Video', released: '2021-04-23', season: '1', type: 'ONA',
+                 network: '', released: '2021-04-23', season: '1', type: 'ONA',
                  fansub: 'Lucifer Donghua', tags: ['Fantasy', 'Adventure', 'Xianxia']
              },
              {
