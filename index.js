@@ -96,7 +96,7 @@
                      { start: 153, end: 153, url:'https://t.me/donghuaonlycom/19'}
                  ],
                  rating: 9.2, status: 'Ongoing', studio: 'Shanghai Motion Magic', duration: '20 min per ep', country: 'China',
-                 network: 'Tencent Penguin Pictures', released: '2022-07-31', season: '5', type: 'ONA',
+                 network: '', released: '2022-07-31', season: '5', type: 'ONA',
                  fansub: 'Lucifer Donghua', tags: ['Action', 'Adventure', 'Fantasy', 'Martial Art', 'Romance']
              },
              {
@@ -127,7 +127,7 @@
                          { start: 115, end: 116, url: `${dailymotionBaseUrl}x9ltkeq` }  // 4K Multi-Sub Upload [6, 9];
                  ],
                  rating: 9.0, status: 'Ongoing', studio: 'B.CMAY PICTURES', duration: '22 min per ep', country: 'China',
-                 network: 'Bilibili', released: '2023-11-18', season: '1', type: 'ONA',
+                 network: 'i', released: '2023-11-18', season: '1', type: 'ONA',
                  fansub: 'Anime Official', tags: ['Xianxia', 'Comedy', 'Adventure']
              },
              {
@@ -180,7 +180,7 @@
                          { start: 179, end: 179, url: `${dailymotionBaseUrl}x9m3q08` }, // Preview only [40];
                  ],
                  rating: 9.5, status: 'Ongoing', studio: 'Sparkly Key Animation', duration: '21 min per ep', country: 'China',
-                 network: 'Tencent Video', released: '2020-11-29', season: '3', type: 'ONA',
+                 network: '', released: '2020-11-29', season: '3', type: 'ONA',
                  fansub: 'Official Sub', tags: ['Sci-Fi', 'Action', 'Adventure', 'Mecha']
              },
              {
@@ -250,7 +250,7 @@
                          { start: 166, end: 166, url: `${dailymotionBaseUrl}x9m7m5a` }     // Episode 166 [22]
                        ],
                  rating: 8.9, status: 'Finished', studio: 'Shenman Entertainment', duration: '20 min per ep', country: 'China',
-                 network: 'Tencent Video', released: '2022-04-28', season: '2', type: 'ONA',
+                 network: '', released: '2022-04-28', season: '2', type: 'ONA',
                  fansub: '3D Anime Official', tags: ['Fantasy', 'Magic', 'Adventure', 'Action']
              },
              {
