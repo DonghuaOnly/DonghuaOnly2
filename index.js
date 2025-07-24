@@ -679,7 +679,7 @@
                  subtitle: 'Fantasy, Action', description: 'Watch Dragon Prince Yuan, a popular donghua series. More details coming soon.', maxEpisodes: 24, latestEpisode: 24,
                  img: 'images/Dragon prince yuan.jpg.jpg',
                  episodeLinks: [
-                         {start: 1, end: 26, url:"https://www.youtube.com/embed/Juwq_9LHEDM?si=NIf91uIjLNgvuQYd"},
+                         { start: 1, end: 26, url: ""},
                  ],
                  rating: 8.9, status: 'Ongoing', studio: 'G.CMay Animation & Film', duration: '15 min per ep', country: 'China',
                  network: 'Youku', released: '2023-08-27', season: '1', type: 'ONA',
