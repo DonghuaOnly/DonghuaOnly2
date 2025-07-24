@@ -944,7 +944,9 @@
                           maxEpisodes: 12,
                           latestEpisode: 12,
                           img: 'images/the island of jiliang.jpg',
-                          episodeLinks: [],
+                          episodeLinks: [
+                                  {start: 1, end: 30, url: "https://www.youtube.com/embed/DKzYGrr2V6w?si=7I2We8eVfA-huhMy" },
+                          ],
                           rating: 8.3,
                           status: 'Completed',
                           studio: '',
